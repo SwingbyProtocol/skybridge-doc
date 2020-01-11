@@ -1,6 +1,10 @@
+---
+description: >-
+  Swingby Skybridge offers a much lower cost fee model than the normal
+  centralized custody.
+---
+
 # Fees
-
-
 
 All fees spent in Swingby Skybridge are distributed fairly to the owner of the nodes that make up the TSS.
 
@@ -12,15 +16,10 @@ The basic transactions are deposit and withdrawal only, and the depositing and w
 
 #### TSS mechanism fees
 
-| x | Transfer  BTC --&gt;  BTC.B | Charged |
-| :--- | ---: | ---: |
-| Swap Fees | 0.1% | BTC.B |
-| Fixed Fees | 0.000005 | BTC.B |
-
-| x | Transfer    BTC.B --&gt; BTC | Charged |
-| :--- | ---: | ---: |
-| Swap Fees | 0.1% | BTC |
-| Fixed Fees | 0.0003 | BTC |
+| x | Transfer  BTC --&gt;  BTC.B | Changed | Transfer    BTC.B --&gt; BTC | Changed |
+| :--- | ---: | ---: | ---: | ---: |
+| Swap Fees | 0.1% | BTC.B | 0.1% | BTC |
+| Fixed Fees | 0.000005 | BTC.B | 0.0003 | BTC |
 
 #### Network fees
 
