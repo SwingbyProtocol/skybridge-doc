@@ -1,9 +1,3 @@
----
-description: >-
-  Swingby Skybridge offers a much lower cost fee model than the normal
-  centralized custody.
----
-
 # Fees
 
 All fees spent in Swingby Skybridge are distributed fairly to the owner of the nodes that make up the TSS.
@@ -16,16 +10,22 @@ The basic transactions are deposit and withdrawal only, and the depositing and w
 
 #### TSS mechanism fees
 
-| x | Transfer  BTC --&gt;  BTC.B | Changed | Transfer    BTC.B --&gt; BTC | Changed |
-| :--- | ---: | ---: | ---: | ---: |
-| Swap Fees | 0.1% | BTC.B | 0.1% | BTC |
-| Fixed Fees | 0.000005 | BTC.B | 0.0003 | BTC |
+| x | Transfer  BTC --&gt;  BTC.B | Charged |
+| :--- | ---: | ---: |
+| Swap Fees | 0.1% | BTC.B |
+| Fixed Fees | 0.000005 | BTC.B |
+
+| x | Transfer  BTC.B --&gt; BTC | Charged |
+| :--- | ---: | ---: |
+| Swap Fees | 0.1% | BTC |
+| Fixed Fees | 0.0003 | BTC |
 
 #### Network fees
 
-| x |    Bitcoin network | Charged | Binance network | Charged |
-| :--- | ---: | ---: | ---: | ---: |
-| Network Fees | Depends on the network | BTC | 0.000375 | BNB |
+| x | Network fees |
+| :--- | ---: |
+| Bitcoin network | Depends on the network |
+| Binance network | 0.000375 BNB |
 
 {% hint style="info" %}
 For example, you can get **10 BTC.B** for trading Binance DEX. you can simply deposit 10 BTC to the TSS address. you will get **9.989995 BTC.B** on the binance chain. 
