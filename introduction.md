@@ -42,5 +42,3 @@ Using the ideas outlined in the paper, it is now possible to construct ECDSA add
 
 This is the basis of a decentralized custodian.
 
-### 
-
