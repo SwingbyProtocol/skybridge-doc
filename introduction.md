@@ -24,15 +24,7 @@ By being able to create a “Bitcoin Token” on other blockchains, the followin
 
 ### What is a Cross-chain bridge?
 
-A cross-chain bridge is a concept used to allow tokens to be swapped from their native blockchain to a token on another blockchain. This allow more flexible usage of tokens, for example use BTC on Binance DEX, use BTC on Smart Contract platforms, or swap native MainNet tokens into a BEP-2 / ERC-20 to reduce technical complexity with exchange listings.
 
-There are many technical possibilities to implement such a bridge, ranging from completely centralized to somewhat decentralized solutions. The challenges with current bridges are that the fast and user friendly solutions are too centralized, whereas the decentralized solutions are too slow and not user friendly.
-
-Swingby Skybridge aims to build fast, decentralized, and user friendly swaps for ECDSA-based blockchains \(Bitcoin + all forks, Ethereum, Binance Chain, EOS, Tron, TomoChain, VeChain, etc.\) by using Threshold-Signature-Scheme \(TSS\).
-
-{% hint style="danger" %}
-Users need to consider the custodial aspect of bridge implementations. A compromised bridge may potentially "lock" the tokens on the non-native chain, i.e. not allowing users to swap back to the native chain.
-{% endhint %}
 
 ### **What is a Decentralized Custodian?**
 
