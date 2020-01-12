@@ -1,2 +1,48 @@
 # Proof of Stake Based TSS group
 
+  
+
+
+![](https://lh3.googleusercontent.com/upSpkhha2NfOYYwO20uSNTTa6rH9Gkk0rJ7V5cQ6PCFsgFsxwK4B456SJuN264iU5OWM4BlhQuFtJEaPMYZWsveYHzYWH_QXhPRZMTCP-G77mSAhlepDdVxBJ7LHyM_b7aNkCrsw)
+
+The Swingby Network is a permissionless \(ie, anyone can join by downloading and running the Swingby node software\), peer-to-peer \(ie, all nodes are equal and there is no leader\) network of nodes who run the Swingby node software to communicate with one another.
+
+The network exists to create and operate decentralised custodians. TSS groups form on the network, which runs two main processes.  First, the keygen process which is the collaborative creation of a public key, from which custodial cryptocurrency addresses on both blockchains are derived.  This is an initial set-up phase and is done once per “bridge” between two blockchains. Second, the transaction signing process which is the collaborative signing of cryptocurrency transactions for making payments from those custodial addresses.  Both processes are implemented using the TSS protocol. TSS groups can reform as nodes leave and join the network. This is known as dynamic re-grouping.
+
+**Eligibility by staking**
+
+Each Swingby Node operator needs to own and stake SBY tokens \(SBY, or Swingby Staking Tokens are tokens issued on the Binance Chain\) for their Swingby Node to be considered eligible to:
+
+1. Participate in the creation of custodial addresses
+2. Sign transactions
+
+The staking of SBY tokens itself is done on the Binance chain, where SBY exists.  The staking is then announced on the Swingby network as follows.
+
+Each node’s eligibility is signalled by broadcasting a signed message over the Swingby Network which includes a transaction hash from Binance Chain \(this is known as the “Ping” message\).  The transaction hash is that of a transaction on Binance Chain that stakes at least the minimum amount of SBY for at least the minimum amount of time \(72 hours in our first implementation\).  The broadcasted message should include a signature of the staking address on Binance Chain as proof that the Swingby node operator also controls the staking address on Binance Chain.
+
+**Parameter consensus**
+
+Nodes need to agree on the TSS parameters they wish to use when creating the addresses.  The key parameters from the TSS protocol are:
+
+* n - the total number of parties in the group who is able to partially sign a transaction, and
+* t - the threshold \(minimum\) number of parties who need to collaboratively sign the transaction.
+
+Nodes would agree t and n out of band, then broadcast their intention to use them. Nodes will only attempt form groups with other nodes that use the same parameters.
+
+In our first implementation we will use n = 100 and t = 60.  That is, a group will be created where 100 parties will be needed to create the TSS public key, and where 60 of those 100  parties will need to come together to sign transactions.
+
+**Dynamic re-grouping**
+
+We expect some amount of network churn in the Swingby network.  If many peers leave, leaving fewer than t peers left to sign transactions, the TSS group has effectively lost control over the custodial wallets. This is a scenario that we want to avoid.
+
+Dynamic regrouping allows for parties to enter and leave the TSS group, without affecting the group’s ability to sign transactions.
+
+For example, in a group of 100 nodes with threshold 60 \(n = 100, t = 60\), up to 40 parties can leave the group. In first instance, nodes that leave, go offline, or send malicious data, shall be replaced by new nodes in queue to uphold n = 100. The remaining parties, so long as there are the threshold number of them, can re-create a new group. This may be necessary if there are insufficient nodes in queue and active nodes are close to t during a longer time period, in effect risking to impact availability.
+
+Say that the secret key x is currently shared by a set of players P\_1,…,P\_n with a threshold of t. This group can transfer ownership to a new set of players P\_1,…,P\_n with a new threshold of t.
+
+This allows the network to rotate in new nodes as network churn happens, without loss of control over the custodial wallets. Old nodes do however still possess a secret share which could potentially be exploitable if network nodes fluctuates a lot. This needs to be mitigated by running keygen from time to time.  
+  
+  
+
+
