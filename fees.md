@@ -37,3 +37,7 @@ If you want to get actual 10 BTC from Binance DEX, you have to deposit **10.1003
 Note that your sending amount does **not always match** the amount you originally entered. There is a small change to the send amount for the requested amount in terms of security risks.
 {% endhint %}
 
+#### Fees distribution
+
+
+
