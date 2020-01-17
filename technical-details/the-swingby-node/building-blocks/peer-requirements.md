@@ -7,7 +7,7 @@
    _Have to self-send memo signed by peer P2P key to prove ownership and NOT move the tokens, otherwise other peers will ignore you._
 
 4. \(Optional\) BNB hot wallet \(with small amount of BNB\) - uses APP\_COLD\_KEY\_Secp256k1
-5. A BTC "rewards" address on the Bitcoin chain
+5. A BTC "rewards" address on the Bitcoin chain.
 
 
 
