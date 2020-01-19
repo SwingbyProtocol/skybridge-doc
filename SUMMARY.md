@@ -11,8 +11,8 @@
 ## Getting started <a id="getting-start"></a>
 
 * [How to swap tokens?](getting-start/how-to-swap-tokens/README.md)
-  * [BTC token move to BTC](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
-  * [BTC move to BTC token](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
+  * [BTC move to BTC token](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
+  * [BTC Token move to BTC](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
 * [How to stake?](getting-start/how-to-stake.md)
 * [How to setup your Swingby node?](getting-start/how-to-setup-your-swingby-node.md)
 
