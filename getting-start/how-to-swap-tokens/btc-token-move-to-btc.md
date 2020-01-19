@@ -2,7 +2,7 @@
 description: Tutorial for moving BTC to a different blockchain (BTC to Binance Chain)
 ---
 
-# BTC move to BTC token
+# BTC token move to BTC
 
 The following steps to receive BTC Token \(BTC.B\) on Binance chain:
 
