@@ -11,33 +11,6 @@
 \(\*\): Each peer selects a candidate tx which contains the most valid transfers \(exact match or closest intersection\) with correct reward distribution output in view. Must contain at least one transfer or round is skipped. TX includes participant peer table checksum, also verified.  
 
 
-**Peer blocking**
-
-There are two cases to protect the network against:
-
-* A peer is suddenly not responding due to network issues or downtime.
-* A peer is being actively malicious \(sending bad data to the network or targeted peers\)
-
-Since each peer is considered to have an equal voice, we follow a similar model to Bitcoin to _keep it simple_. Each peer maintains a "block list" of peers that it has blocked and the time that an entry exist in this list is configurable by each peer \(by default, 72 hours\).
-
-A peer takes a risk by blocking another peer. Since the _sign set_ becomes smaller, it is selected to perform more work \(which consumes more power\) due to the following algorithm.
-
-For example, with a threshold of 2, when a single peer \(3\) decides to block a peer:
-
-1. Peer 1 - 10 other peers advertised in its sign set
-2. Peer 2 - 10 other peers advertised in its sign set
-3. Peer 3 - 9 other peers advertised in its sign set
-
-In an alternate example, where more nodes are being individually blocked by peers:
-
-1. Peer 1 - 9 other peers advertised in its sign set
-2. Peer 2 - 5 other peers advertised in its sign set
-3. Peer 3 - 8 other peers advertised in its sign set
-
-The highlight shows which peers are included in the threshold list for the signing round.
-
-The minimal subset of shared peers in all sign sets meeting the threshold is chosen deterministically by each peer. If a peer advertises a sign set that does not meet the threshold, it is ignored.
-
-If this gets to a point that we are unable to meet the threshold, we must wait until a **Regroup** happens or force it through a governance feature.  
+  
 
 
