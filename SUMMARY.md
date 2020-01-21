@@ -14,7 +14,7 @@
   * [BTC move to BTC Token](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
   * [BTC Token move to BTC](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
 * [How to stake?](getting-start/how-to-stake.md)
-* [How to setup your Swingby node?](getting-start/how-to-setup-your-swingby-node.md)
+* [How to set up your Swingby node?](getting-start/how-to-setup-your-swingby-node.md)
 
 ## Technical Details
 
