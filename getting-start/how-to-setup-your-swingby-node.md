@@ -11,13 +11,13 @@ Overview:
 3. **Let's Run your test node 1**
 4. **Let's Run your test node 2 & 3**
 
-step 1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
+Step 1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
 
 ```text
 $ git clone https://github.com/SwingbyProtocol/swapd-go
 ```
 
-step 2. Checking your app setting. file is [**configs**](https://github.com/SwingbyProtocol/swapd-go/tree/master/configs)**/**[**local\_1**](https://github.com/SwingbyProtocol/swapd-go/tree/master/configs/local_1)**/config.toml**
+Step 2. Checking your app setting. files are **configs/local\_1/config.toml, configs/local\_2/config.toml, configs/local\_3/config.toml**
 
 ```text
 [p2p]
@@ -68,13 +68,13 @@ reward_addr = "2N8hwP1WmJrFF5QWABn38y63uYLhnJYJYTF"
 fixed_out_fee = 30000
 ```
 
-step 3. **Let's Run your test node**
+Step 3. **Let's Run your test node**
 
 ```text
 $ go run ./cmd/swapd --home ./configs/local_1 --p2p.port 12121
 ```
 
-step 4. **Let's Run your test node 2 & 3**
+Step 4. **Let's Run your test node 2 & 3**
 
 ```text
 $ go run ./cmd/swapd --home ./configs/local_2 --p2p.port 12122 --p2p.connect 127.0.0.1:12121 --rest.port 8068
