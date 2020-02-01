@@ -4,7 +4,7 @@
 
 We currently have full support for the following chains:
 
-* BTC and  BNC \(BTC bridges to BTC.B token on the Binance chain\) 
+* BTC and BNC \(BTC bridges to BTC.B token on the Binance chain\) 
 
 
 

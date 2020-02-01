@@ -1,4 +1,4 @@
-# Peer Requirements
+# Peer requirements
 
 1. Runs in Docker container \(STC preferred\) on good hardware
 2. Fast and stable network connection but can be located anywhere

@@ -19,9 +19,8 @@
 ## Technical Details
 
 * [The Swingby Node](technical-details/the-swingby-node/README.md)
-  * [Building Blocks](technical-details/the-swingby-node/building-blocks/README.md)
-    * [Peer Requirements](technical-details/the-swingby-node/building-blocks/peer-requirements.md)
-    * [Leaderless consensus](technical-details/the-swingby-node/building-blocks/leaderless-consensus.md)
-    * [Peer communication](technical-details/the-swingby-node/building-blocks/peer-communication.md)
+  * [Peer requirements](technical-details/the-swingby-node/peer-requirements.md)
+  * [Leaderless consensus](technical-details/the-swingby-node/leaderless-consensus.md)
+  * [Peer communication](technical-details/the-swingby-node/peer-communication.md)
 * [Token mechanism](technical-details/token-mechanism.md)
 
