@@ -30,7 +30,7 @@ By using TSS, **tokenization of BTC** to other chains, which was difficult until
 
 {% page-ref page="getting-start/how-to-swap-tokens/" %}
 
-{% page-ref page="getting-start/how-to-stake.md" %}
+{% page-ref page="getting-start/how-to-stake/" %}
 
 {% page-ref page="getting-start/how-to-setup-your-swingby-node.md" %}
 
