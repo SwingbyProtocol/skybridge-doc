@@ -6,7 +6,7 @@
 
 Swingby Skybridge provides trust-free BTC bridge for Ethereum and Binance and other blockchains using threshold-signature-scheme\(TSS\).
 
-Swingby Skybridge is based on [**GG18**](https://eprint.iacr.org/2019/114.pdf) paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder, describing the first threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
+Swingby Skybridge based on [**GG18**](https://eprint.iacr.org/2019/114.pdf) paper that 2018 paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder described the first threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
 
 #### Decentralized Token bridge
 
@@ -18,29 +18,11 @@ By using TSS, **tokenization of BTC** to other chains, which was difficult until
 
 ## Contents
 
-{% page-ref page="introduction.md" %}
-
 {% page-ref page="how-it-works/" %}
 
 {% page-ref page="supporting-chains.md" %}
 
 {% page-ref page="fees.md" %}
-
-### Getting Started
-
-{% page-ref page="getting-start/how-to-swap-tokens/" %}
-
-{% page-ref page="getting-start/how-to-stake/" %}
-
-{% page-ref page="getting-start/how-to-setup-your-swingby-node.md" %}
-
-### Technical Details
-
-{% page-ref page="technical-details/the-swingby-node/" %}
-
-{% page-ref page="technical-details/token-mechanism.md" %}
-
-
 
 
 

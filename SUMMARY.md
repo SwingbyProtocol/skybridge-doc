@@ -13,7 +13,7 @@
 * [How to swap tokens?](getting-start/how-to-swap-tokens/README.md)
   * [BTC move to BTC Token](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
   * [BTC Token move to BTC](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
-* [How to stake?](getting-start/how-to-stake/README.md)
+* [How to stake?](getting-start/how-to-stake.md)
   * [Pre-staking](getting-start/how-to-stake/pre-staking.md)
   * [Node staking](getting-start/how-to-stake/node-staking.md)
 * [How to set up your Swingby node?](getting-start/how-to-setup-your-swingby-node.md)
@@ -21,8 +21,8 @@
 ## Technical Details
 
 * [The Swingby Node](technical-details/the-swingby-node/README.md)
-  * [Peer requirements](technical-details/the-swingby-node/peer-requirements.md)
-  * [Leaderless consensus](technical-details/the-swingby-node/leaderless-consensus.md)
-  * [Peer communication](technical-details/the-swingby-node/peer-communication.md)
+  * [Peer requirements](technical-details/the-swingby-node/building-blocks/peer-requirements.md)
+  * [Leaderless consensus](technical-details/the-swingby-node/building-blocks/leaderless-consensus.md)
+  * [Peer communication](technical-details/the-swingby-node/building-blocks/peer-communication.md)
 * [Token mechanism](technical-details/token-mechanism.md)
 
