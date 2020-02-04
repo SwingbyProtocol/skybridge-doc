@@ -17,9 +17,9 @@ The gradual reduction of pre-stake rewards is to ease the transition from pre-st
 1. Choose a wallet that supports transactions with MEMO.
 2. Login with an address that holds SWINGBY tokens.
 3. Find the latest pre-stake MEMO on the official Telegram, Twitter, and website.
-4. Send any amount of SWINGBY tokens to self with MEMO, following format: “XXXXXX YYYYYYYY” where: XXXXXX = 6 digit alphanumeric weekly staking code YYYYYY = Optional token ticker symbol to vote for the next chain to integrate.
-5. The amount of SWINGBY tokens sent to self will be counted as "pre-staked". 
-6. Do not send any SWINGBY tokens to another address for the rest of the week. **Sending any amount of SWINGBY tokens from a pre-staked address to any other address will cancel the whole stake for that week.**
+4. Send any amount of SWINGBY tokens either back to the same address \(self-send\) or to any other address that you want to use as your staking address. The transaction need a MEMO in following format: “XXXXXX YYYYYYYY” where: XXXXXX = 6 digit alphanumeric weekly staking code \(**changed every week, make sure you have the correct staking code by double-checking on official website / Twitter / Telegram\)**. **** YYYYYY = Optional token ticker symbol to vote for the next chain to integrate. _**Example to be added.**_
+5. The amount of SWINGBY tokens sent will be counted as "pre-staked". 
+6. Do not send any SWINGBY tokens from the staking address for the rest of the week. **Sending any amount of SWINGBY tokens from a pre-staked address to any other address will cancel the whole stake for that week.**
 7. At the end of the week, all pre-staked addresses will receive reward using following formula:
 
    $$
