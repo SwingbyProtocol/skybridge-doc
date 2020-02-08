@@ -1,4 +1,4 @@
-# Proof of Stake node group
+# Proof of Stake Based TSS group
 
   
 
