@@ -147,5 +147,5 @@ $ ./build/swapd --home ./configs/dist --p2p.port 12121
 
 You should now see the node running with the valid stake.
 
-If you experience any problems when trying to stake with your full node, please contact a member of the team on Telegram.
+If you experience any problems when trying to stake with your full node, please contact a member of the team on Telegram and they can help you.
 
