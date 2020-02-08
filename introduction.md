@@ -1,5 +1,5 @@
 ---
-description: Introducing Swingby Skybridge
+description: Introducing Swingby Skybridge and our reasons for building it
 ---
 
 # Introduction
