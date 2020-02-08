@@ -42,7 +42,7 @@ But those custodians bear the risks of private key loss or theft, which in both 
 
 The industry has long needed a solution to the apparent trade off between security and convenience.
 
-Swingby Skybridge based on [**GG18**](https://eprint.iacr.org/2019/114.pdf) paper that 2018 paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder described the first threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
+Swingby Skybridge uses technology based on [a](https://eprint.iacr.org/2019/114.pdf) paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder, which described the first threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
 
 Using the ideas outlined in the paper, it is now possible to construct ECDSA addresses \(used in Bitcoin, Ethereum and many other blockchains\) using efficient, dealer-less key generation and arbitrary number of parties, some predetermined threshold number of whom jointly have the power to create a valid signature.
 
