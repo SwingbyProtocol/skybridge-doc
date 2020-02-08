@@ -11,6 +11,8 @@ Overview:
 3. **Run your test node 1**
 4. **Run your test node 2 & 3**
 
+You should start by opening 3 terminals; each one will be used to run one node process. 
+
 Step 1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
 
 ```text

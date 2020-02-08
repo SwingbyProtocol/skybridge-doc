@@ -10,13 +10,13 @@
 
 ## Getting started <a id="getting-start"></a>
 
+* [Starting a local testnet](getting-start/how-to-setup-your-swingby-node.md)
 * [How to swap tokens?](getting-start/how-to-swap-tokens/README.md)
   * [BTC move to BTC Token](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
   * [BTC Token move to BTC](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
 * [How to stake?](getting-start/how-to-stake.md)
   * [Pre-staking](getting-start/how-to-stake/pre-staking.md)
   * [Node staking](getting-start/how-to-stake/node-staking.md)
-* [Starting a local testnet](getting-start/how-to-setup-your-swingby-node.md)
 
 ## Technical Details
 
