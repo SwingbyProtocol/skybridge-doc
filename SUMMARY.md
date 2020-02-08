@@ -25,4 +25,5 @@
   * [Leaderless consensus](technical-details/the-swingby-node/leaderless-consensus.md)
   * [Peer communication](technical-details/the-swingby-node/peer-communication.md)
 * [Token mechanism](technical-details/token-mechanism.md)
+* [White Paper](https://docs.swingby.network/SwingbySkybridge_WhitePaper_v1.0.0_14112019.pdf)
 

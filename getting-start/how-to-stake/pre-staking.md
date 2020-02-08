@@ -6,7 +6,7 @@ description: >-
 
 # Pre-staking
 
-To set the direction of Swingby development, anyone interested in the Swingby ecosystem will have the option to stake their Swingby tokens and vote for the next chain that should be integrated with their stakes. The staked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
+To set the direction of Swingby development, anyone interested in the Swingby ecosystem will have the option to stake their Swingby tokens and vote for the next chain that should be integrated. The staked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
 
 | Milestone | Reward per week |
 | :--- | :--- |
