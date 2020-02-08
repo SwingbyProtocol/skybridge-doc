@@ -4,7 +4,7 @@ description: How to stake your SWINGBY tokens using the full node software
 
 # Full node staking
 
-**Overview:**
+### **Overview**
 
 1. Clone the source code from our git repository.
 2. Build the node binary.
@@ -15,6 +15,8 @@ description: How to stake your SWINGBY tokens using the full node software
 7. Start the node with the valid stake.
 
 **Note:** Please make sure that you have the latest stable version of the [Go language runtime](https://golang.org/dl) installed. At the time of writing this is version 1.13.7.
+
+### Full Guide
 
 **Step 1.** Clone the source code from our git repository: [https://github.com/SwingbyProtocol/swapd-go](https://github.com/SwingbyProtocol/swapd-go)
 

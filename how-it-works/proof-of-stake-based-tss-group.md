@@ -9,7 +9,7 @@ The Swingby Network is a permissionless \(ie, anyone can join by downloading and
 
 The network exists to create and operate decentralised custodians. TSS groups form on the network, which runs two main processes.  First, the keygen process which is the collaborative creation of a public key, from which custodial cryptocurrency addresses on both blockchains are derived.  This is an initial set-up phase and is done once per “bridge” between two blockchains. Second, the transaction signing process which is the collaborative signing of cryptocurrency transactions for making payments from those custodial addresses.  Both processes are implemented using the TSS protocol. TSS groups can reform as nodes leave and join the network. This is known as dynamic re-grouping.
 
-**Eligibility by staking**
+### **Staking eligibility**
 
 Each Swingby Node operator needs to own and stake SBY tokens \(SBY, or Swingby Staking Tokens are tokens issued on the Binance Chain\) for their Swingby Node to be considered eligible to:
 
@@ -20,7 +20,7 @@ The staking of SBY tokens itself is done on the Binance chain, where SBY exists.
 
 Each node’s eligibility is signalled by broadcasting a signed message over the Swingby Network which includes a transaction hash from Binance Chain \(this is known as the “Ping” message\).  The transaction hash is that of a transaction on Binance Chain that stakes at least the minimum amount of SBY for at least the minimum amount of time \(72 hours in our first implementation\).  The broadcasted message should include a signature of the staking address on Binance Chain as proof that the Swingby node operator also controls the staking address on Binance Chain.
 
-**Dynamic re-grouping**
+### **Dynamic re-grouping**
 
 We expect some amount of network churn in the Swingby network.  If many peers leave, leaving fewer than t peers left to sign transactions, the TSS group has effectively lost control over the custodial wallets. This is a scenario that we want to avoid.
 

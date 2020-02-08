@@ -18,7 +18,7 @@ To set the direction of Swingby development, anyone interested in the Swingby ec
 
 The gradual reduction of pre-stake rewards is to ease the transition from pre-staking to to node staking.
 
-#### How to stake
+### How to stake
 
 1. Choose a wallet that supports transactions with MEMO.
 2. Unlock your wallet with an address that holds SWINGBY tokens.

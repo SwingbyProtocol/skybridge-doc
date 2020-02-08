@@ -1,6 +1,6 @@
 # Leaderless consensus
 
-**Parameter consensus**
+### **Parameter consensus**
 
 Nodes need to agree on the TSS parameters they wish to use when creating the addresses.  The key parameters from the TSS protocol are:
 
@@ -11,7 +11,7 @@ Nodes would agree t and n out of band, then broadcast their intention to use the
 
 In our first implementation we will use n = 100 and t = 60.  That is, a group will be created where 100 parties will be needed to create the TSS public key, and where 60 of those 100  parties will need to come together to sign transactions.
 
-#### Transaction Signing
+### Transaction Signing
 
 When do transactions need to be signed?  Here are two scenarios:
 
@@ -20,7 +20,7 @@ When do transactions need to be signed?  Here are two scenarios:
 
 Each of the TSS nodes monitors the two custodial addresses on the two blockchains they are building a bridge between.  In our first implementation, this is Bitcoin and Binance Chain.
 
-**Peer blocking**
+### **Peer blocking**
 
 There are two cases to protect the network against:
 

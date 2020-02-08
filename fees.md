@@ -8,7 +8,7 @@ The basic transactions are deposit and withdrawal only, and the depositing and w
 | :--- | :--- |
 | At withdrawal from TSS address. | 2 BTC |
 
-#### TSS mechanism fees
+### TSS mechanism fees
 
 | x | Transfer  BTC --&gt;  BTC.B | Charged |
 | :--- | ---: | ---: |
@@ -20,7 +20,7 @@ The basic transactions are deposit and withdrawal only, and the depositing and w
 | Swap Fees | 0.1% | BTC |
 | Fixed Fees | 0.0003 | BTC |
 
-#### Network fees
+### Network fees
 
 | x | Network fees |
 | :--- | ---: |

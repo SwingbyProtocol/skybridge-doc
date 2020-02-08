@@ -6,7 +6,7 @@ While TSS coordinates between multiple parties to create digital signatures for 
 
 An additional benefit of TSS transactions over multi-sig transactions is that TSS transactions are data-light - they contain no more signature data than normal transactions.  This means that they are cheap to verify. Any transaction fees \(sometimes known as mining fees, transaction fees, or gas\) needed to compensate miners to process these transactions is kept to a minimum as there is only one signature accompanying the transaction.
 
-#### Keygen phase
+### Keygen phase
 
 The TSS protocol is used to create, effectively, a single private key that is never known to any party or combination of parties.  The public key related to that private key is known to all parties. That public key is then used to create an address on the source chain and on the destination chain, forming the bridge.  In the case of our first implementation, custodial addresses would be derived for both Bitcoin and Binance Chain.
 
@@ -18,7 +18,7 @@ In the keygen phase, from the full set of nodes running on the Swingby Skybridge
 
 For example, at one point in time the Swingby Network may consist of 150 nodes, of which 140 want to create a \(n=100, t=60\) token bridge. \(Perhaps the other 10 nodes want to make a \(n=8, t=5\) token bridge\).  The 140 eligible nodes are then ordered by the length of time they have staked their SBY tokens on Binance Chain \(assuming they have all staked at least the minimum amount\), and the top 100 nodes from that ordered list will form the TSS group for the keygen phase.  This is how the TSS group is deterministically selected.
 
-**Transaction signing**
+### **Transaction signing**
 
 When a new transaction needs to be created and signed by the TSS group, the process is as follows:
 
