@@ -35,7 +35,7 @@ $ cp -a ./configs/dist ./configs/prod
 $ nano ./configs/prod/config.toml
 ```
 
-You should set the `moniker` of your node to a name personal to your node, and check all of the other parameters in the file. Most importantly, you should check that the coins, endpoint URLs and `keygen_until` match up with the rest of the nodes on the network that you are trying to join.
+You should set the `moniker` of your node to a name that is unique to your node, and check all of the other parameters in the file. Most importantly, you should check that the coins, endpoint URLs and `keygen_until` match up with the rest of the nodes on the network that you are trying to join.
 
 For now, there is no need to edit the staking TXID or address. Once you are ready, you can proceed to start the node.
 
