@@ -106,7 +106,7 @@ The staking transaction is a self-send for the amount of tokens that you would l
 
 In the Memo box, you should paste your P2P public key that you copied in Step 4. After that, you should enter a comma \(`,`\) followed by your BTC address that you would like to receive reward payments to.
 
-Note: The BTC address for rewards should **not** be an exchange address as those addresses may change later in time. You should enter an address that **you control** from a wallet such as Trust Wallet or Ledger.
+Note: The BTC address for rewards should **not** be an exchange address as those addresses may change at any point in time. You should enter an address that **you control the keys for** such as from a Trust Wallet or Ledger device.
 
 ![](../../.gitbook/assets/screenshot-2020-02-08-at-15.11.48.png)
 
