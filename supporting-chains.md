@@ -1,4 +1,4 @@
-# Supporting chains
+# Supported chains
 
 
 
