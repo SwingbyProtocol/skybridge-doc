@@ -135,7 +135,7 @@ In the `stake_tx` field you should add the TXID of your staking transaction. Thi
 
 Your BNB `reward_addr` can be the same as your staking address or a new Binance Chain address that you would like to use for receiving swap rewards.
 
-Your BTC `reward_addr` should be the same as the one that you entered for the staking transaction memo in Step 5.4. In this example that address is `bc1qeyl7fr0dfu04z2n9dlu7qkcc76nclydwma4xmf`.
+Your BTC `reward_addr` should be the same as the one that you entered for the staking transaction memo in Step 5.4. In this example that address was `bc1qeyl7fr0dfu04z2n9dlu7qkcc76nclydwma4xmf`.
 
 **Step 7.** Start your node.
 
