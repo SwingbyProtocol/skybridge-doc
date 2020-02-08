@@ -104,6 +104,8 @@ Note: At the moment the required stake to run a full node is 100,000 SWINGBY. Se
 
 The staking transaction is a self-send for the amount of tokens that you would like to stake. Click the _Send_ button next your SWINGBY token balance row and enter the details.
 
+Enter your own staking address in the _To Address_ box. This is what is known as a _self-send_.
+
 In the Memo box, you should paste your P2P public key that you copied in Step 4. After that, you should enter a comma \(`,`\) followed by your BTC address that you would like to receive reward payments to.
 
 **Note:** The BTC address for rewards should **not** be an **exchange address** as those addresses may change at any point in time. You should enter an address that **you control the keys for** such as from a Trust Wallet or Ledger device.
