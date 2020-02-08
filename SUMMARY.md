@@ -16,7 +16,7 @@
 * [How to stake?](getting-start/how-to-stake.md)
   * [Pre-staking](getting-start/how-to-stake/pre-staking.md)
   * [Node staking](getting-start/how-to-stake/node-staking.md)
-* [How to set up your Swingby node?](getting-start/how-to-setup-your-swingby-node.md)
+* [Starting a local testnet](getting-start/how-to-setup-your-swingby-node.md)
 
 ## Technical Details
 

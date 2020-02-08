@@ -1,15 +1,15 @@
 ---
-description: This is tutorial for setup your local swingy node cluster
+description: This is a tutorial for setting up a local testnet node cluster (3 nodes)
 ---
 
-# How to set up your Swingby node?
+# Starting a local testnet
 
 Overview:
 
-1. Git clone git [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
+1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
 2. **Check your app setting**
-3. **Let's Run your test node 1**
-4. **Let's Run your test node 2 & 3**
+3. **Run your test node 1**
+4. **Run your test node 2 & 3**
 
 Step 1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
 
