@@ -4,7 +4,7 @@ description: >-
   Binance Chain)
 ---
 
-# BTC token swap to BTC
+# BTC token to BTC swap
 
 The following steps to receive BTC from BTC.B on the Binance Chain:
 

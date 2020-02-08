@@ -12,8 +12,8 @@
 
 * [Starting a local testnet](getting-start/how-to-setup-your-swingby-node.md)
 * [How to swap tokens?](getting-start/how-to-swap-tokens/README.md)
-  * [BTC swap to BTC token](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
-  * [BTC token swap to BTC](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
+  * [BTC to BTC token swap](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
+  * [BTC token to BTC swap](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
 * [How to stake?](getting-start/how-to-stake/README.md)
   * [Pre-staking](getting-start/how-to-stake/pre-staking.md)
   * [Full node staking](getting-start/how-to-stake/node-staking.md)
