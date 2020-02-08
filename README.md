@@ -1,5 +1,5 @@
 ---
-description: A brief introduction to the Skybridge technology stack
+description: A brief overview of the Skybridge technology stack
 ---
 
 # Summary
