@@ -6,7 +6,7 @@ Trusted custodians are specific trusted business intermediaries who control coin
 
 Swingby Skybridge, described in this document, can provide a technical custodian with **decentralized** control. This technical custodian is effectively a cryptocurrency address where a subset of a large community is needed to create a valid signature. based custodians, and it can be used to move cryptocurrencies across different blockchains, taking advantage of all they have to offer.
 
-### Bitcoin all the chains!
+### Bitcoin on all the chains!
 
 In recent years there has been an increase in applications that use public blockchains and smart contract platforms.  However, many of these blockchains have a fundamental liquidity problem - that is, there is not enough value being recorded on them. Even with compelling decentralized applications \(Dapps\) such as decentralized exchanges \(DEXes\), an application or blockchain might not work well without liquidity.
 
