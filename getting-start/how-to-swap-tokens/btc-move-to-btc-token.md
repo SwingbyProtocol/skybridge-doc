@@ -2,9 +2,9 @@
 description: Tutorial for moving BTC to a different blockchain (BTC to Binance Chain)
 ---
 
-# BTC swap to BTC token
+# BTC move to BTC Token
 
-The following steps to receive BTC Token \(BTC.B\) on Binance Chain:
+The following steps to receive BTC Token \(BTC.B\) on Binance chain:
 
 * 1.You can access to the ****[**Swingby Skybridge testnet portal**](https://skybridge-testnet.swingby.network)  **\(**[**https://skybridge-testnet.swingby.network/**](https://skybridge-testnet.swingby.network/)**\)**
 
