@@ -1,8 +1,8 @@
 # Fees
 
-All fees spent in Swingby Skybridge are distributed fairly to the owner of the nodes that make up the TSS.
+All fees spent in Swingby Skybridge are distributed fairly to the owner of the nodes that make up the signing group.
 
-The basic transactions are deposit and withdrawal only, and the depositing and withdrawal transactions are signed in one transaction by the TSS mechanism.
+The basic transactions are deposit and withdrawal only, and the depositing and withdrawal transactions are signed in one transaction by the [TSS](how-it-works/threshold-signature-scheme.md) mechanism.
 
 | x                                                             | Limit amount per single transfer |
 | :--- | :--- |
