@@ -16,7 +16,7 @@
   * [BTC token swap to BTC](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
 * [How to stake?](getting-start/how-to-stake.md)
   * [Pre-staking](getting-start/how-to-stake/pre-staking.md)
-  * [Node staking](getting-start/how-to-stake/node-staking.md)
+  * [Full node staking](getting-start/how-to-stake/node-staking.md)
 
 ## Technical Details
 
