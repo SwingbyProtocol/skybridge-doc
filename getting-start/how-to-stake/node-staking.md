@@ -42,7 +42,7 @@ For now, there is no need to edit the staking TXID or address. Once you are read
 **Step 4.** Start the node.
 
 ```text
-$ ./build/swapd --home ./configs/dist --p2p.port 12121
+$ ./build/swapd --home ./configs/prod --p2p.port 12121
 ```
 
 You should see some output similar to this:
@@ -142,7 +142,7 @@ Your BTC `reward_addr` should be the same as the one that you entered for the st
 Note: Stakes take 72 hours to mature. You should wait for this period of time before starting your node or else you will see the same failure message as in Step 4.
 
 ```text
-$ ./build/swapd --home ./configs/dist --p2p.port 12121
+$ ./build/swapd --home ./configs/prod --p2p.port 12121
 ```
 
 You should now see the node running with the valid stake.
