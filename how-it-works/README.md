@@ -1,5 +1,5 @@
 ---
-description: Select one of the sections below to learn more
+description: Select one of the sections below to learn more in-depth
 ---
 
 # How it works
