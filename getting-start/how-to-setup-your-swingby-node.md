@@ -6,7 +6,7 @@ description: This is a tutorial for setting up a local testnet node cluster of 3
 
 **Overview:**
 
-1. Git clone the source code.
+1. Clone the source code from our git repository.
 2. Check your app settings.
 3. Run your test node 1.
 4. Run your test node 2 & 3.
@@ -15,7 +15,7 @@ description: This is a tutorial for setting up a local testnet node cluster of 3
 
 You should start by opening 3 terminals; each one will be used to run one node process. 
 
-**Step 1.** Git clone the source code: [https://github.com/SwingbyProtocol/swapd-go](https://github.com/SwingbyProtocol/swapd-go)
+**Step 1.** Clone the source code from our git repository: [https://github.com/SwingbyProtocol/swapd-go](https://github.com/SwingbyProtocol/swapd-go)
 
 ```text
 $ git clone https://github.com/SwingbyProtocol/swapd-go
