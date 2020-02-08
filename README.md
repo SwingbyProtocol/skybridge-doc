@@ -16,7 +16,7 @@ The Skybridge network leverages a novel layer 2 proof-of-stake consensus protoco
 
 Swingby Skybridge's basic approach is to manage one decentralized wallet using TSS technology to form one multiparty signature wallet and use this to facilitate token swaps.
 
-By using TSS, tokenization of BTC to other chains, which was difficult until now, can be realized simply and securely. This is because traditional wallets such as BTC were unable to scale the wallet by the number of signatures, but by using TSS, an unspecified number of participants can manage a single wallet.
+By using TSS, tokenization of BTC to other chains, which was difficult until now, can be realized simply and securely. This is because traditional wallets such as BTC were unable to scale the wallet by the number of signatures. But by using TSS, an unspecified number of participants can manage a single wallet.
 
 ![BTC token on the binance chain](.gitbook/assets/img_skybridge.png)
 
