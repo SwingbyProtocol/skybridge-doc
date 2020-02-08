@@ -1,3 +1,7 @@
+---
+description: How the SWINGBY token is used to fuel the Skybridge platform
+---
+
 # Token mechanism
 
 Swingby Skybridge node operators incur two costs: 
