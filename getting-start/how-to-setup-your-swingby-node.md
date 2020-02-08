@@ -19,7 +19,7 @@ Step 1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://gith
 $ git clone https://github.com/SwingbyProtocol/swapd-go
 ```
 
-Step 2. Checking your app setting. files are **configs/local\_1/config.toml, configs/local\_2/config.toml, configs/local\_3/config.toml**
+Step 2. Check your app settings. The configuration files for the local testnet are in **configs/local\_1/config.toml, configs/local\_2/config.toml, configs/local\_3/config.toml**
 
 ```text
 [p2p]
