@@ -7,9 +7,9 @@ description: This is a tutorial for setting up a local testnet node cluster (3 n
 **Overview:**
 
 1. Git clone the source code.
-2. Check your app setting
-3. Run your test node 1
-4. Run your test node 2 & 3
+2. Check your app settings.
+3. Run your test node 1.
+4. Run your test node 2 & 3.
 
 **Note:** Please make sure that you have the latest stable version of the [Go language runtime](https://golang.org/dl) installed. At the time of writing this is version 1.13.7.
 
