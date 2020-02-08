@@ -1,5 +1,5 @@
 ---
-description: This is a tutorial for setting up a local testnet node cluster (3 nodes)
+description: This is a tutorial for setting up a local testnet node cluster of 3 nodes
 ---
 
 # Starting a local testnet
