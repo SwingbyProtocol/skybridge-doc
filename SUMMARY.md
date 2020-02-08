@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is Swingby Skybridge](README.md)
+* [Summary](README.md)
 * [Introduction](introduction.md)
 * [How it works](how-it-works/README.md)
   * [Proof of Stake node group](how-it-works/proof-of-stake-based-tss-group.md)

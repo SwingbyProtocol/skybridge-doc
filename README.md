@@ -1,4 +1,8 @@
-# What is Swingby Skybridge
+---
+description: A brief introduction to the Skybridge technology stack
+---
+
+# Summary
 
 ## Overview
 
