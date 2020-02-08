@@ -96,7 +96,7 @@ You can unlock your wallet with any of the methods allowed, including Trust Wall
 
 ![](../../.gitbook/assets/screenshot-2020-02-08-at-15.04.24.png)
 
-**Step 5.3.** Send the SWINGBY tokens that you would like to stake to your wallet address \(above\).
+**Step 5.3.** Send the SWINGBY tokens that you would like to stake to your wallet address \(as above\).
 
 Note: At the moment the required stake to run a full node is 100,000 SWINGBY. Sending more tokens than this will not give your node extra privileges nor generate extra income from swaps.
 
