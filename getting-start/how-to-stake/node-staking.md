@@ -112,6 +112,8 @@ In the Memo box, you should paste your node's P2P public key that you copied in 
 
 ![](../../.gitbook/assets/screenshot-2020-02-08-at-15.11.48.png)
 
+Click _Next_ and finally confirm the transaction, which will send it to the blockchain.
+
 **Step 6.** Enter the staking transaction into your node's configuration. Back in your terminal:
 
 ```text
