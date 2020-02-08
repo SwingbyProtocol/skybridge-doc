@@ -1,4 +1,4 @@
-# The Swingby node
+# The Swingby Node
 
 {% page-ref page="peer-requirements.md" %}
 
