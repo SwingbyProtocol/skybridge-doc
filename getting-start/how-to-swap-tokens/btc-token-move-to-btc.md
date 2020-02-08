@@ -4,9 +4,9 @@ description: >-
   Binance Chain)
 ---
 
-# BTC Token move to BTC
+# BTC token swap to BTC
 
-The following steps to receive BTC from BTC.B on the Binance chain:
+The following steps to receive BTC from BTC.B on the Binance Chain:
 
 * 1.You can access to the ****[**Swingby Skybridge testnet portal**](https://skybridge-testnet.swingby.network)  **\(**[**https://skybridge-testnet.swingby.network/**](https://skybridge-testnet.swingby.network/)**\)**
 

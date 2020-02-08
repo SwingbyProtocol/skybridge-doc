@@ -1,15 +1,19 @@
 ---
-description: This is tutorial for setup your local swingy node cluster
+description: This is a tutorial for setting up a local testnet node cluster (3 nodes)
 ---
 
-# How to set up your Swingby node?
+# Starting a local testnet
 
 Overview:
 
-1. Git clone git [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
+1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
 2. **Check your app setting**
-3. **Let's Run your test node 1**
-4. **Let's Run your test node 2 & 3**
+3. **Run your test node 1**
+4. **Run your test node 2 & 3**
+
+Please make sure that you have the latest stable version of the [Go language runtime](https://golang.org/dl) installed. At the time of writing this is version 1.13.7.
+
+You should start by opening 3 terminals; each one will be used to run one node process. 
 
 Step 1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://github.com/SwingbyProtocol/swapd-go)\*\*\*\*
 
@@ -17,7 +21,7 @@ Step 1. Git clone [**https://github.com/SwingbyProtocol/swapd-go**](https://gith
 $ git clone https://github.com/SwingbyProtocol/swapd-go
 ```
 
-Step 2. Checking your app setting. files are **configs/local\_1/config.toml, configs/local\_2/config.toml, configs/local\_3/config.toml**
+Step 2. Check your app settings. The configuration files for the local testnet are in **configs/local\_1/config.toml, configs/local\_2/config.toml, configs/local\_3/config.toml**
 
 ```text
 [p2p]
@@ -68,13 +72,13 @@ reward_addr = "2N8hwP1WmJrFF5QWABn38y63uYLhnJYJYTF"
 fixed_out_fee = 30000
 ```
 
-Step 3. **Let's Run your test node**
+Step 3. **Run your test node**
 
 ```text
 $ go run ./cmd/swapd --home ./configs/local_1 --p2p.port 12121
 ```
 
-Step 4. **Let's Run your test node 2 & 3**
+Step 4. **Run your test node 2 & 3**
 
 ```text
 $ go run ./cmd/swapd --home ./configs/local_2 --p2p.port 12122 --p2p.connect 127.0.0.1:12121 --rest.port 8068
