@@ -1,7 +1,3 @@
----
-description: How to participate in the pre-staking events before the mainnet launch
----
-
 # Pre-staking
 
 To set the direction of Swingby development, anyone with interest in the Swingby ecosystem have the option to stake their Swingby tokens and vote for the next chain that should be integrated. The staked tokens are rewarded with 1% per week, and the reward is reduced with each milestone achieved:

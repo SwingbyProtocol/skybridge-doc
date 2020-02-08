@@ -3,7 +3,7 @@
 * [What is Swingby Skybridge](README.md)
 * [Introduction](introduction.md)
 * [How it works](how-it-works/README.md)
-  * [Proof of Stake Based TSS group](how-it-works/proof-of-stake-based-tss-group.md)
+  * [Proof of Stake node group](how-it-works/proof-of-stake-based-tss-group.md)
   * [Threshold-Signature-Scheme](how-it-works/threshold-signature-scheme.md)
 * [Supporting chains](supporting-chains.md)
 * [Fees](fees.md)
