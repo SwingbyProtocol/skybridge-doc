@@ -70,13 +70,13 @@ reward_addr = "2N8hwP1WmJrFF5QWABn38y63uYLhnJYJYTF"
 fixed_out_fee = 30000
 ```
 
-Step 3. **Let's Run your test node**
+Step 3. **Run your test node**
 
 ```text
 $ go run ./cmd/swapd --home ./configs/local_1 --p2p.port 12121
 ```
 
-Step 4. **Let's Run your test node 2 & 3**
+Step 4. **Run your test node 2 & 3**
 
 ```text
 $ go run ./cmd/swapd --home ./configs/local_2 --p2p.port 12122 --p2p.connect 127.0.0.1:12121 --rest.port 8068
