@@ -10,7 +10,7 @@ description: A brief overview of the Skybridge technology stack
 
 At its core, Swingby Skybridge uses technology derived from the paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder, describing a threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
 
-The Skybridge network leverages a novel layer 2 proof-of-stake consensus protocol to facilitate inter-blockchain swaps using the TSS technology.
+On top of this, Skybridge leverages a novel layer 2 proof-of-stake consensus and networking protocol to facilitate inter-blockchain swaps using the TSS technology.
 
 #### Decentralized Token Bridge
 
