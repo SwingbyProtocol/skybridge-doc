@@ -6,7 +6,7 @@ description: How to stake your SWINGBY tokens using the full node software
 
 **Overview:**
 
-1. Git clone the source code.
+1. Clone the source code from our git repository.
 2. Build the node binary.
 3. Copy and edit the configuration file.
 4. Start the node to get its P2P public key.
