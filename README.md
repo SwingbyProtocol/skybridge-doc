@@ -6,11 +6,11 @@ description: A brief introduction to the Skybridge technology stack
 
 ## Overview
 
-**Swingby Skybridge** is a proof of stake based decentralized ephemeral custodian protocol for moving assets between blockchains.
+**Swingby Skybridge** is a proof of stake based decentralized ephemeral custodian protocol for moving assets between blockchains. It enables trust-free bridges between BTC, Ethereum, Binance Chain and other blockchains.
 
-Swingby Skybridge provides trust-free BTC bridge for Ethereum and Binance and other blockchains using a modern threshold signature scheme \(TSS\).
+At its core, Swingby Skybridge uses technology derived from the paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder, describing a threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
 
-Swingby Skybridge uses technology derived from the paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder, describing a threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
+The Skybridge network leverages a novel layer 2 proof-of-stake consensus protocol to facilitate inter-blockchain swaps using the TSS technology.
 
 #### Decentralized Token Bridge
 

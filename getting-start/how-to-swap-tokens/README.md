@@ -1,5 +1,5 @@
 ---
-description: Tutorial for moving tokens on different blockchains
+description: Tutorial for moving tokens on various blockchains using Skybridge
 ---
 
 # How to swap tokens?
