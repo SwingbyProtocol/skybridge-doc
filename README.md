@@ -2,17 +2,17 @@
 
 ## Overview
 
-**Swingby Skybridge** is a Proof of Stake based decentralized custodian protocol for moving assets between blockchains.
+**Swingby Skybridge** is a proof of stake based decentralized ephemeral custodian protocol for moving assets between blockchains.
 
-Swingby Skybridge provides trust-free BTC bridge for Ethereum and Binance and other blockchains using threshold-signature-scheme\(TSS\).
+Swingby Skybridge provides trust-free BTC bridge for Ethereum and Binance and other blockchains using a modern threshold signature scheme \(TSS\).
 
-Swingby Skybridge is based on [**GG18**](https://eprint.iacr.org/2019/114.pdf) paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder, describing the first threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
+Swingby Skybridge uses technology derived from the paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder, describing a threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
 
-#### Decentralized Token bridge
+#### Decentralized Token Bridge
 
-Swingby Skybridge's basic approach is to manage one huge **decentralized** wallet by using TSS to form one huge multiparty signature wallet.
+Swingby Skybridge's basic approach is to manage one decentralized wallet using TSS technology to form one multiparty signature wallet and use this to facilitate token swaps.
 
-By using TSS, **tokenization of BTC** to other chains, which was difficult until now, can be realized simply and securely. This is because traditional wallets such as BTC were unable to scale the wallet by the number of signatures, but by using TSS, an unspecified number of participants can manage a single wallet.
+By using TSS, tokenization of BTC to other chains, which was difficult until now, can be realized simply and securely. This is because traditional wallets such as BTC were unable to scale the wallet by the number of signatures, but by using TSS, an unspecified number of participants can manage a single wallet.
 
 ![BTC token on the binance chain](.gitbook/assets/img_skybridge.png)
 
