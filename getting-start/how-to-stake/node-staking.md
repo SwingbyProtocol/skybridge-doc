@@ -92,7 +92,7 @@ You can unlock your wallet with any of the methods allowed, including Trust Wall
 
 ![](../../.gitbook/assets/screenshot-2020-02-08-at-15.02.22.png)
 
-**Step 5.2.** Once you have unlocked your wallet, navigate to the _Balances_ page and find your wallet address. This is the address where you will send your SWINGBY tokens to.
+**Step 5.2.** Once you have unlocked your wallet, navigate to the _Balances_ page to find your wallet address. This is the address where you will send your SWINGBY tokens to.
 
 ![](../../.gitbook/assets/screenshot-2020-02-08-at-15.04.24.png)
 
