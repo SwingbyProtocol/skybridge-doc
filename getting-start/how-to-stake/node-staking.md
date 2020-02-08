@@ -76,7 +76,7 @@ ERRO 14:58:10.599 ValidateStake Stake TX query error: RPC error -32603 - Interna
 panic: invalid stake tx for this peer
 ```
 
-This output indicates that your stake has not yet been established. Find this line in the output and copy the hexstring of the P2P public key:
+This output indicates that your stake has not yet been established. We will do that next. Find this line in the output and copy the hex string of the P2P public key:
 
 ```text
 INFO 14:58:05.945 main The stored p2p public key is: 39cba7f80c263c3f872646e0b039bd4be0c031b50f11b6e1cb36e70a96dbefb5
