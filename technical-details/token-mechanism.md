@@ -32,3 +32,17 @@ Any bridge for tokens that are deposit-based will give "float staking". This typ
 
 Float staking need to be done with proper risk consideration. 1-to-1 swaps need sufficient deposit on both sides of the bridge to ensure liquidity. Sudden demand in any of the bridge directions may potentially drain deposits on the target chain. With sufficient bridge track record, such risk may be chosen to be accepted. There are other approaches that mitigate the risk, for example dynamic value between pegs. Such implementation would consider the deposit amount on each side of the bridge and swap into tokens on the target chain based on the deposit proportion instead of 1-to-1. It's a demand based approach with less deposit risk, where the target chain ecosystem also get incentive to balance the bridge deposits.
 
+### Token distribution **and circulation**
+
+**Pre-staking**
+
+Early adopters have the option to lock tokens for a bonus reward \(see Getting Started / [Pre-staking](../getting-start/how-to-stake/pre-staking.md)\). These rewarded tokens come from reserved ecosystem tokens and will increase circulating supply of SWINGBY. This is part of the token distribution schedule regardless of token market price, network activity, fees, and expenses.
+
+**Full node staking**
+
+Participating as a full node require both dedicated server resources and meeting the SWINGBY token requirement \(see Getting Started / [Full node staking](../getting-start/how-to-stake/node-staking.md)\). Full nodes will participate in signing transactions to receive the fees incurred by those transactions. Please remember that nodes are selected based on their age, and removing SWINGBY token stake from the node will reset the age to zero.
+
+**Float staking**
+
+Float staking may be done through deposits of the swapped tokens. As example, a BTC to BTC.B swap would have float staking using BTC and BTC.B; it would not use SWINGBY tokens as stake. It is similar to "lending" to the bridge as liquidity provider, and will incur an extra fee to transactions. This extra fee is distributed proportionally to the float stakes.
+
