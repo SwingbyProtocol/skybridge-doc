@@ -26,6 +26,14 @@ $ git clone https://github.com/SwingbyProtocol/swapd-go
 **Step 2.** Check your app settings. The configuration files for the local testnet are in **configs/local\_1/config.toml, configs/local\_2/config.toml, configs/local\_3/config.toml**
 
 ```text
+$ nano configs/local_1/config.toml
+$ nano configs/local_2/config.toml
+$ nano configs/local_3/config.toml
+```
+
+In each file, you should see some configuration which looks like the below snippet:
+
+```text
 [p2p]
 moniker = "local_node_1"
 listen = "127.0.0.1"
@@ -73,6 +81,8 @@ indexer_uri = "wss://testnet-indexer.swingby.network/ws"
 reward_addr = "2N8hwP1WmJrFF5QWABn38y63uYLhnJYJYTF"
 fixed_out_fee = 30000
 ```
+
+**Note:** You should increase `keygen_until` to a time that is several minutes after you plan to launch your nodes. This is so that they can collectively generate the key shares that together form a private key.
 
 **Step 3.** Run your test node
 

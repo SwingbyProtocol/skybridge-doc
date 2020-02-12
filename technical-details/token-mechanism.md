@@ -4,6 +4,8 @@ description: How the SWINGBY token is used to fuel the Skybridge platform
 
 # Token mechanism
 
+![](../.gitbook/assets/token-mechanism.png)
+
 Swingby Skybridge node operators incur two costs: 
 
 1. Operational costs for running a node - server costs.
