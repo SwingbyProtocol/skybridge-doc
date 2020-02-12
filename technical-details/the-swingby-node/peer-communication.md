@@ -1,5 +1,7 @@
 # Peer communication
 
+![](../../.gitbook/assets/peer_communication.png)
+
 **Peer states**
 
 * **Continuous Pings** - send ping messages every 3s, build peer list, check stakes, ensure bad nodes are blocked. Ping message: peer ok, state, stake tx, proof of TSS share. Correct ping trigger stake check \(balance must have been staked for at least 72 hours and never moved\) och each peer, each adds peer to its peer list. 
