@@ -1,5 +1,7 @@
 # Leaderless consensus
 
+![](../../.gitbook/assets/leaderless-consensus.png)
+
 ### **Parameter consensus**
 
 Nodes need to agree on the TSS parameters they wish to use when creating the addresses.  The key parameters from the TSS protocol are:
