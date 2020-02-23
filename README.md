@@ -16,6 +16,10 @@ On top of this, _Swingby Skybridge_ leverages a novel layer 2 proof-of-stake con
 
 The approach adopted by _Swingby Skybridge_ is to use clusters of nodes to manage decentralized wallets using threshold signatures cryptography to form multiparty signature wallets and use them to facilitate token swaps.
 
+This means that coins can be sent from one chain and appear on another, as immediately as the underlying chains process the transactions and without having to trust any third party.
+
+Performing a swap on Swingby Skybridge is as easy as sending the coins – there's no need to use a special wallet app.
+
 ### **Modern Cryptography, Applied**
 
 By utilizing recent developments in cryptographic research, the tokenization of BTC on other chains, an ambition that has proven difficult to achieve with prior technologies, can be realized simply and securely.
