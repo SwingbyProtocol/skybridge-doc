@@ -70,9 +70,6 @@ INFO 14:58:06.822 Start Starting StakeValidatorService impl StakeValidatorServic
 INFO 14:58:06.822 OnStart StakeValidatorService starting.
 INFO 14:58:09.825 Start Serving peer protocol on 127.0.0.1:12121
 INFO 14:58:10.326 synchroniseKVStore Syncing KV store with other peers
-WARN 14:58:10.326 synchroniseKVStore Unable to sync KV store from other peers - received 0 KV store proposals
-INFO 14:58:10.326 synchroniseKVStore Syncing KV store with other peers
-WARN 14:58:10.326 synchroniseKVStore Unable to sync KV store from other peers - received 0 KV store proposals
 ERRO 14:58:10.599 ValidateStake Stake TX query error: RPC error -32603 - Internal error: Tx (0000000000000000000000000000000000000000000000000000000000000000) not found
 panic: invalid stake tx for this peer
 ```
