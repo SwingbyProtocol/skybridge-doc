@@ -22,7 +22,7 @@ By utilizing recent developments in cryptographic research, the tokenization of 
 
 Traditional approaches to this problem have used complex multi-signature transactions and script op-code methods like Hash Time-Lock Contracts \(HTLCs\) which require bespoke wallet apps and are not widely supported. 
 
-_Swingby Skybridge_ aims to apply modern cryptography for the real world to address gaps in the DeFi ecosystem.
+_Swingby Skybridge_ aims to apply modern cryptography for the real world to address gaps in the cross-chain DeFi ecosystem.
 
 ![BTC token on the Binance Chain](.gitbook/assets/img_skybridge.png)
 
