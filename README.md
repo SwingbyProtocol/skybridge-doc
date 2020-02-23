@@ -14,11 +14,13 @@ On top of this, Skybridge leverages a novel layer 2 proof-of-stake consensus and
 
 #### Decentralized Token Bridge
 
-Swingby Skybridge's basic approach is to manage one decentralized wallet using TSS technology to form one multiparty signature wallet and use this to facilitate token swaps.
+Swingby Skybridge's approach is to manage one decentralized wallet using threshold signatures \(TSS\) technology to form one multiparty signature wallet and use it to facilitate token swaps.
 
-By using TSS, tokenization of BTC to other chains, which was difficult until now, can be realized simply and securely. This is because traditional wallets such as BTC were unable to scale the wallet by the number of signatures. But by using TSS, an unspecified number of participants can manage a single wallet.
+By using threshold signatures, the tokenization of BTC on other chains, an ambition that has proven difficult to achieve with prior technologies, can be realized simply and securely. Traditional approaches to this problem have used complex multi-signature transactions and script op-code methods like Hash Time-Lock Contracts \(HTLCs\) which require bespoke wallet apps and are not widely supported. 
 
-![BTC token on the binance chain](.gitbook/assets/img_skybridge.png)
+Swingby Skybridge aims to deploy modern cryptography, applied, to solve real problems in the DeFi ecosystem.
+
+![BTC token on the Binance Chain](.gitbook/assets/img_skybridge.png)
 
 ## Contents
 
