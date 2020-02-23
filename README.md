@@ -12,7 +12,7 @@ At its core, _Swingby Skybridge_ uses technology derived from the paper entitled
 
 On top of this, _Swingby Skybridge_ leverages a novel layer 2 proof-of-stake consensus and networking protocol to facilitate inter-blockchain swaps using this technology.
 
-### Decentralized Token Bridge
+### Decentralized Token Bridges
 
 The approach adopted by _Swingby Skybridge_ is to use clusters of nodes to manage decentralized wallets using threshold signatures \(TSS\) technology to form multiparty signature wallets and use them to facilitate token swaps.
 
