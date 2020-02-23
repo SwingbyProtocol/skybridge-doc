@@ -86,7 +86,7 @@ INFO 14:58:05.945 main The stored p2p public key is: 39cba7f80c263c3f872646e0b03
 
 In this example, the P2P public key is `39cba7f80c263c3f872646e0b039bd4be0c031b50f11b6e1cb36e70a96dbefb5`. Copy this to your clipboard for later.
 
-**Step 5.** Send the staking transaction from your Binance Chain wallet.
+**Step 5.** Send the staking transaction from your Binance Chain wallet. Follow these steps:
 
 **Step 5.1.** Create or unlock your Binance Chain wallet on the Binance Chain web wallet: [https://binance.org/unlock](https://binance.org/unlock).
 
