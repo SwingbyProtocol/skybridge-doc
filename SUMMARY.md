@@ -27,3 +27,9 @@
 * [Token mechanism](technical-details/token-mechanism.md)
 * [White paper](https://docs.swingby.network/SwingbySkybridge_WhitePaper_v1.0.0_14112019.pdf)
 
+## Other Resources
+
+* [Swingby on the web](https://swingby.network)
+* [Swingby on Twitter](https://twitter.com/SwingbyProtocol)
+* [Swingby on GitHub](https://github.com/SwingbyProtocol)
+
