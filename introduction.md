@@ -35,7 +35,7 @@ There are many technical possibilities to implement such a bridge, ranging from 
 Swingby Skybridge aims to build fast, decentralized, and user friendly swaps for ECDSA-based blockchains \(Bitcoin + all forks, Ethereum, Binance Chain, EOS, Tron, TomoChain, VeChain, etc.\) by using Threshold-Signature-Scheme \(TSS\).
 
 {% hint style="danger" %}
-Users need to consider the custodial aspect of centralized bridge implementations. A compromised bridge may potentially "lock" the tokens on the non-native chain, i.e. not allowing users to swap back to the native chain.
+Users need to consider the custodial aspect of centralized bridge implementations. A compromised bridge may potentially "lock" the tokens on the non-native chain, i.e. not allowing users to swap back to the native chain. Swingby Skybridge aims to be as _decentralized_ as possible, meaning that risk is spread across all of the nodes on the network.
 {% endhint %}
 
 ### **What is a Decentralized Custodian?**
