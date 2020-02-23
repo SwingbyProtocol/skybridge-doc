@@ -68,7 +68,6 @@ INFO 14:58:06.822 Start Starting BnbClientService impl BnbClientService
 INFO 14:58:06.822 OnStart BnbClientService starting. Bnb client connected.
 INFO 14:58:06.822 Start Starting StakeValidatorService impl StakeValidatorService
 INFO 14:58:06.822 OnStart StakeValidatorService starting.
-INFO 14:58:06.822 main Waiting 3s for blockchain client connect...
 INFO 14:58:09.825 Start Serving peer protocol on 127.0.0.1:12121
 INFO 14:58:10.326 synchroniseKVStore Syncing KV store with other peers
 WARN 14:58:10.326 synchroniseKVStore Unable to sync KV store from other peers - received 0 KV store proposals
@@ -86,7 +85,7 @@ INFO 14:58:05.945 main The stored p2p public key is: 39cba7f80c263c3f872646e0b03
 
 In this example, the P2P public key is `39cba7f80c263c3f872646e0b039bd4be0c031b50f11b6e1cb36e70a96dbefb5`. Copy this to your clipboard for later.
 
-**Step 5.** Send the staking transaction from your Binance Chain wallet.
+**Step 5.** Send the staking transaction from your Binance Chain wallet. Follow these steps:
 
 **Step 5.1.** Create or unlock your Binance Chain wallet on the Binance Chain web wallet: [https://binance.org/unlock](https://binance.org/unlock).
 
