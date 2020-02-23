@@ -6,19 +6,21 @@ description: A brief overview of the Skybridge technology stack
 
 ## Overview
 
-**Swingby Skybridge** is a proof-of-stake based decentralized ephemeral custodian protocol for the cross-chain movement of crypto assets. It enables fast trust-free bridges between BTC, Ethereum, Binance Chain and other blockchains.
+_Swingby Skybridge_ is a proof-of-stake based decentralized ephemeral custodian protocol for the cross-chain movement of crypto assets. It enables fast trust-free bridges between BTC, Ethereum, Binance Chain and other blockchains.
 
-At its core, Swingby Skybridge uses technology derived from the paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder which describes a threshold ECDSA signature scheme protocol that supports efficient, dealer-less key generation and distributed computation of digital signatures.
+At its core, _Swingby Skybridge_ uses technology derived from the paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by _Rosario Gennaro_ and _Steven Goldfeder_ which describes a threshold ECDSA signature scheme protocol that supports efficient, dealer-less key generation and distributed computation of digital signatures.
 
-On top of this, Skybridge leverages a novel layer 2 proof-of-stake consensus and networking protocol to facilitate inter-blockchain swaps using this technology.
+On top of this, _Swingby Skybridge_ leverages a novel layer 2 proof-of-stake consensus and networking protocol to facilitate inter-blockchain swaps using this technology.
 
-#### Decentralized Token Bridge
+### Decentralized Token Bridge
 
-Swingby Skybridge's approach is to manage one decentralized wallet using threshold signatures \(TSS\) technology to form one multiparty signature wallet and use it to facilitate token swaps.
+The approach adopted by _Swingby Skybridge_ is to use clusters of nodes to manage decentralized wallets using threshold signatures \(TSS\) technology to form multiparty signature wallets and use them to facilitate token swaps.
+
+### **Modern Cryptography**
 
 By using threshold signatures, the tokenization of BTC on other chains, an ambition that has proven difficult to achieve with prior technologies, can be realized simply and securely. Traditional approaches to this problem have used complex multi-signature transactions and script op-code methods like Hash Time-Lock Contracts \(HTLCs\) which require bespoke wallet apps and are not widely supported. 
 
-Swingby Skybridge aims to deploy modern cryptography, applied, to solve real problems in the DeFi ecosystem.
+_Swingby Skybridge_ aims to deploy modern cryptography, applied, to solve real problems in the DeFi ecosystem.
 
 ![BTC token on the Binance Chain](.gitbook/assets/img_skybridge.png)
 
