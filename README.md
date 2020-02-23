@@ -14,7 +14,7 @@ On top of this, _Swingby Skybridge_ leverages a novel layer 2 proof-of-stake con
 
 ### Decentralized Token Bridges
 
-The approach adopted by _Swingby Skybridge_ is to use clusters of nodes to manage decentralized wallets using threshold signatures \(TSS\) technology to form multiparty signature wallets and use them to facilitate token swaps.
+The approach adopted by _Swingby Skybridge_ is to use clusters of nodes to manage decentralized wallets using threshold signatures cryptography to form multiparty signature wallets and use them to facilitate token swaps.
 
 ### **Modern Cryptography, Applied**
 
