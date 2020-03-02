@@ -5,7 +5,7 @@ description: Tutorial for moving BTC to a different blockchain (BTC to Binance C
 # BTC to BTC token swap
 
 {% hint style="info" %}
-Note: _This is testnet of Swingby Skybrige \[_[_How it works_](../../how-it-works/)_\]. Testnet tokens have no value. If you need tBTC \(testnet BTC\), several fauset services are available._  
+Note: _This is for the testnet of Swingby Skybrige \[_[_How it works_](../../how-it-works/)_\]. Testnet tokens have no value. If you need tBTC \(testnet BTC\), several faucet services are available:_  
 [_https://coinfaucet.eu/en/btc-testnet/_  
 ](https://coinfaucet.eu/en/btc-testnet/)\_\_[_https://testnet-faucet.mempool.co/_](https://testnet-faucet.mempool.co/)
 
@@ -14,6 +14,9 @@ _You can generate a BTC testnet address here:_
 
 _You can generate a Binance Chain testnet address here:_  
 [_https://testnet.binance.org/en/create_](https://testnet.binance.org/en/create)\_\_
+
+_Swingby is running a faucet to get both kinds of testnet tokens._  
+[_https://faucet.swingby.network_](https://faucet.swingby.network/)\_\_
 {% endhint %}
 
 The following steps to receive BTC Token \(BTC.B\) on Binance Chain:
