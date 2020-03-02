@@ -4,6 +4,18 @@ description: Tutorial for moving BTC to a different blockchain (BTC to Binance C
 
 # BTC to BTC token swap
 
+{% hint style="info" %}
+Note: _This is testnet of Swingby Skybrige \[_[_How it works_](../../how-it-works/)_\]. Testnet tokens have no value. If you need tBTC \(testnet BTC\), several fauset services are available._  
+[_https://coinfaucet.eu/en/btc-testnet/_  
+](https://coinfaucet.eu/en/btc-testnet/)\_\_[_https://testnet-faucet.mempool.co/_](https://testnet-faucet.mempool.co/)
+
+_You can generate a BTC testnet address here:_   
+[_https://bitcoinpaperwallet.com/bitcoinpaperwallet/generate-wallet.html?design=alt-testnet_](https://bitcoinpaperwallet.com/bitcoinpaperwallet/generate-wallet.html?design=alt-testnet)\_\_
+
+_You can generate a Binance Chain testnet address here:_  
+[_https://testnet.binance.org/en/create_](https://testnet.binance.org/en/create)\_\_
+{% endhint %}
+
 The following steps to receive BTC Token \(BTC.B\) on Binance Chain:
 
 * 1.You can access to the ****[**Swingby Skybridge testnet portal**](https://skybridge-testnet.swingby.network)  **\(**[**https://skybridge-testnet.swingby.network/**](https://skybridge-testnet.swingby.network/)**\)**
@@ -26,7 +38,7 @@ The following steps to receive BTC Token \(BTC.B\) on Binance Chain:
 
 ![](../../.gitbook/assets/sukurnshotto-2020-01-19-20228.jpg)
 
-* 6. You can get address fro deposit BTC to get BTC token. \(TSS custody address\)
+* 6. You can get address from deposit BTC to get BTC token. \(TSS custody address\)
 
 ![](../../.gitbook/assets/sukurnshotto-2020-01-19-20522.jpg)
 
@@ -41,12 +53,6 @@ The following steps to receive BTC Token \(BTC.B\) on Binance Chain:
 * 9. Complete! \(all transactions is "mined"\)
 
 ![](../../.gitbook/assets/sukurnshotto-2020-01-19-21918.jpg)
-
-{% hint style="info" %}
-Note: _This is testnet of Swingby Skybrige \[_[_How it works_](../../how-it-works/)_\]. These tokens are no value. If you need tBTC, several fauset services are available._  
-[_https://coinfaucet.eu/en/btc-testnet/_  
-](https://coinfaucet.eu/en/btc-testnet/)\_\_[_https://testnet-faucet.mempool.co/_](https://testnet-faucet.mempool.co/)
-{% endhint %}
 
 
 
