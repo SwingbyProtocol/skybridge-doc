@@ -38,7 +38,7 @@ Swingby Skybridge aims to build fast, decentralized, and user friendly swaps for
 Users need to consider the custodial aspect of centralized bridge implementations. A compromised bridge may potentially "lock" the tokens on the non-native chain, i.e. not allowing users to swap back to the native chain. Swingby Skybridge aims to be as _decentralized_ as possible, meaning that risk is spread across all of the nodes running the network.
 {% endhint %}
 
-### **What is a Decentralized Custodian?**
+### **What is a decentralized custodian?**
 
 Businesses that hold assets on behalf of other parties can be described as custodians.  Custodians store their clients’ assets in addresses that they \(the custodians\) control by virtue of knowing the linked private key\(s\) to those addresses.
 
