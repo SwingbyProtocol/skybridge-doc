@@ -14,9 +14,9 @@ Swingby Skybridge implements a [layer 2](https://www.binance.vision/glossary/lay
 
 ### Decentralized Token Bridges
 
-The approach adopted by _Swingby Skybridge_ is to use clusters of nodes to manage decentralized wallets using threshold signatures cryptography to form multiparty signature wallets and use them to facilitate token swaps.
+The Swingby Skybridge network consists of clusters of nodes that manage decentralized wallets using threshold signatures cryptography to form multiparty signature wallets and use those to facilitate token swaps.
 
-This means that coins can be sent from one chain and appear on another, as quickly as the underlying chains can process the blocks and without having to trust any third party.
+This means that coins can be sent from one chain and appear on another, as quickly as the underlying chains can process the blocks and without having to trust any third party. No single person or company has access to the deposits while they are being swapped.
 
 Performing a swap on Swingby Skybridge is as easy as sending the coins – there's no need to use a special wallet app.
 
