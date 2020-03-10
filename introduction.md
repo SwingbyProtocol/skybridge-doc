@@ -26,7 +26,7 @@ By being able to create a “Bitcoin Token” on other blockchains, the followin
 
 **The creation of Bitcoin tokens on non-Bitcoin chains without needing to trust specific actors would be a milestone in the history of cryptocurrencies**, and will help to accelerate Dapps such as decentralized exchanges.
 
-### What is a Cross-chain bridge?
+### What is a cross-chain bridge?
 
 A cross-chain bridge is a concept used to allow tokens to be swapped from their native blockchain to a token on another blockchain. This allow more flexible usage of tokens, for example use BTC on Binance DEX, use BTC on Smart Contract platforms, or swap native MainNet tokens into a BEP-2 / ERC-20 to reduce technical complexity with exchange listings.
 
