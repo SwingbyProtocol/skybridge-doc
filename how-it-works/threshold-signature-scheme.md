@@ -4,7 +4,7 @@ description: Modern cryptography that powers Swingby Skybridge
 
 # Threshold Signature Scheme
 
-The Threshold Signature Scheme \(TSS\) is a protocol where private keys, and therefore cryptocurrency addresses, can be created by multiple parties. A threshold number \(ie a subset\) of those parties can then follow the protocol to collaboratively produce valid signatures to sign cryptocurrency transactions, without the parties needing to share any secrets with each other.  No trusted dealer is needed - the protocol is fully decentralized.
+The Threshold Signature Scheme \(TSS\) is a cryptographic protocol where private keys, and therefore cryptocurrency addresses, can be created and shared by multiple parties. A threshold number \(ie a subset\) of those parties can then follow the protocol to collaboratively produce valid signatures to sign cryptocurrency transactions, without the parties needing to share any secrets with each other.  No trusted dealer is needed - the protocol is fully decentralized.
 
 TSS coordinates between multiple parties to create digital signatures for cryptocurrency transactions. A single signature is produced for each one, which differs from multi-sig \(and similar\) script implementations in Bitcoin that require several independent digital signatures. It also means that this single signature mechanism can be used on any ECDSA signature chain, irrespective of if the chain natively has multi-sig capabilities or not.
 
