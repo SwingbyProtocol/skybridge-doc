@@ -18,7 +18,41 @@ To set the direction of Swingby development, anyone interested in the Swingby ec
 
 The gradual reduction of pre-stake rewards is to ease the transition from pre-staking to to node staking.
 
-### How to stake
+### How to stake \(basic\)
+
+1. Navigate to [https://stake.swingby.network/](https://stake.swingby.network/)
+2. Click on the token that you want to stake, for pre-staking that would be SWINGBY.
+3. Enter the public address that holds your SWINGBY tokens in the top field and click "Set Address".
+
+![](../../.gitbook/assets/image%20%286%29.png)
+
+4. You will now see available tokens in the left column. Click "Stake".
+
+![](../../.gitbook/assets/image%20%283%29.png)
+
+5. Enter the amount of tokens that you would like to stake. You can optionally vote for next swap pair to implement. Voting does not affect staking rewards.
+
+![](../../.gitbook/assets/image%20%285%29.png)
+
+6. Save the confirmation screen for use in later steps.
+
+![](../../.gitbook/assets/image%20%282%29.png)
+
+7. Login on Binance DEX, [https://www.binance.org/](https://www.binance.org/) with the wallet you entered as public address.
+
+8. Send the amount of SWINGBY tokens to your own address with the memo, as seen in the previous confirmation screen. **NOTE**: You will need a small amount of BNB tokens to pay for network fee.
+
+![](../../.gitbook/assets/image%20%281%29.png)
+
+9. You confirmation screen on [https://stake.swingby.network/](https://stake.swingby.network/) should now have changed to "Saking Successful".
+
+![](../../.gitbook/assets/image%20%284%29.png)
+
+10. **DO NOT** send any SWINGBY tokens from that address! If you do, it will cancel the staking time for that week. You will need to re-stake and reward will be counted from the new staking time instead.
+
+
+
+### How to stake \(advanced\)
 
 1. Choose a wallet that supports transactions with MEMO.
 2. Unlock your wallet with an address that holds SWINGBY tokens.
