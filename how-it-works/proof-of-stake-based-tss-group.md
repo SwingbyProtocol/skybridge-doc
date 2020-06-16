@@ -15,14 +15,14 @@ The network exists to create and operate decentralised custodians. TSS groups fo
 
 ### **Staking eligibility**
 
-Each Swingby Node operator needs to own and stake SBY tokens \(SBY, or Swingby Staking Tokens are tokens issued on the Binance Chain\) for their Swingby Node to be considered eligible to:
+Each Swingby Node operator needs to own and stake SWINGBY tokens for their Swingby Node to be considered eligible to:
 
 1. Participate in the creation of custodial addresses
 2. Sign transactions
 
-The staking of SBY tokens itself is done on the Binance chain, where SBY exists.  The staking is then announced on the Swingby network as follows.
+The staking of SWINGBY tokens itself is done on the Binance chain, where SWINGBY exists.  The staking is then announced on the Swingby network as follows.
 
-Each node’s eligibility is signalled by broadcasting a signed message over the Swingby Network which includes a transaction hash from Binance Chain \(this is known as the “Ping” message\).  The transaction hash is that of a transaction on Binance Chain that stakes at least the minimum amount of SBY for at least the minimum amount of time \(72 hours in our first implementation\).  The broadcasted message should include a signature of the staking address on Binance Chain as proof that the Swingby node operator also controls the staking address on Binance Chain.
+Each node’s eligibility is signalled by broadcasting a signed message over the Swingby Network which includes a transaction hash from Binance Chain \(this is known as the “Ping” message\).  The transaction hash is that of a transaction on Binance Chain that stakes at least the minimum amount of SWINGBY for at least the minimum amount of time \(72 hours in our first implementation\).  The broadcasted message should include a signature of the staking address on Binance Chain as proof that the Swingby node operator also controls the staking address on Binance Chain.
 
 ### **Dynamic re-grouping**
 

@@ -18,9 +18,9 @@ In the keygen phase, from the full set of nodes running on the Swingby Skybridge
 
 1. Consensus about the TSS parameters n and t \(n = total number of nodes in the group, t = the threshold number of nodes who need to collaborate to generate a valid signature\), and other settings such as fee rates.
 2. Agreement on which chains the nodes are operating on, and whether they are using the test-nets.
-3. The length of time the nodes have staked the minimum amount of SBY on Binance Chain.
+3. The length of time the nodes have staked the minimum amount of SWINGBY on Binance Chain.
 
-For example, at one point in time the Swingby Network may consist of 150 nodes, of which 140 want to create a \(n=100, t=60\) token bridge. \(Perhaps the other 10 nodes want to make a \(n=8, t=5\) token bridge\).  The 140 eligible nodes are then ordered by the length of time they have staked their SBY tokens on Binance Chain \(assuming they have all staked at least the minimum amount\), and the top 100 nodes from that ordered list will form the TSS group for the keygen phase.  This is how the TSS group is deterministically selected.
+For example, at one point in time the Swingby Network may consist of 150 nodes, of which 140 want to create a \(n=100, t=60\) token bridge. \(Perhaps the other 10 nodes want to make a \(n=8, t=5\) token bridge\).  The 140 eligible nodes are then ordered by the length of time they have staked their SWINGBY tokens on Binance Chain \(assuming they have all staked at least the minimum amount\), and the top 100 nodes from that ordered list will form the TSS group for the keygen phase.  This is how the TSS group is deterministically selected.
 
 ### **Transaction signing**
 
