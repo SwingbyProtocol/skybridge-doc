@@ -8,6 +8,8 @@ description: >-
 
 You can participate in BNB staking campaign by sending BNB to your own address with a memo. You control your own tokens during the staking. This is the same process as SWINGBY Pre-staking that is soon to be released.
 
+There are two guides below; one for using Binance DEX and one for using Trust Wallet \(mobile app\).
+
 
 
 ### How to stake \(basic, [B](https://trustwallet.com/)inance DEX\)
