@@ -18,7 +18,7 @@ To set the direction of Swingby development, anyone interested in the Swingby ec
 
 The gradual reduction of pre-stake rewards is to ease the transition from pre-staking to to node staking.
 
-### How to stake \(basic\)
+### How to stake \(basic, Binance DEX\)
 
 1. Navigate to [https://stake.swingby.network/](https://stake.swingby.network/)
 2. Click on the token that you want to stake, for pre-staking that would be SWINGBY.
@@ -52,7 +52,7 @@ The gradual reduction of pre-stake rewards is to ease the transition from pre-st
 
 
 
-### How to stake \(advanced\)
+### How to stake \(advanced, any wallet\)
 
 1. Choose a wallet that supports transactions with MEMO.
 2. Unlock your wallet with an address that holds SWINGBY tokens.
