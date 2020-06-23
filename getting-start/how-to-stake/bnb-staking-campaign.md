@@ -108,36 +108,36 @@ Do not store the recovery words where anyone unauthorized may get access to them
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
-14. You will now see available tokens in the left column. Click "Stake".
+15. You will now see available tokens in the left column. Click "Stake".
 
 ![](../../.gitbook/assets/26.png)
 
-27. Enter the amount of tokens that you would like to stake and click on "Confirm".  
+16. Enter the amount of tokens that you would like to stake and click on "Confirm".  
 _Optional: You can choose to vote for a currency as next trading pair. Memo code will change if you select to vote, everything else is the same._
 
 ![](../../.gitbook/assets/27.png)
 
-28. Save the Confirmation window for use in later steps by keeping the window open or taking a screenshot. 
+17. Save the Confirmation window for use in later steps by keeping the window open or taking a screenshot. 
 
 We recommend to keep the window open to receive staking status feedback automatically at later steps.
 
 ![](../../.gitbook/assets/28.png)
 
-29. Go back to Trust Wallet app. Click on BNB and then click "Send".
+18. Go back to Trust Wallet app. Click on BNB and then click "Send".
 
 ![](../../.gitbook/assets/29.jpg)
 
-30. Fill in the same information as shown in step 28. Click "Next".
+19. Fill in the same information as shown in step 28. Click "Next".
 
 ![](../../.gitbook/assets/30.jpg)
 
-31. Confirm that the information is correct. "From" and "to" should be the **SAME ADDRESS.** You control your own tokens during the staking. Click "Send" after you have manually confirmed the information.
+20. Confirm that the information is correct. "From" and "to" should be the **SAME ADDRESS.** You control your own tokens during the staking. Click "Send" after you have manually confirmed the information.
 
 ![](../../.gitbook/assets/31.jpg)
 
-32. The confirmation screen in your browser on [https://stake.swingby.network/](https://stake.swingby.network/) should now automatically change to "Staking Successful".
+21. The confirmation screen in your browser on [https://stake.swingby.network/](https://stake.swingby.network/) should now automatically change to "Staking Successful".
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
-33. **DO NOT** send any BNB tokens from your wallet before you have received your rewards! If you do, it will cancel the staking. You will need to redo the staking from start again and reward will be counted from the new staking time instead.
+22. **DO NOT** send any BNB tokens from your wallet before you have received your rewards! If you do, it will cancel the staking. You will need to redo the staking from start again and reward will be counted from the new staking time instead.
 
