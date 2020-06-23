@@ -15,7 +15,13 @@ There are two guides below; one for using Binance DEX and one for using Trust Wa
 ### How to stake \(basic, [B](https://trustwallet.com/)inance DEX\)
 
 1. Navigate to [https://stake.swingby.network/](https://stake.swingby.network/)
-2. Enter the public address \(BEP-2\) that holds your BNB tokens in the top field and click "Set Address".
+2. Click on "SWINGBY \(BNB Stake\).
+
+![](../../.gitbook/assets/31.png)
+
+
+
+3. Enter the public address \(BEP-2\) that holds your BNB tokens in the top field and click "Set Address".
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
@@ -92,7 +98,13 @@ Do not store the recovery words where anyone unauthorized may get access to them
 
 12. Open your Internet browser and navigate to [https://stake.swingby.network/](https://stake.swingby.network/)
 
-13. Enter the public address \(BEP-2\) copied from the previous step in the top field and click "Set Address".
+13. Click on "SWINGBY \(BNB Stake\).
+
+![](../../.gitbook/assets/31.png)
+
+
+
+14. Enter the public address \(BEP-2\) copied from the previous step in the top field and click "Set Address".
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
