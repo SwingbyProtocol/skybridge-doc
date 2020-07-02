@@ -65,13 +65,11 @@ The gradual reduction of pre-stake rewards is to ease the transition from pre-st
 6. Do not send any SWINGBY tokens from the staking address for the rest of the week. **Sending any amount of SWINGBY tokens from a pre-staked address to any other address will cancel the whole stake for that week.**
 7. At the end of the week, all pre-staked addresses will receive reward using following formula:
 
-   $$
-   reward = (amountOfStakedTokens * (stakedTime / stakePeriod)) * weeklyRewardPercentage
-   $$
+![](../../.gitbook/assets/formula.png)
 
-   Example:  
-   Assuming 100 tokens, held for 50% of the week, 1% weekly staking reward.  
-   _\(100\*\(50/100\)\)\*0.01\) = 0.5_  SWINGBY tokens received as distribution.
+Example:  
+Assuming 100 tokens, held for 50% of the week, 1% weekly staking reward.  
+_\(100\*\(50/100\)\)\*0.01\) = 0.5_  SWINGBY tokens received as distribution.
 
-8. Re-stake with the new MEMO released every week for continuous rewards.
+1. Re-stake with the new MEMO released every week for continuous rewards.
 
