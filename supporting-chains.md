@@ -12,6 +12,8 @@ Upcoming support:
 
 * USDT \(Omni or ERC20\) to BUSD on Binance Chain
 * Winners of our pre-staking coin vote. [Find out more!](getting-start/how-to-stake/pre-staking.md)
+* Many other ECDSA based blockchains in future integrations.
+* We're working on EdDSA chains too!
 
 
 
