@@ -1,5 +1,5 @@
 ---
-description: A brief overview of the Skybridge protocol and node network
+description: A brief overview of the Skybridge protocol and its technology
 ---
 
 # Summary
