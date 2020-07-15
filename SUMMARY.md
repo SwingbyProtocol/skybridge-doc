@@ -2,7 +2,7 @@
 
 * [Summary](README.md)
 * [Introduction](introduction.md)
-* [How it works](how-it-works/README.md)
+* [How Skybridge works](how-it-works/README.md)
   * [Proof of Stake node groups](how-it-works/proof-of-stake-based-tss-group.md)
   * [Threshold Signature Scheme](how-it-works/threshold-signature-scheme.md)
 * [Supported chains](supporting-chains.md)
