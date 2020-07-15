@@ -1,5 +1,5 @@
 ---
-description: The core protocol and networking technologies that power Swingby Skybridge
+description: A core protocol construct that powers Swingby Skybridge
 ---
 
 # Proof of Stake node groups
