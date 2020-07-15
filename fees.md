@@ -1,4 +1,4 @@
-# Fees
+# Network fees
 
 All fees spent in Swingby Skybridge are distributed fairly to the owner of the nodes that make up the signing group.
 
