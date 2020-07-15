@@ -5,7 +5,7 @@
 * [How Skybridge works](how-it-works/README.md)
   * [Proof of Stake node groups](how-it-works/proof-of-stake-based-tss-group.md)
   * [Threshold Signature Scheme](how-it-works/threshold-signature-scheme.md)
-* [Supported chains](supporting-chains.md)
+* [Supported blockchains](supporting-chains.md)
 * [Fees](fees.md)
 
 ## Getting started <a id="getting-start"></a>

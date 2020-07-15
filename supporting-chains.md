@@ -2,7 +2,7 @@
 description: The blockchains that Skybridge supports and plans to support
 ---
 
-# Supported chains
+# Supported blockchains
 
 Skybridge will launch with full support for the following chains, and these are live now on the testnet:
 
