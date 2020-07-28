@@ -30,7 +30,7 @@ The basic transactions are deposit and withdrawal only, and the depositing and w
 {% hint style="info" %}
 For example, you can get **10 BTC.B** for trading Binance DEX. you can simply deposit 10 BTC to the TSS address. you will get **9.989995 BTC.B** on the binance chain. 
 
-If you want to get actual 10 BTC from Binance DEX, you have to deposit **10.1003 BTC.B** to the TSS address. After then you will get **10 BTC** from TSS address
+If you want to get actual 10 BTC from Binance DEX, you have to deposit **10.0103 BTC.B** to the TSS address. After then you will get **10 BTC** from TSS address
 {% endhint %}
 
 {% hint style="warning" %}
