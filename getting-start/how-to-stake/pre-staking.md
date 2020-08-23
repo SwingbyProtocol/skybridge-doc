@@ -18,6 +18,12 @@ To set the direction of Swingby development, anyone interested in the Swingby ec
 
 The gradual reduction of pre-stake rewards is to ease the transition from pre-staking to to node staking.
 
+### How to stake \(Trustwallet + mobile browser\)
+
+Let's see the ****[**Turorial video**](https://www.youtube.com/watch?v=zI-iAgtcKXo) ****
+
+{% embed url="https://www.youtube.com/watch?v=zI-iAgtcKXo" %}
+
 ### How to stake \(basic, Binance DEX\)
 
 1. Navigate to [https://stake.swingby.network/](https://stake.swingby.network/)
