@@ -8,12 +8,12 @@ Skybridge will launch with full support for the following chains, and these are 
 
 * BTC and Binance Chain \(BTC bridges to BTC.B token on the Binance Chain\)
 
-Upcoming support:
+Upcoming support that we're working on:
 
-* USDT \(Omni or ERC20\) to BUSD on Binance Chain
+* Ethereum \(ERC20\)
+* Elrond & Waves/Gravity \(Partnerships\)
 * Winners of our pre-staking coin vote. [Find out more!](getting-start/how-to-stake/pre-staking.md)
-* Many other ECDSA based blockchains in future integrations.
-* We're working on EdDSA chains too!
+* Many other ECDSA and EdDSA based blockchains in future integrations.
 
 
 
