@@ -22,7 +22,7 @@ Performing a swap on Swingby Skybridge is as easy as sending the coins – there
 
 ### **Modern Cryptography, Applied**
 
-By utilizing recent developments in cryptographic research, the tokenization of BTC on other chains, an ambition that has proven difficult to achieve with prior technologies, can be realized simply and securely.
+By utilizing recent developments in cryptographic research the tokenization of BTC on other chains, an ambition that has proven difficult to achieve with prior technologies, can be realized simply and securely.
 
 Traditional approaches to this problem have used complex multi-signature transactions and script op-code methods like Hash Time-Lock Contracts \(HTLCs\) which require bespoke wallet apps and are not widely supported. 
 
