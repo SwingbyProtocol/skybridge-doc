@@ -36,4 +36,5 @@
 * [Swingby on the web](https://swingby.network)
 * [Swingby on Twitter](https://twitter.com/SwingbyProtocol)
 * [Swingby on GitHub](https://github.com/SwingbyProtocol)
+* [Proposals & Specifications \(SWIPs\)](https://github.com/SwingbyProtocol/swips)
 
