@@ -11,7 +11,7 @@
 ## Getting started <a id="getting-start"></a>
 
 * [Starting a local testnet](getting-start/how-to-setup-your-swingby-node.md)
-* [How to swap tokens?](getting-start/how-to-swap-tokens/README.md)
+* [How to swap tokens](getting-start/how-to-swap-tokens/README.md)
   * [BTC to BTC token swap](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
   * [BTC token to BTC swap](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
   * [Swap lifecycle](getting-start/how-to-swap-tokens/swap-lifecycle.md)
