@@ -44,13 +44,15 @@ Businesses that hold assets on behalf of other parties can be described as custo
 
 But those custodians bear the risks of private key loss or theft, which in both cases lead to loss of control of their clients’ funds.  So today, custodians typically store the majority of their clients’ assets in multi-signature addresses, and they store the controlling private keys offline.  Although this is more secure than having private keys stored on internet-connected devices, the tradeoff is that it is inconvenient, and creates operational complexities for parties acting as custodians.
 
-The industry has long needed a solution to the apparent trade off between security and convenience.
+The industry has long needed a solution to the apparent trade-off between security and convenience.
 
-Swingby Skybridge uses technology based on [a](https://eprint.iacr.org/2019/114.pdf) paper entitled _Fast Multiparty Threshold ECDSA with Fast Trustless Setup_ by Rosario Gennaro and Steven Goldfeder, which described the first threshold ECDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
+Swingby Skybridge uses technology based on [r](https://eprint.iacr.org/2019/114.pdf)esearch by esteemed academics in the area of research, allowing us to realize the first threshold ECDSA/EdDSA signature scheme protocol that supports multiparty signatures with efficient, dealer-less key generation.
 
-Using the ideas outlined in the paper, it is now possible to construct ECDSA addresses \(used in Bitcoin, Ethereum and many other blockchains\) using efficient, dealer-less key generation and arbitrary number of parties, some predetermined threshold number of whom jointly have the power to create a valid signature.
+Using the ideas outlined in the paper, it is now possible to construct ECDSA/EdDSA addresses \(used in Bitcoin, Ethereum and many other blockchains\) using efficient, dealer-less key generation and arbitrary number of parties, some predetermined threshold number of whom jointly have the power to create a valid signature.
 
-**Note that this is not a multi-sig address as only one signature is created at the end of the multiparty signing process**.  Additionally, the private key shares held by each party are created without having to rely on a trusted dealer to create and distribute the key shares \(a dealer would be a single point of failure for the system\).
+**Note that this is not a multi-signature address as only one signature is created at the end of the multiparty signing process.**
 
-This is the basis of a decentralized custodian.
+Additionally, the private key shares held by each party are created without having to rely on a trusted dealer to create and distribute the key shares \(a dealer would be a single point of failure for the system\).
+
+This forms the basis of a modern decentralized custodian solution.
 
