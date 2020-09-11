@@ -1,5 +1,5 @@
 ---
-description: Status flows for users to troubleshoot swaps.
+description: Status flows for users to understand and troubleshoot swaps
 ---
 
 # Swap lifecycle
