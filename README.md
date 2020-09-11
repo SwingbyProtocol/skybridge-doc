@@ -6,7 +6,7 @@ description: A brief overview of the Skybridge protocol and its technology
 
 ## Overview
 
-Swingby Skybridge is a proof-of-stake decentralized ephemeral custodian protocol for the cross-chain movement of crypto assets. It enables fast trust-free bridges between BTC, Ethereum, Binance Chain and other blockchains.
+Swingby Skybridge is a staking powered decentralized bridging protocol for the cross-chain movement of crypto assets. It enables fast trust-free bridges between BTC, Ethereum, Binance Chain and other blockchains.
 
 At its core, Swingby Skybridge uses cryptography that builds on modern multi-party threshold signature protocols, allowing support for efficient, dealer-less key generation and distributed computation of digital signatures.
 
