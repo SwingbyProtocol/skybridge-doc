@@ -8,15 +8,19 @@ description: How the SWINGBY token is used to fuel the Skybridge platform
 
 Swingby Skybridge node operators incur two costs: 
 
-1. Operational costs for running a node - server costs.
-2. Staking costs - they have to initially buy the SWINGBY token to stake. 
+1. Operational costs for running a node – server costs.
+2. Staking costs – they have to buy the SWINGBY token to 'bond' to their full node \(this helps to secure the network and keep nodes honest\).
 
-There are two types of staking to cover these expenses:
+There are two types of staking in a full Skybridge network:
 
-1. SWINGBY staking - nodes that stake SWINGBY to participate in swaps will receive swap _fee / n_. 
-2. Float staking - nodes that deposit bridge currency will get swap fees proportional to their deposited amount of tokens. 
+1. SWINGBY staking – nodes that stake SWINGBY to participate in swaps will receive swap _fee / n_. This is also known as 'bonding'.
+2. Float staking – users that deposit bridge currency will get swap fees proportional to their deposited amount of tokens. Anyone can do this - they don't necessarily have to own a node to do so.
 
-Float staking is specific to Swingby Skybridges that uses deposits on both source blockchain and target blockchain to allow for computational simple swaps, limiting swap fee to as low as possible for users. Larger deposits allow frictionless swaps, and possibly more important, comfortability in using the bridged token on the target blockchain, as the user is able to swap back to source blockchain at any desired time. In essence, these deposits are “lent” to the bridge, and opportunity cost for depositing tokens need to be considered. Thus, deposit based Skybridges need to provide sufficient interest on tokens so make it an attractive option for token holders. An extra swap fee dedicated to depositors is thus needed in these cases.
+Float staking is a concept specific to a Swingby Skybridge network – deposits on both source blockchain and target blockchains are utilized to allow for simple swaps, limiting the swap fee to be as low as possible for users.
+
+Larger deposits allow frictionless swaps, and possibly more important, comfortability in using the bridged token on the target blockchain, as the user is able to swap back to source blockchain at any time. In essence, these deposits are “lent” to the bridge, and opportunity cost for depositing tokens need to be considered.
+
+Thus, deposit based Skybridge need to provide sufficient interest on tokens so make it an attractive option for token holders. A portion of the swap fees are captured and distributed in order to reward depositors.
 
 ### **The SWINGBY token**
 
