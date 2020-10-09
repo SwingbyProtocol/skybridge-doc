@@ -33,7 +33,5 @@ When a new transaction needs to be created and signed by the TSS group, the proc
 5. Using the signature shares, each Swingby node can independently create the full ECDSA signature for the message.
 6. Any of the Swingby nodes can broadcast the signed transaction to the relevant blockchain \(Bitcoin or Binance Chain\).  This means that the blockchain will receive multiple similar transactions, all of which are identical - and only one of which will get through.
 
-![](https://lh6.googleusercontent.com/in67Lg0Z81iAkt_AbYr58F0IWMj0VpZ2-3RkfQVpYKgiECFpf6YrAqNGbrkxKOHm7kG11kWqO8aSbupsuQsmvBc87cHJigr7BQ7Mdg4CDefLPDlp9Wy3PEX90vqTlNvIOJAFFprJ)
-
-#### 
+![](https://docs.swingby.network/assets/Transaction_Signing.png)
 
