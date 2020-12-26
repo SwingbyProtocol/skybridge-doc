@@ -29,12 +29,12 @@
 * [Token mechanism](technical-details/token-mechanism.md)
 * [White paper](https://docs.swingby.network/SwingbySkybridge_WhitePaper_v1.0.0_14112019.pdf)
 
-## Other Resources
+## Read more <a id="other-resources"></a>
 
 ---
 
-* [Swingby on the web](https://swingby.network)
-* [Swingby on Twitter](https://twitter.com/SwingbyProtocol)
-* [Swingby on GitHub](https://github.com/SwingbyProtocol)
+* [Official Website](https://swingby.network)
+* [Twitter](https://twitter.com/SwingbyProtocol)
+* [GitHub](https://github.com/SwingbyProtocol)
 * [Proposals & Specifications \(SWIPs\)](https://github.com/SwingbyProtocol/swips)
 
