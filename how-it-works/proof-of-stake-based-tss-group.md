@@ -2,7 +2,7 @@
 description: A core protocol construct that powers Swingby Skybridge
 ---
 
-# Proof of Stake node groups
+# Proof-of-Stake node groups
 
 ![](https://docs.swingby.network/assets/TSS.png)
 

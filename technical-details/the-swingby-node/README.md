@@ -1,4 +1,10 @@
-# The Swingby node
+---
+description: >-
+  Find how to run a metanode to help securing the network while collecting
+  transaction fees
+---
+
+# Running a metanode
 
 {% page-ref page="peer-requirements.md" %}
 

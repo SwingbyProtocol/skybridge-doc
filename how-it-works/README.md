@@ -1,8 +1,10 @@
 ---
-description: Select one of the sections below to learn more in-depth
+description: >-
+  Discover how Proof-of-Stake node groups and Threshold Signature Schemes are
+  used to secure the network.
 ---
 
-# How Skybridge works
+# How does Skybridge work?
 
 {% page-ref page="proof-of-stake-based-tss-group.md" %}
 

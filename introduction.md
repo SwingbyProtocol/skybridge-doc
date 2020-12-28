@@ -1,14 +1,14 @@
 ---
-description: Introducing Swingby Skybridge and our reasons for building it
+description: Find out the reasons why we decided to build Swingby Skybridge.
 ---
 
 # Introduction
 
-The current blockchain ecosystem has evolved rapidly since Bitcoin's creation in 2009, but it still faces two major issues: **scalability and cross-chain interoperability**. By scalability we mean the number of transactions per second that any particular blockchain network can handle before degrading in performance, and by interoperability we mean the secure movement of assets from one blockchain onto another. We have been mainly researching interoperability. 
+The current blockchain ecosystem has evolved rapidly since Bitcoin's creation in 2009, but it still faces two major issues: **scalability and cross-chain interoperability**. By scalability, we mean the number of transactions per second that any particular blockchain network can handle without any performance issue; by interoperability, we mean the secure movement of assets from one blockchain onto another. This project is a solution that has derived mainly from our researching interoperability. 
 
 Trusted custodians are specific trusted business intermediaries who control coins on one chain and issue new “depository receipts” for those coins on another chain.The custodian functions as an escrow agent and acts as an administrator. But there are centralization challenges inherent in both of these solutions: Relay mechanisms rely on block headers created by trusted server operators. Custodians need to be trusted. Wherever trusted entities exist, they can fail, compromised either by an external or internal malicious actor. 
 
-Swingby Skybridge, described in this document, can provide a technical custodian with **decentralized** control. This technical custodian is effectively a cryptocurrency address where a subset of a large community is needed to create a valid signature. based custodians, and it can be used to move cryptocurrencies across different blockchains, taking advantage of all they have to offer.
+Swingby Skybridge, described in this document, can provide a technical custodian with **decentralized control**. This technical custodian is effectively a cryptocurrency address where a subset of a large community is needed to create a valid signature. based custodians, and it can be used to move cryptocurrencies across different blockchains, taking advantage of all they have to offer.
 
 ### Bitcoin on all the chains!
 
@@ -18,11 +18,11 @@ Where is the value and liquidity today?  Bitcoin. Bitcoin has a large number of 
 
 By being able to create a “Bitcoin Token” on other blockchains, the following advantages are created for bitcoin holders and for the other blockchains:
 
-* Bitcoin users can use Dapps, DEXes, and other services on other blockchains without needing to convert their BTC into the native tokens of the other blockchains
+* Bitcoin users can use Dapps, DEXs, and other services on other blockchains without needing to convert their BTC onto the native tokens of the other blockchains
 * Bitcoin users can take advantage of the innovative characteristics of the other chains, such as settlement speed, lower transaction fees, and anonymity, etc - whilst remaining invested in the underlying BTC
 * Bitcoin's scalability is improved by offloading some Bitcoin transactions to other chains
 * Users of other chains would benefit from a new wave of liquidity and users from Bitcoin
-* Decentralized exchanges running on blockchains such as Binance Chain  and Ethereum could allow trading of Bitcoin tokens, increasing the liquidity and utility of Bitcoin tokens
+* Decentralized exchanges running on blockchains like Ethereum \(e.g., Uniswap, SushiSwap, Balancer, Curve\) could allow trading of Bitcoin tokens, increasing the liquidity and utility of Bitcoin tokens.
 
 **The creation of Bitcoin tokens on non-Bitcoin chains without needing to trust specific actors would be a milestone in the history of cryptocurrencies**, and will help to accelerate Dapps such as decentralized exchanges.
 
