@@ -1,3 +1,7 @@
+---
+description: What are the requirements to operate a metanode?
+---
+
 # Peer requirements
 
 The following minimum requirements \(hardware and wallets\) are suggested in order to run the full node software:

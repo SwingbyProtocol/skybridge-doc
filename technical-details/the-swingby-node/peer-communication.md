@@ -1,3 +1,7 @@
+---
+description: How do metanode operators communicate with each other?
+---
+
 # Peer communication
 
 ![](../../.gitbook/assets/peer_communication.png)

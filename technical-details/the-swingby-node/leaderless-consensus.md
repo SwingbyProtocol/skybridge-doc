@@ -1,3 +1,7 @@
+---
+description: Find how consensus is achieved with the leaderless consensus mechanism.
+---
+
 # Leaderless consensus
 
 ![](../../.gitbook/assets/leaderless-consensus.png)

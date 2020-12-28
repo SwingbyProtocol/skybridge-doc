@@ -1,8 +1,8 @@
 ---
-description: Tutorial for moving BTC to a different blockchain (BTC to Binance Chain)
+description: Learn how to move BTC to Ethereum.
 ---
 
-# BTC to BTC token swap
+# BTC to BTC pegged token
 
 {% hint style="info" %}
 Note: _This is for the testnet of Swingby Skybrige \[_[_How it works_](../../how-it-works/)_\]. Testnet tokens have no value. If you need tBTC \(testnet BTC\), several faucet services are available:_  
