@@ -1,5 +1,5 @@
 ---
-description: Status flows for users to understand and troubleshoot swaps
+description: What is the lifecycle of a swap transaction?
 ---
 
 # Swap lifecycle

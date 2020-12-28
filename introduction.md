@@ -4,9 +4,9 @@ description: Find out the reasons why we decided to build Swingby Skybridge.
 
 # Motivations
 
-The current blockchain ecosystem has evolved rapidly since Bitcoin's creation in 2009. Unfortunately, it still faces two major issues: **scalability and cross-chain interoperability**. Scalability ties to the number of transactions per second that any particular blockchain can handle without any performance issue. Interoperability is the secure movement of assets from one blockchain to another. 
+The current blockchain ecosystem has evolved rapidly since Bitcoin's creation in 2009. Unfortunately, it still faces two major issues: **scalability and cross-chain interoperability**. Scalability ties to the number of transactions per second that any particular blockchain can handle without any performance issue. On the other hand, interoperability refers to the secure movement of assets from one blockchain to another and how networks communicate with each other.
 
-Swingby offers a unique proposition for blockchain interoperability, which also offers significant benefits in scalability in the future.
+Swingby offers a **unique proposition for blockchain interoperability,** which also offers significant benefits in scalability in the future.
 
 The Swingby protocol works as a **custodian with decentralized control**: it consists of a set of cryptocurrency addresses where a subset of a large distributed number of parties are needed to create a valid signature.
 

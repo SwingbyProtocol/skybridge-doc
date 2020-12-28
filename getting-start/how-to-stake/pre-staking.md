@@ -1,12 +1,14 @@
 ---
 description: >-
-  How to participate in the pre-staking event before the official main network
-  launch
+  Find how to participate in the pre-staking event before the official main
+  network launch.
 ---
 
 # Pre-staking
 
-To set the direction of Swingby development, anyone interested in the Swingby ecosystem will have the option to stake their Swingby tokens and vote for the next chain that should be integrated with their stakes. The staked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
+To set the direction of Swingby development, anyone interested in the Swingby ecosystem has  the option to stake their Swingby tokens and vote for the next chain that should be integrated with their stakes. 
+
+The staked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
 
 | Milestone | Reward per week |
 | :--- | :--- |
@@ -24,7 +26,7 @@ Let's see the ****[**Turorial video**](https://www.youtube.com/watch?v=zI-iAgtcK
 
 {% embed url="https://www.youtube.com/watch?v=zI-iAgtcKXo" %}
 
-### How to stake \(basic, Binance DEX\)
+### How to stake \(on Binance DEX\)?
 
 1. Navigate to [https://stake.swingby.network/](https://stake.swingby.network/)
 2. Click on the token that you want to stake, for pre-staking that would be SWINGBY.
@@ -59,14 +61,12 @@ Let's see the ****[**Turorial video**](https://www.youtube.com/watch?v=zI-iAgtcK
 
 10. **DO NOT** send any SWINGBY tokens from that address! If you do, it will cancel the staking time for that week. You will need to re-stake and reward will be counted from the new staking time instead.
 
-
-
-### How to stake \(advanced, any wallet\)
+### How to stake \(advanced\) with any wallet?
 
 1. Choose a wallet that supports transactions with MEMO.
 2. Unlock your wallet with an address that holds SWINGBY tokens.
 3. Find the latest pre-stake MEMO on the official Telegram, Twitter, and website: [https://stake.swingby.network/](https://stake.swingby.network/token/SWINGBY)
-4. Send any amount of SWINGBY tokens either back to the same address \(self-send\) or to any other address that you want to use as your staking address. The transaction need a MEMO in following format: “XXXXXXXX\_YYYYYY” where: XXXXXXXX = Alphanumeric weekly staking code \(**changed every week, make sure you have the correct staking code by double-checking on official website / Twitter / Telegram\)**. **** YYYYYY = Optional token ticker symbol to vote for the next chain to integrate. _**Example:** 60190a\_BTCETH_
+4. Send any amount of SWINGBY tokens either back to the same address \(self-send\) or to any other address that you want to use as your staking address. The transaction need a MEMO in following format: “XXXXXXXX\_YYYYYY” where: XXXXXXXX = Alphanumeric weekly staking code \(**changed every week, make sure you have the correct staking code by double-checking on the official website, Twitter, and Telegram\)**. **** YYYYYY = Optional token ticker symbol to vote for the next chain to integrate. _**Example:** 60190a\_BTCETH_
 5. The amount of SWINGBY tokens sent will be counted as "pre-staked". 
 6. Do not send any SWINGBY tokens from the staking address for the rest of the week. **Sending any amount of SWINGBY tokens from a pre-staked address to any other address will cancel the whole stake for that week.**
 7. At the end of the week, all pre-staked addresses will receive reward using following formula:
@@ -77,5 +77,5 @@ Example:
 Assuming 100 tokens, held for 50% of the week, 1% weekly staking reward.  
 _\(100\*\(50/100\)\)\*0.01\) = 0.5_  SWINGBY tokens received as distribution.
 
-1. Re-stake with the new MEMO released every week for continuous rewards.
+   8. Re-stake with the new MEMO released every week for continuous rewards.
 

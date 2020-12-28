@@ -1,7 +1,5 @@
 ---
-description: >-
-  Tutorial for moving BTC Token to BTC from different blockchain (BTC.B on
-  Binance Chain)
+description: How to move BTC to wrapped BTC on other blockchain?
 ---
 
 # BTC token to BTC swap

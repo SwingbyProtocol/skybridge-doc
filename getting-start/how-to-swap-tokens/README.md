@@ -2,7 +2,7 @@
 description: Tutorial for moving tokens on various blockchains using the Skybridge testnet
 ---
 
-# How to swap tokens
+# How to swap tokens?
 
 {% page-ref page="btc-move-to-btc-token.md" %}
 
