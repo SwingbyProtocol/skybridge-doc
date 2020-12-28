@@ -2,7 +2,7 @@
 description: Discover how Swingby tokens fuel of Skybridge.
 ---
 
-# What is the Swingby token?
+# What is the SWINGBY token?
 
 Swingby Skybridge is fueled by a token named "Swingby Token" \(or "[SWINGBY](https://www.coingecko.com/en/coins/swingby)"\). 
 
