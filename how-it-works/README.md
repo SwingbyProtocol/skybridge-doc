@@ -4,7 +4,7 @@ description: >-
   used to secure the network.
 ---
 
-# How does Skybridge work?
+# What is the technology behind Skybridge?
 
 {% page-ref page="proof-of-stake-based-tss-group.md" %}
 

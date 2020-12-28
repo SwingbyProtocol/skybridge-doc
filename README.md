@@ -12,7 +12,7 @@ Swingby Skybridge uses advanced cryptography that builds on modern multi-party t
 
 Swingby Skybridge implements a layer-2 proof-of-stake consensus system and peer-to-peer network to facilitate inter-blockchain swaps using TSS cryptography and MPC computation.
 
-### Decentralized Token Bridges
+### Decentralized token bridges
 
 Swingby Skybridge is a network consisting of clusters of nodes that manage decentralized wallets using threshold signatures \("TSS"\) cryptography to **form multiparty signature wallets** and use those to **facilitate cross-chain token swaps**.
 
@@ -20,33 +20,31 @@ Thanks to Skybridge, cryptographic assets can be transferred from one chain to a
 
 Performing a swap on Swingby Skybridge is as easy as sending the coins to an address and there is no need to use any sort of special wallet application.
 
-### **Modern Cryptography, Applied**
+### **Modern cryptography applied**
 
 By utilizing recent developments in cryptographic research regarding the tokenization of BTC on other chains, an ambition that has proven difficult to achieve with prior technologies, can be realized simply and securely.
 
-Traditional approaches to this problem have used complex multi-signature transactions and script op-code methods like Hash Time-Lock Contracts \(HTLCs\) which require bespoke wallet apps and are not widely supported. 
+Traditional approaches to this problem have used complex multi-signature transactions and script op-code methods like Hash Time-Lock Contracts \(HTLCs\), which require bespoke wallet apps and are not widely supported. 
 
 Swingby Skybridge applies modern cryptography for the real world to address gaps in the cross-chain DeFi ecosystem.
 
 ## Contents
 
-{% page-ref page="introduction.md" %}
+{% page-ref page="how-can-i-use-skybridge.md" %}
 
 {% page-ref page="how-it-works/" %}
 
-### Getting Started
+{% page-ref page="introduction.md" %}
+
+### Getting started
 
 {% page-ref page="getting-start/how-to-swap-tokens/" %}
 
 {% page-ref page="getting-start/how-to-stake/" %}
 
-### Technical Details
+### Technical details
+
+{% page-ref page="technical-details/becoming-a-liquidity-provider.md" %}
 
 {% page-ref page="technical-details/the-swingby-node/" %}
-
-{% page-ref page="token-mechanism.md" %}
-
-
-
-
 

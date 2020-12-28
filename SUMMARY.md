@@ -1,11 +1,12 @@
 # Table of contents
 
 * [Summary](README.md)
-* [Introduction](introduction.md)
-* [How does Skybridge work?](how-it-works/README.md)
+* [Motivations](introduction.md)
+* [How can I use Skybridge?](how-can-i-use-skybridge.md)
+* [What is the technology behind Skybridge?](how-it-works/README.md)
   * [Proof-of-Stake node groups](how-it-works/proof-of-stake-based-tss-group.md)
   * [Threshold Signature Scheme](how-it-works/threshold-signature-scheme.md)
-* [The Swingby token](token-mechanism.md)
+* [What is the Swingby token?](token-mechanism.md)
 
 ## Getting started <a id="getting-start"></a>
 
