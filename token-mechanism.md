@@ -1,5 +1,5 @@
 ---
-description: Discover how Swingby tokens fuel of Skybridge.
+description: Discover how Swingby tokens fuels the Skybridge protocol.
 ---
 
 # What is the SWINGBY token?
@@ -10,7 +10,7 @@ SWINGBY runs as a [BEP-2 token on the Binance Chain](https://explorer.binance.or
 
 In addition, this token has also been distributed to foster the growth of the Swingby network ecosystem. Future plans include the Swingby token to be issued on other blockchains \(as a peg i.e., not affecting the total token supply\) that will be be connected to Swingby Skybridge.
 
-### **A financial commitment** 
+### **A financial bond** 
 
 Swingby Skybridge is designed as a permissionless network where no central authority can determine who can participate in a group or not. To do so, Swingby Skybridge node operators \( 'metanodes'\) must prove that they own SWINGBY tokens on Binance Chain, and lock \(or stake\) them for as long as they intend to participate in a TSS group. 
 
@@ -22,9 +22,14 @@ A node will start accrue up-time once it fulfills the peer requirements and is c
 
 Furthermore, removing SWINGBY tokens for a metanode to go below the staking threshold resets its seniority to zero. The trade-off is that early adopter nodes are difficult to out-compete as long as they stay honest, potentially discouraging "young" nodes to join as standby. On the upside, it prevents late joiners to gain majority control by abusing a large stack of SWINGBY tokens. Instead, younger nodes becomes encouraged to set up new bridges for tokens in demand to gain seniority as early adopters on that swap pair.
 
-### **An infinity of use cases**
+### **A range of future use cases**
 
 Swingby SWINGBY tokens will also continue to be added for additional use cases that are being [incorporated in new SWIPs](https://github.com/SwingbyProtocol/swips).
+
+Currently, there are discussions to include use cases, such as:
+
+* **Governance asset** — SWINGBY holders could submit governance proposals to be implemented by the team by using their tokens to decide the **future of Skybridge** \(and other protocols from Swingby\).
+* **Fee reduction —** token holders could receive a swap fee discount by staking/burning tokens.
 
 ### Token distribution **and circulation**
 
@@ -34,5 +39,5 @@ Early adopters have the option to lock tokens for a bonus reward \(see [Pre-stak
 
 **Full node staking**
 
-Participating as a full node require both dedicated server resources and meeting the SWINGBY token requirement. Full nodes participate in signing transactions to receive the fees incurred by those transactions. Please remember that nodes are selected based on their age, and removing SWINGBY token stake from the node **resets the age to zero**.
+Participating as a full node \("metanodes"\) require both dedicated server resources and meeting the SWINGBY token requirement. Full nodes participate in signing transactions to receive the fees incurred by those transactions. Please remember that nodes are selected based on their age, and removing SWINGBY token stake from the node **resets the age to zero**.
 
