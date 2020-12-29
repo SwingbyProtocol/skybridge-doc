@@ -4,7 +4,7 @@ description: >-
   transaction fees
 ---
 
-# Running a metanode
+# Run a metanode
 
 {% page-ref page="peer-requirements.md" %}
 

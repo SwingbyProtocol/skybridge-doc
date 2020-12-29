@@ -17,8 +17,8 @@
 
 ## Technical Details
 
-* [Becoming a liquidity provider](technical-details/becoming-a-liquidity-provider.md)
-* [Running a metanode](technical-details/the-swingby-node/README.md)
+* [Become a liquidity provider](technical-details/becoming-a-liquidity-provider.md)
+* [Run a metanode](technical-details/the-swingby-node/README.md)
   * [Node requirements](technical-details/the-swingby-node/peer-requirements.md)
   * [Leaderless consensus](technical-details/the-swingby-node/leaderless-consensus.md)
   * [Peer communication](technical-details/the-swingby-node/peer-communication.md)
