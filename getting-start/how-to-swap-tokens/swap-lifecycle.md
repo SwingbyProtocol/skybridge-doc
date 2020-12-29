@@ -12,9 +12,10 @@ The following diagram shows the decision tree used by the Skybridge nodes to dec
 
 ### Why was my transaction refunded?
 
-A transaction may refund for several reasons.
+A transaction may be refunded for several reasons, such as:
 
-* Timeout.
 * Lack of liquidity in the float pools.
+* Timeout.
+* Wrong amounts.
 * Miscellaneous risk prevention in the node software.
 

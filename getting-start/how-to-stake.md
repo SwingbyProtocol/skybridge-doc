@@ -37,7 +37,7 @@ The staked tokens will be rewarded with 1% interest distributed on a weekly basi
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-5. Enter the amount of tokens that you would like to stake. You can optionally vote for next swap pair to implement. Voting does not affect staking rewards.
+5. Enter the amount of tokens that you wish to stake. You can optionally vote for next swap pair to implement. Voting does not affect staking rewards.
 
 ![](../.gitbook/assets/34.png)
 

@@ -8,7 +8,7 @@ description: Learn how to transfer BTC to WBTC on Ethereum.
 The following steps are to receive WBTC on the Ethereum blockchain from BTC on the Bitcoin blockchain.
 {% endhint %}
 
-1. Visit the ****[**Swingby Skybridge Swap Widget.**](https://app.skybridge.exchange/swap/new)\*\*\*\*
+1. Visit the ****[**Swingby Skybridge Swap page.**](https://app.skybridge.exchange/swap/new)\*\*\*\*
 
 2. Select the quantity to swap and input your receiving address on the Ethereum blockchain.
 

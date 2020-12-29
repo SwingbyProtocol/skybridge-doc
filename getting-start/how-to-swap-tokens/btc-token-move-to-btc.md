@@ -1,5 +1,5 @@
 ---
-description: How to move WBTC to BTC on the Bitcoin blockchain?
+description: Learn how to transfer WBTC tokens to BTC on the Bitcoin blockchain.
 ---
 
 # WBTC \(on Ethereum\) to BTC swap
@@ -8,15 +8,27 @@ description: How to move WBTC to BTC on the Bitcoin blockchain?
 The following steps are to receive BTC on the Bitcoin blockchain from WBTC tokens on Ethereum.
 {% endhint %}
 
-1. You can access the ****[**Swingby Skybridge Swap Widget.**](https://app.skybridge.exchange/swap/new)\*\*\*\*
+1. Visit the ****[**Swingby Skybridge Swap page**](https://app.skybridge.exchange/swap/new)**.**
 
-2. You can select currency pairs. In this case, select **WBTC** and the associated quantity.
+2. Select the quantity to swap and input your receiving address on the Bitcoin blockchain.
 
-3. Click "Swap" and checking the Confirm View 
+![](../../.gitbook/assets/skybridge5.png)
 
-4. Create a transaction to the TSS address.
+3. Once the quantity and the receiving address are inputted, click "**Swap"**.
 
-5. You can go back to "Explorer" on Skybridge portal to check your transaction status.
+4. An Ethereum address to deposit your WBTC tokens will be displayed. It is the TSS custody address on the Ethereum blockchain. Send WBTC to this address by either scanning the QR code or copying the address to your favorite wallet.
 
-6. Complete! 👏 Welcome home to your satoshis!
+![](../../.gitbook/assets/skybridge6.png)
+
+{% hint style="success" %}
+You **can safely close your browser** while your transaction is being intercepted by the metanodes.
+{% endhint %}
+
+5. Once the transaction is intercepted by metanodes, the status refreshes automatically to "Transaction found".
+
+![](../../.gitbook/assets/skybridge7.png)
+
+6. **Swap Completed**! 👏 Say _"welcome home"_ to your bitcoins!
+
+![](../../.gitbook/assets/skybridge8.png)
 
