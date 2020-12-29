@@ -4,7 +4,7 @@ description: Find how consensus is achieved with the leaderless consensus mechan
 
 # Leaderless consensus
 
-![](../../.gitbook/assets/leaderless-consensus.png)
+![Description of the leaderless consensus process.](../../.gitbook/assets/leaderless-consensus.png)
 
 ### **Parameter consensus**
 
@@ -18,14 +18,14 @@ The two critical parameters from the TSS protocol are:
 Nodes would agree _t_ and _n_ out of band and consequently broadcast their intention to use them. Nodes will only attempt form groups with other nodes that use the same parameters.
 
 {% hint style="warning" %}
-In Chaos-MainNet, the protocol uses **n = 60 and t = 32**.  In simple words, the TSS Group is created where **60 parties** are needed to **create the TSS public key** while **32 of these** are required to come together **to sign transactions**.
+In Chaos-MainNet, the protocol uses **n = 60 and t = 32**. In simple words, the TSS Group is created where **60 parties** are needed to **create the TSS public key** while **32 of these** are required to come together **to sign transactions**.
 {% endhint %}
 
 ### Transaction signing
 
 Transactions needs to be signed for two main cases:
 
-* Alice wishes to transfer her BTC to WBTC \(on Ethereum\). She uses Skybridge's interface and enters the amount of WBTC \(Ethereum\) she wishes and her respective address on the Ethereum blockchain where she wishes to receive it. The interface returns to her how many BTCs \(or satoshis!\) to send from her Bitcoin address to the TSS Group’s custodial BTC address.
+* Alice wishes to transfer her BTC to WBTC \(on Ethereum\). She uses Skybridge's interface and enters the amount of WBTC she wishes and her respective address on the Ethereum blockchain where she wishes to receive it. The interface returns to her how many BTCs \(or satoshis!\) to send from her Bitcoin address to the TSS Group’s custodial BTC address.
 * Bob wishes to transfer his WBTC \(Ethereum\) for BTCs on the Bitcoin blockchain. He sends WBTC \(Ethereum\) to the TSS Group’s custodial Ethereum address. Once received, the TSS Group will transfer bitcoins from its custodial BTC address to Bob's address on the Bitcoin blockchain.
 
 Each of the TSS nodes monitors two custodial addresses on two blockchains \(Ethereum and Bitcoin\) that they are building a Skybridge between.
