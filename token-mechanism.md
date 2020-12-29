@@ -22,7 +22,7 @@ A node will start accrue up-time once it fulfills the peer requirements and is c
 
 Furthermore, removing SWINGBY tokens for a metanode to go below the staking threshold resets its seniority to zero. The trade-off is that early adopter nodes are difficult to out-compete as long as they stay honest, potentially discouraging "young" nodes to join as standby. On the upside, it prevents late joiners to gain majority control by abusing a large stack of SWINGBY tokens. Instead, younger nodes becomes encouraged to set up new bridges for tokens in demand to gain seniority as early adopters on that swap pair.
 
-### **A range of future use cases**
+### **Additional use cases**
 
 Swingby SWINGBY tokens will also continue to be added for additional use cases that are being [incorporated in new SWIPs](https://github.com/SwingbyProtocol/swips).
 

@@ -25,11 +25,13 @@ To find out how to run a metanode, [please visit the dedicated page.](technical-
 
 Float staking is a concept specific to Skybridge networks. Deposits on both source blockchain and target blockchains are used to allow for simple swaps, thus, reducing the swap fee to be as **low as possible for users**.
 
-Larger deposits allow efficient swaps, and possibly more important, comfortability in using the bridged token on the target blockchain, as the user is able to swap back to source blockchain at any time. In short, these deposits are “lent” to the bridge and an opportunity cost for depositing tokens need to be considered.
+The system is built around a LP token, issued as **Swingby BTC \("sbBTC"\)** that represent a stake in the total liquidity of the protocol. This token runs on Ethereum as an ERC20 compliant token that can be incorporated and traded in other DeFi protocols.
 
-Deposit based Skybridge need to provide sufficient interest on tokens so make it an attractive option for token holders. A portion of the swap fees are captured and distributed in order to reward depositors.
+[To learn how to become a liquidity provider, please visit the dedicated page.](technical-details/becoming-a-liquidity-provider.md)
 
 ### Who are the users?
 
-Users are individuals and corporations wishing to move their BTCs to pegged tokens on the Ethereum blockchain.
+Users are individuals and entities wishing to move their bitcoins to pegged tokens like WBTC on the Ethereum blockchain.
+
+[Learn how to stake SWINGBY tokens ](getting-start/how-to-stake.md)or [swap tokens across blockchains.](getting-start/how-to-swap-tokens/)
 

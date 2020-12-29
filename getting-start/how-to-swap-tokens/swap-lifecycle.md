@@ -14,7 +14,7 @@ The following diagram shows the decision tree used by the Skybridge nodes to dec
 
 A transaction may refund for several reasons.
 
-* Lack of a 'memo' when one was required.
 * Timeout.
+* Lack of liquidity in the float pools.
 * Miscellaneous risk prevention in the node software.
 
