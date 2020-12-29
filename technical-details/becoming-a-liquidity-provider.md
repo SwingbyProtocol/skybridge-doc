@@ -6,7 +6,7 @@ description: Discover how to become a liquidity provider on Skybridge with Float
 
 Liquidity providers are one of the main stakeholders of the Skybridge protocol and are rewarded to do so by receiving part of the transaction fees from users swapping BTC to WBTC \(and vice versa\).
 
-In Swingby Skybridge, liquidity provision is also called 'Float Staking'. 
+In Swingby Skybridge, liquidity provision is also called **'Float Staking'**. 
 
 The system is built around a LP token, issued as **Swingby BTC \("sbBTC"\)** that represent a stake in the total liquidity of the protocol. This token runs on Ethereum as an ERC20 compliant token that can be incorporated and traded in other DeFi protocols.
 

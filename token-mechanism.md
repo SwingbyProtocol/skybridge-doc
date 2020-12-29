@@ -1,5 +1,5 @@
 ---
-description: Discover how Swingby tokens fuels the Skybridge protocol.
+description: Discover how Swingby tokens fuel the Skybridge protocol.
 ---
 
 # What is the SWINGBY token?

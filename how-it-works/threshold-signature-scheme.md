@@ -2,15 +2,15 @@
 description: Swingby Skybridge is powered by the latest innovations in modern cryptography.
 ---
 
-# Threshold Signature Scheme
+# Threshold Signature Scheme \("TSS"\)
 
-The Threshold Signature Scheme \(TSS\) is a cryptographic protocol where private keys \(and cryptocurrency addresses being derived!\) can be created and shared by multiple parties. 
+The Threshold Signature Scheme \(TSS\) is a cryptographic protocol where private keys \(and cryptocurrency addresses being derived\) can be created and shared by multiple parties. 
 
 A threshold number \(i.e., a subset\) of those parties can then follow the protocol to collaboratively produce valid signatures to sign cryptocurrency transactions without the parties needing to share any secret with each other.  **No trusted dealer is needed and the protocol is fully decentralized**.
 
 The Threshold Signature Scheme \(TSS\) coordinates between multiple parties to create digital signatures for cryptocurrency transactions. A single signature is produced for each one, which differs from multi-sig \(and similar\) script implementations in Bitcoin that require several independent digital signatures. Besides, this also means that a single signature mechanism can be used on any ECDSA signature chain, irrespective of whether the chain has natively multi-signature capabilities.
 
-An additional benefit of TSS transactions over multi-signature transactions is their relative data lightness: they contain no more signature data than normal transactions and thus, are cheaper to verify. Any transaction fees \(also known as mining fees, transaction fees, or gas\) needed to compensate miners to process these transactions are **kept to a minimum** as there is only one signature accompanying the transaction.
+An additional benefit of TSS transactions over multi-signature transactions is their **data lightness**: they contain no more signature data than normal transactions and thus, are cheaper to verify. Any transaction fees \(also known as mining fees, transaction fees, or gas\) needed to compensate miners to process these transactions are **kept to a minimum** as there is only one signature accompanying the transaction.
 
 ### Keygen phase
 

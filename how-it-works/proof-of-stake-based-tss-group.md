@@ -14,8 +14,8 @@ The network exists to create and operate **decentralized custodians**.
 
 TSS groups form on the network that runs two main processes. 
 
-1.  **The keygen process** - It is the collaborative creation of a public key, from which custodial cryptocurrency addresses on both blockchains are derived. This is an initial set-up phase and is done once per “bridge” between two blockchains. 
-2. **The transaction signing process** - It is the collaborative signing of cryptocurrency transactions for making payments from those custodial addresses. 
+1.  **The keygen process** — It is the collaborative creation of a public key, from which custodial cryptocurrency addresses on both blockchains are derived. This is an initial set-up phase and is done once per “bridge” between two blockchains. 
+2. **The transaction signing process** — It is the collaborative signing of cryptocurrency transactions for making payments from those custodial addresses. 
 
 Both processes are implemented using TSS protocols. TSS groups can reform as nodes leave and join the network. This is known as **dynamic re-grouping**.
 
@@ -36,13 +36,13 @@ In addition, the broadcasted message should include **a signature of the staking
 
 ### **Dynamic re-grouping**
 
-We expect some amount of network churn in the Swingby network. If many peers leave, leaving fewer than t peers left to sign transactions, the TSS group has effectively lost control over the custodial wallets. This is a scenario that we want to avoid.
+We expect some amount of network churn in the Swingby network. If many peers leave, leaving fewer than _t_ peers left to sign transactions, the TSS group has effectively lost control over the custodial wallets. This is a scenario that we want to avoid.
 
-**Dynamic regrouping** allows for parties to enter and leave the TSS group, without affecting the group’s ability to sign transactions.
+**Dynamic re-grouping** allows for parties to enter and leave the TSS group, without affecting the group’s ability to sign transactions.
 
-For example, in a group of 100 nodes with threshold 60 \(n = 100, t = 60\), up to 40 parties can leave the group. In first instance, nodes that leave, go offline, or send malicious data, shall be replaced by new nodes in queue to uphold n = 100. The remaining parties, so long as there are the threshold number of them, can re-create a new group. This may be necessary if there are insufficient nodes in queue and active nodes are close to t during a longer time period, in effect risking to impact availability.
+For example, in a group of 100 nodes with threshold 60 \(_n = 100, t = 60_\), up to 40 parties can leave the group. In first instance, nodes that leave, go offline, or send malicious data, shall be replaced by new nodes in queue to uphold _n = 100_. The remaining parties, so long as there are the threshold number of them, can re-create a new group. This may be necessary if there are insufficient nodes in queue and active nodes are close to _t_ during a longer time period, in effect risking to impact availability.
 
-Say that the secret key x is currently shared by a set of players P\_1,…,P\_n with a threshold of t. This group can transfer ownership to a new set of players P\_1,…,P\_n with a new threshold of t.
+Say that the secret key _x_ is currently shared by a set of players _P\_1,…,P\_n_ with a threshold of _t._ This group can transfer ownership to a new set of players _P\_1,…,P\_n_ with a new threshold of _t_.
 
-This allows the network to rotate in new nodes as network churn happens, without loss of control over the custodial wallets. Old nodes do however still possess a secret share which could potentially be exploitable if network nodes fluctuates a lot. This needs to be mitigated by running keygen from time to time.
+This allows the network to rotate in new nodes as network churn happens, without loss of control over the custodial wallets. However, old nodes still possess a secret share, which could potentially be exploitable if network nodes fluctuates a lot. This needs to be mitigated by running **keygen** from time to time.
 

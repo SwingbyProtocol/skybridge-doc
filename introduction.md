@@ -66,5 +66,5 @@ Additionally, the private key shares held by each party are created without havi
 
 This forms the basis of a modern decentralized custodian solution. 
 
-Welcome to Swingby and Skybridge.
+Welcome to Swingby Skybridge.
 
