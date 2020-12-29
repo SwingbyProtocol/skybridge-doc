@@ -8,23 +8,27 @@ description: Find how consensus is achieved with the leaderless consensus mechan
 
 ### **Parameter consensus**
 
-Nodes need to agree on the TSS parameters they wish to use when creating the addresses.  The key parameters from the TSS protocol are:
+Nodes need to agree on the TSS parameters they wish to use when creating the addresses. 
 
-* n - the total number of parties in the group who is able to partially sign a transaction, and
-* t - the threshold \(minimum\) number of parties who need to collaboratively sign the transaction.
+The two critical parameters from the TSS protocol are:
 
-Nodes would agree t and n out of band, then broadcast their intention to use them. Nodes will only attempt form groups with other nodes that use the same parameters.
+* _n_ - the total number of parties in the group who is able to partially sign a transaction
+* _t -_ the threshold \(minimum\) number of parties who need to collaboratively sign the transaction.
 
-In our first implementation we will use n = 100 and t = 60.  That is, a group will be created where 100 parties will be needed to create the TSS public key, and where 60 of those 100  parties will need to come together to sign transactions.
+Nodes would agree _t_ and _n_ out of band and consequently broadcast their intention to use them. Nodes will only attempt form groups with other nodes that use the same parameters.
+
+In Chaosnet-MainNet, the protocol uses n = 60 and t = 32.  
+
+In simple words, the TSS Group is created where 60 parties are needed to create the TSS public key, and where 32 of those 60 parties are required to come together to sign transactions.
 
 ### Transaction Signing
 
-When do transactions need to be signed?  Here are two scenarios:
+Transactions needs to be signed for two main cases:
 
-* Some 3rd party wants BTC.S \(BinanceChain\).  He uses the Swingby website and enters the amount of BTC.S \(BinanceChain\) he wants, and his address on Binance Chain where he wants to receive it.  The website tells him how much BTC to send from his Bitcoin address to the TSS Group’s custodial BTC address. This requires the TSS Group to create BTC.S \(BinanceChain\) in its custodial Binance Chain address and send it to the 3rd party’s Binance Chain address.
-* Some 3rd party wants to redeem his BTC.S \(BinanceChain\) for real BTC on Bitcoin.  He sends BTC.S \(BinanceChain\) to the TSS Group’s custodial Binance Chain address. The TSS Group must send BTC from their custodial Bitcoin address to the 3rd party’s bitcoin address.
+* Alice wishes to transfer her BTC to WBTC \(on Ethereum\). She uses Skybridge's interface and enters the amount of WBTC \(Ethereum\) she wishes and her respective address on the Ethereum blockchain where she wishes to receive it. The interface returns to her how many BTCs \(or satoshis!\) to send from her Bitcoin address to the TSS Group’s custodial BTC address.
+* Bob wishes to transfer his WBTC \(Ethereum\) for BTCs on the Bitcoin blockchain. He sends WBTC \(Ethereum\) to the TSS Group’s custodial Ethereum address. Once received, the TSS Group will transfer bitcoins from its custodial BTC address to Bob's address on the Bitcoin blockchain.
 
-Each of the TSS nodes monitors the two custodial addresses on the two blockchains they are building a bridge between.  In our first implementation, this is Bitcoin and Binance Chain.
+Each of the TSS nodes monitors two custodial addresses on two blockchains \(Ethereum and Bitcoin\) that they are building a Skybridge between.
 
 ### **Peer blocking**
 
@@ -53,5 +57,5 @@ The highlight shows which peers are included in the threshold list for the signi
 
 The minimal subset of shared peers in all sign sets meeting the threshold is chosen deterministically by each peer. If a peer advertises a sign set that does not meet the threshold, it is ignored.
 
-If this gets to a point that we are unable to meet the threshold, we must wait until a **Regroup** \(see "Peer communication"\) ****happens or force it through a governance feature.
+If this gets to a point that we are unable to meet the threshold, we must wait until a **Regroup** \(see ["Peer communication"](peer-communication.md)\) ****happens or force it through a governance feature.
 
