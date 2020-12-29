@@ -1,7 +1,7 @@
 ---
 description: >-
-  Find out the differences between metanodes, liquidity providers, and users in
-  Skybridge?
+  Discover the differences between metanodes, liquidity providers, and users in
+  Skybridge.
 ---
 
 # How can I use Skybridge?
