@@ -16,17 +16,17 @@ Swingby Skybridge implements a layer-2 proof-of-stake consensus system and peer-
 
 Swingby Skybridge is a network consisting of clusters of nodes that manage decentralized wallets using threshold signatures \("TSS"\) cryptography to **form multiparty signature wallets** and use those to **facilitate cross-chain token swaps**.
 
-With Skybridge, cryptographic assets can be transferred from one blockchain to another and as fast as the underlying block time used by distributed networks. Hence, Skybridge prevents the requirement to trust a third party and no single person \(or centralized entity\) has access to the deposit while they are being swapped.
+With Skybridge, cryptographic assets can be transferred from one blockchain to another and as fast as the underlying block time used by distributed networks. Hence, Skybridge does not require any third party to be trusted and no single person \(or centralized entity\) has access to the deposit while they are being swapped.
 
 Completing a swap on Swingby Skybridge is as easy as sending the coins to an address and there is no need to use any sort of special wallet application.
 
-### **Modern cryptography applied**
+### **Modern cryptography applied made simple for all**
 
-By utilizing recent developments in cryptographic research regarding the tokenization of BTC on other chains, Skybridge is an innovative solution built on complex cryptography that remains extremely simple to use for users. 
+By using the latest cutting-edge research, Skybridge is an innovative solution built on complex cryptography that remains extremely simple to use for all DeFi users. 
 
 In contrast, traditional approaches to similar problems have used complex multi-signature transactions and script op-code methods like Hash Time-Lock Contracts \(HTLCs\), which are not widely supported by wallets and user interfaces.
 
-Swingby Skybridge applies modern cryptography for the real world to address gaps in the cross-chain DeFi ecosystem by making it simple to move assets across distributed network.
+Swingby Skybridge applies modern cryptography for the real world to address gaps in the cross-chain DeFi ecosystem by making it easy for anyone to move assets across distributed networks.
 
 ## Contents
 
