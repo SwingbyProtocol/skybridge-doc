@@ -13,7 +13,6 @@
 * [How to swap tokens?](getting-start/how-to-swap-tokens/README.md)
   * [BTC to WBTC \(on Ethereum\)](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
   * [WBTC \(on Ethereum\) to BTC swap](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
-  * [Swap lifecycle](getting-start/how-to-swap-tokens/swap-lifecycle.md)
 * [How to stake SWINGBY tokens?](getting-start/how-to-stake.md)
 
 ## Technical Details
@@ -24,6 +23,7 @@
   * [Leaderless consensus](technical-details/the-swingby-node/leaderless-consensus.md)
   * [Peer communication](technical-details/the-swingby-node/peer-communication.md)
 * [Network fees](technical-details/network-fees.md)
+* [Understanding a swap lifecycle](technical-details/swap-lifecycle.md)
 
 ## Read more <a id="other-resources"></a>
 

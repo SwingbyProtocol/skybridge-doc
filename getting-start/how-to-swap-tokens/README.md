@@ -8,7 +8,7 @@ description: Discover how to swap tokens between Ethereum and Bitcoin.
 
 {% page-ref page="btc-token-move-to-btc.md" %}
 
-{% page-ref page="swap-lifecycle.md" %}
+{% page-ref page="../../technical-details/swap-lifecycle.md" %}
 
 
 
