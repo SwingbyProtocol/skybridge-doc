@@ -1,61 +1,28 @@
 ---
-description: Learn how to move BTC to Ethereum.
+description: Learn how to transfer BTC to WBTC on Ethereum.
 ---
 
-# BTC to BTC pegged token
+# BTC to WBTC \(on Ethereum\)
 
 {% hint style="info" %}
-Note: _This is for the testnet of Swingby Skybrige \[_[_How it works_](../../how-it-works/)_\]. Testnet tokens have no value. If you need tBTC \(testnet BTC\), several faucet services are available:_  
-[_https://coinfaucet.eu/en/btc-testnet/_  
-](https://coinfaucet.eu/en/btc-testnet/)\_\_[_https://testnet-faucet.mempool.co/_](https://testnet-faucet.mempool.co/)
-
-_You can generate a BTC testnet address here:_   
-[_https://bitcoinpaperwallet.com/bitcoinpaperwallet/generate-wallet.html?design=alt-testnet_](https://bitcoinpaperwallet.com/bitcoinpaperwallet/generate-wallet.html?design=alt-testnet)\_\_
-
-_You can generate a Binance Chain testnet address here:_  
-[_https://testnet.binance.org/en/create_](https://testnet.binance.org/en/create)\_\_
-
-_Swingby is running a faucet to get both kinds of testnet tokens._  
-[_https://faucet.swingby.network_](https://faucet.swingby.network/)\_\_
+The following steps are to receive WBTC on the Ethereum blockchain from BTC on the Bitcoin blockchain.
 {% endhint %}
 
-The following steps to receive BTC Token \(BTC.B\) on Binance Chain:
+1. You can access the ****[**Swingby Skybridge Swap Widget.**](https://app.skybridge.exchange/swap/new)\*\*\*\*
 
-* 1.You can access to the ****[**Swingby Skybridge testnet portal**](https://skybridge-testnet.swingby.network)  **\(**[**https://skybridge-testnet.swingby.network/**](https://skybridge-testnet.swingby.network/)**\)**
+2. Select the quantity to swap. The quantity must be higher than 0.004 BTC.
 
-![Swingby Skybridge - portal / explorer](../../.gitbook/assets/sukurnshotto-2020-01-19-12803.jpg)
+3. Input your receiving address on the Ethereum blockchain.
 
-* 2. You can offer the token quantities.
+4. Click "Next.
 
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-15559.jpg)
+5. Confirm.
 
-* 3. Add your receiving address for BTC.B tokens
+6. A BTC address to deposit your BTCs will be displayed. It represents the TSS custody address on the Bitcoin blockchain.
 
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-20006.jpg)
+7. You can check transaction status on "Explorer".
 
-* 4. Click "Next" and checking the Confirm View 
-
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-20211.jpg)
-
-* 5. Confirm all of forms and click "Confirm"
-
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-20228.jpg)
-
-* 6. You can get address from deposit BTC to get BTC token. \(TSS custody address\)
-
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-20522.jpg)
-
-* 7. You can get status of deposit transaction.
-
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-20759.jpg)
-
-* 8. You can check transaction status on "Explorer"
-
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-21213.jpg)
-
-* 9. Complete! \(all transactions is "mined"\)
-
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-21918.jpg)
+8. Complete! 👏 Time to \#DeFi!
 
 
 

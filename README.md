@@ -40,7 +40,7 @@ Swingby Skybridge applies modern cryptography for the real world to address gaps
 
 {% page-ref page="getting-start/how-to-swap-tokens/" %}
 
-{% page-ref page="getting-start/how-to-stake/" %}
+{% page-ref page="getting-start/how-to-stake.md" %}
 
 ### Technical details
 

@@ -35,7 +35,7 @@ Currently, there are discussions to include use cases, such as:
 
 **Pre-staking**
 
-Early adopters have the option to lock tokens for a bonus reward \(see [Pre-staking](getting-start/how-to-stake/pre-staking.md)\). These rewarded tokens come from reserved ecosystem tokens and will increase circulating supply of SWINGBY over time. This token distribution schedule is independent from the token market price, network activity, fees, and any sort of expenses.
+Early adopters have the option to lock tokens for a bonus reward \(see [Pre-staking]()\). These rewarded tokens come from reserved ecosystem tokens and will increase circulating supply of SWINGBY over time. This token distribution schedule is independent from the token market price, network activity, fees, and any sort of expenses.
 
 **Full node staking**
 

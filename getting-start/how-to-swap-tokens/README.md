@@ -1,5 +1,5 @@
 ---
-description: Tutorial for moving tokens on various blockchains using the Skybridge testnet
+description: Discover how to swap tokens between Ethereum and Bitcoin.
 ---
 
 # How to swap tokens?

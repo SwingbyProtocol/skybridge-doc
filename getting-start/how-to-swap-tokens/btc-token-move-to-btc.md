@@ -1,38 +1,22 @@
 ---
-description: How to move BTC to wrapped BTC on other blockchain?
+description: How to move WBTC to BTC on the Bitcoin blockchain?
 ---
 
-# BTC token to BTC swap
+# WBTC \(on Ethereum\) to BTC swap
 
-The following steps to receive BTC from BTC.B on the Binance Chain:
+{% hint style="info" %}
+The following steps are to receive BTC on the Bitcoin blockchain from WBTC tokens on Ethereum.
+{% endhint %}
 
-* 1.You can access to the ****[**Swingby Skybridge testnet portal**](https://skybridge-testnet.swingby.network)  **\(**[**https://skybridge-testnet.swingby.network/**](https://skybridge-testnet.swingby.network/)**\)**
+1. You can access the ****[**Swingby Skybridge Swap Widget.**](https://app.skybridge.exchange/swap/new)\*\*\*\*
 
-![Swingby Skybridge - portal / explorer](../../.gitbook/assets/sukurnshotto-2020-01-19-12803.jpg)
+2. You can select currency pairs. In this case, select **WBTC** and the associated quantity.
 
-* 2. You can select currency pairs \(**BTC.B** to **BTC\)**
+3. Click "Swap" and checking the Confirm View 
 
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-24825%20%281%29.jpg)
+4. Create a transaction to the TSS address.
 
-* 4. Click "Swap" and checking the Confirm View 
+5. You can go back to "Explorer" on Skybridge portal to check your transaction status.
 
-![](../../.gitbook/assets/sukurnshotto-2020-01-19-25226.jpg)
-
-* 5. You can create a transaction for swap in the [**Binance DEX testnet wallet**](https://testnet.binance.org/en/balances).
-
-![](../../.gitbook/assets/btc.b.jpg)
-
-* 6. Create a transaction to the _**TSS address**_ for move BTC.B to BTC with memo: _**Your BTC receiving address**_
-
-![](../../.gitbook/assets/btc.b2.jpg)
-
-![](../../.gitbook/assets/btc.b3.jpg)
-
-* 7. You can go back to "Explorer" on Skybridge portal to check your move transaction is 
-
-![](../../.gitbook/assets/btc.b4.jpg)
-
-* 8. Complete! \(all transactions is "mined"\)
-
-![](../../.gitbook/assets/btc.b5.jpg)
+6. Complete! 👏 Welcome home to your satoshis!
 

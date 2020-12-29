@@ -11,11 +11,10 @@
 ## Getting started <a id="getting-start"></a>
 
 * [How to swap tokens?](getting-start/how-to-swap-tokens/README.md)
-  * [BTC to BTC pegged token](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
-  * [BTC token to BTC swap](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
+  * [BTC to WBTC \(on Ethereum\)](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
+  * [WBTC \(on Ethereum\) to BTC swap](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
   * [Swap lifecycle](getting-start/how-to-swap-tokens/swap-lifecycle.md)
-* [How to stake SWINGBY tokens?](getting-start/how-to-stake/README.md)
-  * [Pre-staking](getting-start/how-to-stake/pre-staking.md)
+* [How to stake SWINGBY tokens?](getting-start/how-to-stake.md)
 
 ## Technical Details
 
