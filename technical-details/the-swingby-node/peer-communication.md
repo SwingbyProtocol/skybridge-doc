@@ -6,16 +6,14 @@ description: How do metanode operators communicate with each other?
 
 ![](../../.gitbook/assets/peer_communication.png)
 
-### **Continuous Pings**
+### **Continuous pings**
 
 Peers must send ping messages every 3 seconds, build peer list, check stakes, and ensure bad nodes are blocked.  
 The ping message contains the status of the peer \(_"ok"_\), its state, a stake transaction, and a proof of the TSS share. Each correct ping triggers a stake check where balance must have been staked for at least 72 hours and never moved for each peer. Each adds a peer to its peer list.
 
-### **Continuous Signing**
+### **Continuous signing**
 
-All peers look **at incoming address for new tokens**, put them in list, and build tx. Incoming tokens must be in confirmed transactions and exist in an unconfirmed K/V.
-
-  
+All peers look **at incoming address for new tokens**, put them in list, and build tx. Incoming tokens must be in confirmed transactions and exist in an unconfirmed K/V.  
 Each transaction contains: tx inputs and outputs, reward distribution, and refunds \(multi-send\).  
 Each peer broadcasts a _sign proposal_ \(with a maximum of one per peer\):  
 _&lt;sha512\_256\(tx\_sign\_doc\), sha512\_256\(peer\_id + tx\_sign\_doc\), tss\_proof&gt;_  

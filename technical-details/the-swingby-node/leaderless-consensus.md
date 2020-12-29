@@ -21,7 +21,7 @@ In Chaosnet-MainNet, the protocol uses n = 60 and t = 32.
 
 In simple words, the TSS Group is created where 60 parties are needed to create the TSS public key, and where 32 of those 60 parties are required to come together to sign transactions.
 
-### Transaction Signing
+### Transaction signing
 
 Transactions needs to be signed for two main cases:
 
