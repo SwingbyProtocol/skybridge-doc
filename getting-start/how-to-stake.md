@@ -4,7 +4,9 @@ description: 'Find how to stake SWINGBY, the native token that powers the Swingb
 
 # How to stake SWINGBY tokens?
 
-To set the direction of Swingby development, anyone interested in the Swingby ecosystem has  the option to stake their Swingby tokens and vote for the next chain that should be integrated with their stakes. 
+{% hint style="info" %}
+We strongly recommend you to [learn more about the SWINGBY use cases in the dedicated section of this documentation.](../token-mechanism.md)
+{% endhint %}
 
 The staked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
 
@@ -16,13 +18,11 @@ The staked tokens will be rewarded with 1% interest distributed on a weekly basi
 | Until fourth swap pair | 0.25% |
 | After fourth swap pair | No reward |
 
-The gradual reduction of pre-stake rewards is to ease the transition from pre-staking to node staking.
-
-### TrustWallet and other mobile wallet providers
+### 1. Stake with TrustWallet and other mobile wallet providers
 
 {% embed url="https://www.youtube.com/watch?v=zI-iAgtcKXo" %}
 
-### Binance DEX
+### 2. Stake with Binance DEX
 
 1. Navigate to [https://stake.swingby.network/](https://stake.swingby.network/)
 2. Click on the token that you want to stake, for pre-staking that would be SWINGBY.
@@ -57,7 +57,7 @@ The gradual reduction of pre-stake rewards is to ease the transition from pre-st
 
 10. **DO NOT** send any SWINGBY tokens from that address! If you do, it will cancel the staking time for that week. You will need to re-stake and reward will be counted from the new staking time instead.
 
-### How to stake with any wallet? \(Advanced only!\) 
+### 3. Stake with any wallet \(Advanced only!\) 
 
 1. Choose a wallet that supports transactions with MEMO.
 2. Unlock your wallet with an address that holds SWINGBY tokens.
