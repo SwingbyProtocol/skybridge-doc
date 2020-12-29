@@ -4,3 +4,5 @@ description: Discover how to become a liquidity provider on Skybridge with Float
 
 # Becoming a liquidity provider
 
+Liquidity providers are one of the
+

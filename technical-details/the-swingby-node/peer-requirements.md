@@ -12,9 +12,9 @@ The following minimum requirements \(hardware and wallets\) are required to run 
 4. Stake of Swingby tokens \(cold wallet\) for a minimum of 72 hours that must be **above 150,000 SWINGBY tokens.**
 5. A valid Ethereum address to interact with the contract and collect transaction fees.
 
-Other requirements include:
+Other requirements must be run:
 
-* The Skybridge Daemon.
+* The Skybridge Daemon. [It is available here.](https://github.com/SwingbyProtocol/skybridge-node)
 * A Binance Chain node.
 * An Ethereum node.
 * An Ethereum Blockbook instance.
