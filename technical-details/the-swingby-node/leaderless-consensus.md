@@ -12,14 +12,14 @@ Nodes need to agree on the TSS parameters they wish to use when creating the add
 
 The two critical parameters from the TSS protocol are:
 
-* _n_ - the total number of parties in the group who is able to partially sign a transaction
-* _t -_ the threshold \(minimum\) number of parties who need to collaboratively sign the transaction.
+* _n —_ the total number of parties in the group who is able to partially sign a transaction.
+* _t —_ the threshold \(minimum\) number of parties who need to collaboratively sign the transaction.
 
 Nodes would agree _t_ and _n_ out of band and consequently broadcast their intention to use them. Nodes will only attempt form groups with other nodes that use the same parameters.
 
-In Chaosnet-MainNet, the protocol uses n = 60 and t = 32.  
-
-In simple words, the TSS Group is created where 60 parties are needed to create the TSS public key, and where 32 of those 60 parties are required to come together to sign transactions.
+{% hint style="warning" %}
+In Chaos-MainNet, the protocol uses **n = 60 and t = 32**.  In simple words, the TSS Group is created where **60 parties** are needed to **create the TSS public key** while **32 of these** are required to come together **to sign transactions**.
+{% endhint %}
 
 ### Transaction signing
 
