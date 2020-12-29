@@ -14,15 +14,15 @@ The following steps are to receive WBTC on the Ethereum blockchain from BTC on t
 
 3. Input your receiving address on the Ethereum blockchain.
 
-4. Click "Next.
+4. Click "Next" and confirm.
 
-5. Confirm.
+5. A BTC address to deposit your bitcoins will be displayed. It is the TSS custody address on the Bitcoin blockchain. Send BTC to this address by either scanning the QR code or copying the address to your favorite wallet.
 
-6. A BTC address to deposit your BTCs will be displayed. It represents the TSS custody address on the Bitcoin blockchain.
+![](../../.gitbook/assets/skybridge1.png)
 
-7. You can check transaction status on "Explorer".
+6. You can check transaction status on "Explorer".
 
-8. Complete! 👏 Time to \#DeFi!
+7. Complete! 👏 Time to \#DeFi!
 
 
 
