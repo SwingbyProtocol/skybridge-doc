@@ -14,23 +14,25 @@ Swingby's main product is a bridging solution named **Skybridge** that offers us
 
 ### Bitcoin on all the chains!
 
-There has been an increase in applications that use public blockchains and smart contract platforms in recent years. However, many of these blockchains face a fundamental liquidity problem: there are not enough valuable assets running on their networks. Even with compelling applications \(dApps\) or high scalability, an application or blockchain will not work well without liquidity. 
+There has been an increase in applications that use public blockchains and smart contract platforms in recent years. However, many of these blockchains face a fundamental liquidity problem: there are not enough valuable assets running on their networks. Even with compelling applications \(dApps\) or high scalability, an application or blockchain would not work well without liquidity. 
 
 Where are the value & liquidity today? **One word: Bitcoin**. Bitcoin has the most users, the greatest total asset value, and one of the world's most liquid assets. Making bitcoins available and transferable to other blockchains can ignite activity on the other blockchains without trusting a specific intermediary.
 
 With “BTC tokens” on blockchains, many advantages are unlocked for both bitcoin holders and these blockchains:
 
 * Bitcoin users can use dApps, DEXs, and other services on other blockchains without converting their BTCs onto the native tokens of the other blockchains.
-* Bitcoin users can take advantage of the other chains' innovative characteristics, such as **settlement speed, lower transaction fees, and anonymity,** whilst remaining invested in the underlying BTC.
+* Bitcoin users can take advantage of the other chains' innovative characteristics, such as **settlement speed, lower transaction fees, and anonymity,** whilst remaining exposed to the underlying BTC.
 * Bitcoin's scalability can be improved by offloading some BTC transactions to other blockchains.
 * Users of other chains can benefit from a new wave of liquidity and users from the Bitcoin ecosystem.
 * Decentralized exchanges running on blockchains like Ethereum \(e.g., Uniswap, SushiSwap, Balancer, Curve\) can allow trading of BTC tokens, increasing both the liquidity and utility of BTC as an asset class.
 
-Skybridge offers a **non-custodial cross-chain bridge for BTCs** \(on the Bitcoin blockchain\) with pegged tokens on Ethereum \(e.g., WBTC\) but its scope will be increased in the future to include primary issuances on additional blockchains.
+Yet, it is not so convenient to obtain these pegged tokens in a trustless manner.
+
+In its first iteration, Skybridge offers a **non-custodial cross-chain bridge for BTCs** \(on the Bitcoin blockchain\) with pegged tokens on Ethereum \(e.g., WBTC\). However, Skybridge's scope is expected to increase in the near future to include primary issuances on additional blockchains.
 
 ### What is a cross-chain bridge?
 
-A cross-chain bridge is a concept used to allow tokens to be swapped from their native blockchain to a token on another blockchain. This allows more flexible usage of tokens such as using bitcoins on programmable networks or swap native assets into wrapped utility tokens, offering benefits like a reduced technical complexity with exchange listings or new use cases outside of their respective networks like lending. ‌
+A cross-chain bridge is a concept used to allow tokens to be swapped from their native blockchain to a token on another blockchain. This allows a more **flexible usage of tokens** such as using bitcoins on programmable networks \(e.g., decentralized lending\) or swap native assets into wrapped utility tokens. Hence, bridges can offer multiple benefits such as reduced technical complexity with exchange listings or new use cases outside of their respective networks like lending or collateral for borrowing funds. ‌
 
 There are many technical possibilities to implement such a bridge, ranging from a completely centralized offering \(like Binance Bridge\) to somewhat decentralized solutions. ‌
 
