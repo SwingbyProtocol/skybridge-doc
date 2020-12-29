@@ -6,13 +6,13 @@ description: Discover how Swingby tokens fuel the Skybridge protocol.
 
 Swingby Skybridge is fueled by a token named "Swingby Token" \(or "[SWINGBY](https://www.coingecko.com/en/coins/swingby)"\). 
 
-SWINGBY runs as a [BEP-2 token on the Binance Chain](https://explorer.binance.org/asset/SWINGBY-888). It is primarily used to prove eligibility to participate in a TSS group and represent the financial commitment for network validators to behave properly. 
+SWINGBY runs as a [BEP-2 token on the Binance Chain](https://explorer.binance.org/asset/SWINGBY-888). It is primarily used to prove eligibility to participate in a TSS group and represents the financial commitment \(**'the bond'**\) for network validators to behave properly. 
 
 In addition, this token has also been distributed to foster the growth of the Swingby network ecosystem. Future plans include the Swingby token to be issued on other blockchains \(as a peg i.e., not affecting the total token supply\) that will be be connected to Swingby Skybridge.
 
 ### **A financial bond** 
 
-Swingby Skybridge is designed as a permissionless network where no central authority can determine who can participate in a group or not. To do so, Swingby Skybridge node operators \( 'metanodes'\) must prove that they own SWINGBY tokens on Binance Chain, and lock \(or stake\) them for as long as they intend to participate in a TSS group. 
+Swingby Skybridge is designed as a permissionless network where no central authority can determine who can participate in a group or not. To do so, Swingby Skybridge node operators \( **'metanodes'**\) must prove that they own SWINGBY tokens on Binance Chain, and lock \(or stake\) them for as long as they intend to participate in a TSS group. 
 
 To join a TSS group, a participant must acquire SWINGBY and have owned it for a period of time. Then, these parties can prove this when TSS rounds \(including public key creation and the signing events\) occur.
 
