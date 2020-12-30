@@ -1,5 +1,5 @@
 ---
-description: Learn how Swingby Skybridge plans to change the DeFi ecosystem!
+description: "Learn how Swingby Skybridge plans to change the DeFi ecosystem. \U0001F680"
 ---
 
 # Summary

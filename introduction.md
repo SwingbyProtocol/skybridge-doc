@@ -28,7 +28,7 @@ With “BTC tokens” on blockchains, many advantages are unlocked for both bitc
 
 Yet, it is not so convenient to obtain these pegged tokens in a trustless manner.
 
-In its first iteration, Skybridge offers a **non-custodial cross-chain bridge for BTCs** \(on the Bitcoin blockchain\) with pegged tokens on Ethereum \(e.g., WBTC\). However, Skybridge's scope is expected to increase in the near future to include primary issuances on additional blockchains.
+In its first iteration, Skybridge offers a **non-custodial cross-chain bridge for BTC** \(on the Bitcoin blockchain\) with pegged tokens on Ethereum \(e.g., WBTC\). However, Skybridge's scope is expected to increase in the near future to include primary pegged token issuance on new blockchains.
 
 ### What is a cross-chain bridge?
 
@@ -36,7 +36,7 @@ A cross-chain bridge is a concept used to allow tokens to be swapped from their 
 
 There are many technical possibilities to implement such a bridge, ranging from a completely centralized offering \(like Binance Bridge\) to somewhat decentralized solutions. ‌
 
-Swingby Skybridge aims to **build fast, decentralized, and user-friendly swaps** for ECDSA-based blockchains \(e.g., Bitcoin, Ethereum, Binance Chain, EOS, Tron, TomoChain, VeChain\) by using Threshold Signature Scheme \(TSS\).
+Swingby Skybridge aims to **build fast, decentralized, and user-friendly swaps** for ECDSA-based blockchains \(e.g., Bitcoin, Ethereum, Binance Chain, Elrond, Tron, TomoChain\) by using Threshold Signature Scheme \(TSS\).
 
 {% hint style="danger" %}
 Users should consider the custodial aspect of centralized bridge implementations. A compromised bridge may potentially "lock" the tokens on the non-native chain, such as not allowing users to swap back to the native chain. Swingby Skybridge strives to be as _decentralized_ as possible, involving the risk being spread across all nodes running the financially committed network by posting a bond.
