@@ -6,7 +6,7 @@ description: Discover how Swingby tokens fuel the Skybridge protocol.
 
 Swingby Skybridge is fueled by a token named "Swingby Token" \(or "[SWINGBY](https://www.coingecko.com/en/coins/swingby)"\). 
 
-SWINGBY runs as a [BEP-2 token on the Binance Chain](https://explorer.binance.org/asset/SWINGBY-888). It is primarily used to prove eligibility to participate in a TSS group and represents the financial commitment \(**'the bond'**\) for network validators to behave properly. 
+SWINGBY runs as a [BEP2 token on the Binance Chain](https://explorer.binance.org/asset/SWINGBY-888). It is primarily used to prove eligibility to participate in a TSS group and represents the financial commitment \(**'the bond'**\) for network validators to behave properly. 
 
 This token has also been distributed to foster the growth of the Swingby network ecosystem [with the pre-staking program](getting-start/how-to-stake.md).
 
