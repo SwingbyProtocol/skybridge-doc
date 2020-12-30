@@ -14,7 +14,7 @@ There are three types of participants in a Skybridge network:
 
 ### What are metanodes?
 
-Swingby's Skybridge node operators \('metanodes'\) incur two primary costs: 
+Swingby's Skybridge node operators \(**'metanodes'**\) incur two primary costs: 
 
 1. **Operational costs** for running a node, e.g., server costs.
 2. **Staking costs** since they have to purchase and hold SWINGBY tokens that are bonded to their full node. This bond helps them secure the network and align network interests with their financial stake.
@@ -25,7 +25,7 @@ To find out how to run a metanode, [please visit the dedicated page.](technical-
 
 Float staking is a concept specific to Skybridge networks. Deposits on both source blockchain and target blockchains are used to allow for simple swaps, thus, reducing the swap fee to be as **low as possible for users**.
 
-The system is built around a LP token named **Swingby BTC \("sbBTC"\)**, which represent a stake in the total liquidity of a two-asset bridge. This token runs on Ethereum as an ERC20 compliant token that can be incorporated and traded in other DeFi protocols.
+The system is built around a LP token named **Swingby BTC \("sbBTC"\)**, which represent a stake in the total liquidity of a two-asset bridge. This token runs on Ethereum as an ERC20 compliant token that can be incorporated and traded in other DeFi protocols like Uniswap or SushiSwap.
 
 [To learn how to become a liquidity provider, please visit the dedicated page.](technical-details/becoming-a-liquidity-provider/)
 
