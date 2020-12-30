@@ -4,7 +4,7 @@ description: Learn how to add liquidity to the Skybridge float.
 
 # Add liquidity
 
-1. Visit https://skybridge.info/pool
+1. [Visit https://skybridge.info/pool](https://skybridge.info/pool).
 
 {% hint style="info" %}
 The below example explains how to add liquidity by depositing BTC from the Bitcoin blockchain. The process to add liquidity with WBTC is similar.

@@ -4,7 +4,7 @@ description: Learn how to remove liquidity from the Skybridge float.
 
 # Remove liquidity
 
-1. Visit https://skybridge.info/pool
+1. [Visit https://skybridge.info/pool](https://skybridge.info/pool).
 
 {% hint style="info" %}
 The example explains how to remove liquidity to the Bitcoin blockchain. The process to redeem your tokens to WBTC is similar.
