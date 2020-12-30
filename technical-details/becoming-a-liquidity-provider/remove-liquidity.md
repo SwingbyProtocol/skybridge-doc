@@ -7,7 +7,7 @@ description: Learn how to remove liquidity from the Skybridge float.
 1. Visit https://skybridge.info/pool
 
 {% hint style="info" %}
-The example explains how to remove liquidity to the Bitcoin blockchain. The process is similar to redeem your tokens to WBTC.
+The example explains how to remove liquidity to the Bitcoin blockchain. The process to redeem your tokens to WBTC is similar.
 {% endhint %}
 
 2. Click the **"Withdraw"** button at the top right of your screen.
@@ -32,7 +32,7 @@ You **can safely close your browser** while your transaction is being intercepte
 
 ![](../../.gitbook/assets/withdraw4.png)
 
-8. Once complete, it will display "Swap completed"!
+7. Once complete, it will display "Swap completed"!
 
 ![](../../.gitbook/assets/withdraw5.png)
 

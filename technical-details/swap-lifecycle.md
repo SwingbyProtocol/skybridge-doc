@@ -8,7 +8,7 @@ description: What is the lifecycle of a swap transaction?
 
 The following diagram shows the decision tree used by the Skybridge nodes to decide which states that a swap moves through during processing.
 
-![](../.gitbook/assets/status.png)
+![Standard process for a cross-chain swap \(outdated\).](../.gitbook/assets/status.png)
 
 ### Why was my transaction refunded?
 
