@@ -8,7 +8,7 @@ Liquidity providers are one of the main stakeholders of the Skybridge protocol a
 
 In Swingby Skybridge, liquidity provision is also called **'Float Staking'**. 
 
-The system is built around a LP token, issued as **Swingby BTC \("sbBTC"\)** that represents a stake in the total liquidity of the protocol. This token runs on Ethereum as an ERC20 compliant token that can be incorporated and traded in other DeFi protocols.
+The system is built around a LP token, issued as [**Swingby BTC \("sbBTC"\)**](https://etherscan.io/token/0xefcf527fdd2084de2ac9ba34463be4a245b45efa) that represents a stake in the total liquidity of the protocol. This token runs on Ethereum as an [ERC20 compliant token](https://etherscan.io/token/0xefcf527fdd2084de2ac9ba34463be4a245b45efa) that can be incorporated and traded in other DeFi protocols.
 
 ### How to add liquidity?
 
