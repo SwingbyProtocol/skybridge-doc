@@ -32,7 +32,7 @@ The sbBTC token price \(relative to BTC\) **increases over time** to reflect the
 You **can safely close your browser** while your transaction is being intercepted by the metanodes.
 {% endhint %}
 
-6. Once the transaction is picked up by the nodes, the screen will refresh indicating "Transaction found".
+6. Once the transaction is picked up by the nodes, the screen will refresh and indicate "Transaction found".
 
-7. Once complete, it will display "Swap completed"!
+7. Once complete, it will display "Swap completed"! 🎉
 

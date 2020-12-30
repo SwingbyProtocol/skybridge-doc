@@ -32,7 +32,7 @@ You **can safely close your browser** while your transaction is being intercepte
 
 ![](../../.gitbook/assets/withdraw4.png)
 
-7. Once complete, it will display "Swap completed"!
+7. Once complete, it will display "Swap completed"! 🎉
 
 ![](../../.gitbook/assets/withdraw5.png)
 

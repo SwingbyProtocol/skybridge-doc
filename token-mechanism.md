@@ -1,5 +1,5 @@
 ---
-description: Discover how Swingby tokens fuel the Skybridge protocol.
+description: Discover how SWINGBY tokens fuel the Skybridge protocol.
 ---
 
 # What is the SWINGBY token?
@@ -41,5 +41,5 @@ Early adopters have the option to lock tokens for a bonus reward \(see [Pre-stak
 
 **Full node staking**
 
-Participating as a full node \("metanodes"\) require both dedicated server resources and meeting the SWINGBY token requirement. Full nodes participate in signing transactions to receive the fees incurred by those transactions. Please remember that nodes are selected based on their age, and removing SWINGBY token stake from the node **resets the age to zero**.
+Participating as a full node \("metanodes"\) require both dedicated server resources and meeting the SWINGBY token requirement \(currently **at least 150,000 tokens**\). Full nodes participate in signing transactions to receive the fees incurred by those transactions. Please remember that nodes are selected based on their age, and removing SWINGBY token stake from the node **resets the age to zero**.
 
