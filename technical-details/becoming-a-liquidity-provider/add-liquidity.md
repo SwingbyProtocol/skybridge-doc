@@ -34,5 +34,9 @@ You **can safely close your browser** while your transaction is being intercepte
 
 6. Once the transaction is picked up by the nodes, the screen will refresh and indicate "Transaction found".
 
+![](../../.gitbook/assets/add6.png)
+
 7. Once complete, it will display "Swap completed"! 🎉
+
+![](../../.gitbook/assets/add7.png)
 
