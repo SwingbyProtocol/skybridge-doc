@@ -27,7 +27,7 @@ Float staking is a concept specific to Skybridge networks. Deposits on both sour
 
 The system is built around a LP token named **Swingby BTC \("sbBTC"\)**, which represent a stake in the total liquidity of a two-asset bridge. This token runs on Ethereum as an ERC20 compliant token that can be incorporated and traded in other DeFi protocols.
 
-[To learn how to become a liquidity provider, please visit the dedicated page.](technical-details/becoming-a-liquidity-provider.md)
+[To learn how to become a liquidity provider, please visit the dedicated page.](technical-details/becoming-a-liquidity-provider/)
 
 ### Who are the users?
 

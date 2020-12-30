@@ -44,7 +44,7 @@ Swingby Skybridge applies modern cryptography for the real world to address gaps
 
 ### Technical details
 
-{% page-ref page="technical-details/becoming-a-liquidity-provider.md" %}
+{% page-ref page="technical-details/becoming-a-liquidity-provider/" %}
 
 {% page-ref page="technical-details/the-swingby-node/" %}
 
