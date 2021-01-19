@@ -21,6 +21,7 @@
   * [Add liquidity](technical-details/becoming-a-liquidity-provider/add-liquidity.md)
   * [Remove liquidity](technical-details/becoming-a-liquidity-provider/remove-liquidity.md)
 * [Run a metanode](technical-details/the-swingby-node/README.md)
+  * [Swingby node installation guide](technical-details/the-swingby-node/swingby-node-installation-guide.md)
   * [Node requirements](technical-details/the-swingby-node/peer-requirements.md)
   * [Leaderless consensus](technical-details/the-swingby-node/leaderless-consensus.md)
   * [Peer communication](technical-details/the-swingby-node/peer-communication.md)
