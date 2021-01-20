@@ -45,7 +45,7 @@ Due to the resource-heavy dependencies needed by the Metanode, we recommend that
 * 4 CPUs \(Dedicated\)
 * 16G RAM
 * 1.5TB Storage \(SSD\)
-* 1Gbps Gigabit Network
+* 500Mbps+ Uplink
 
 ### 3. The node-installer-bot
 
