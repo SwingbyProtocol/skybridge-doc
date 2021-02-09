@@ -4,15 +4,15 @@ description: How to setup your own Swingby Metanode using our telegram deploymen
 
 # Swingby node installation guide
 
-### 1. Swingby Node 101
+### 1. Skybridge Node 101
 
-The Swingby Metanode can be deployed on any reliable cloud service provider. We recommend Amazon AWS, Scaleway, Digital Ocean, Vultr, Hetzner, or GCP.
+The Skybridge Metanode can be deployed on any reliable cloud service provider. We recommend Amazon AWS, Scaleway, Digital Ocean, Vultr, Hetzner, or GCP.
 
 Once your Metanode has been fully deployed, it will begin using the S/Kademia P2P messaging protocol to join the network established by the other existing nodes.
 
-#### 1.1 How to install Swingby node
+#### 1.1 How to install a Skybridge node
 
-The Swingby node can be installed in the following ways:
+The Skybridge node can be installed in the following ways:
 
 * Download & mannually build from github repository.
 * [node-installer](https://github.com/SwingbyProtocol/node-installer) \(telegram bot\) -- **Available now**
