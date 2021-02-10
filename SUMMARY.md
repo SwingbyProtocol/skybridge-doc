@@ -27,6 +27,7 @@
   * [Peer communication](technical-details/the-swingby-node/peer-communication.md)
 * [Network fees](technical-details/network-fees.md)
 * [Understanding a swap lifecycle](technical-details/swap-lifecycle.md)
+* [Smart contract addresses](technical-details/smart-contract.md)
 
 ## Read more <a id="other-resources"></a>
 
