@@ -4,7 +4,7 @@ description: >-
   transaction fees
 ---
 
-# Run a metanode
+# Run a Metanode
 
 
 
@@ -15,6 +15,8 @@ description: >-
 {% page-ref page="leaderless-consensus.md" %}
 
 {% page-ref page="peer-communication.md" %}
+
+{% page-ref page="../../getting-start/how-to-timelock-swingby-tokens.md" %}
 
 
 

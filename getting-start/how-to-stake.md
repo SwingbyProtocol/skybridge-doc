@@ -2,13 +2,9 @@
 description: 'Find how to stake SWINGBY, the native token that powers the Swingby ecosystem.'
 ---
 
-# How to stake SWINGBY tokens?
+# How to pre-stake SWINGBY tokens \(obsolete\)
 
-{% hint style="info" %}
-We strongly recommend you to [learn more about the SWINGBY use cases in the dedicated section of this documentation.](../token-mechanism.md)
-{% endhint %}
-
-The staked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
+The pre-staked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
 
 | Milestone | Reward per week |
 | :--- | :--- |
@@ -16,9 +12,7 @@ The staked tokens will be rewarded with 1% interest distributed on a weekly basi
 | Until second swap pair | 0.75% |
 | Until third swap pair | 0.5% |
 | Until fourth swap pair | 0.25% |
-| After fourth swap pair | No reward |
-
-### 1. Stake with TrustWallet and other mobile wallet providers
+| After fourth swap pair | No reward5 |
 
 {% embed url="https://www.youtube.com/watch?v=zI-iAgtcKXo" %}
 
