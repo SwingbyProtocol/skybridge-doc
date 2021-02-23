@@ -61,9 +61,12 @@ The following steps are for getting the installer-bot running.
 2. Provision a new server instance that at least meets the Metanode hardware requirements above.
 3. Ensure that your node has a static IP address \(otherwise known as a floating IP or elastic IP\).
 4. Take a note of your server's IP address and SSH private key.
-5. Run `echo "YOUR_SSH_KEY" >> ./data/ssh_key` to store your new instances SSH private key into a file that the installer bot can access. **\(This is important\)**
-6. Run `$ export BOT_TOKEN={YOUR_BOT_TOKEN}` to store your new Telegram token in an environment variable that the installer bot can access.
-7. Run `$ chmod +x scripts/start_build_and_install.sh && scripts/start_build_and_install.sh` for Mac User
+5. Run `echo "YOUR_SSH_KEY" >> ./data/ssh_key` to store your new instances SSH private key into a file that the installer bot can access. **\(This is important\)**  Run `$ export BOT_TOKEN={YOUR_BOT_TOKEN}` to store your new Telegram token in an environment variable that the installer bot can access.
+6. Run `$ chmod +x scripts/install.sh && scripts/install.sh` for Mac User \(**Windows is not supported yet.** \)
+
+{% hint style="warning" %}
+_**SSH\_KEY \(./data/ssh\_key\) file must be an empty password for Bot running**_
+{% endhint %}
 
 #### 3.2 Configure your Metanode
 
