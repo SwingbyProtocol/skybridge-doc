@@ -42,11 +42,13 @@ The locked tokens will be rewarded with 1% interest distributed on a weekly basi
 
 4. Input Lock amount, Description, Lock period. 
 
+{% hint style="warning" %}
 If you wish to be a metanode operator for Swingby network, please check the following tips.
+{% endhint %}
 
 **Lock amount:** 150K SWINGBY is the minimum requirement to be metanode .
 
-**Description:** Please paste the "description" from the telegram bot.
+**Description:** Please paste the **"description"** from the telegram bot. Otherwise, your timelock **WON'T** even acknowledge the registering of the metanode operator.
 
 **Lock period:** The metanode rewards are distributed to the node whose locked for more than 1 month time period. Hence, please extend the lock period to make sure your node has enough period to lock.
 
@@ -64,7 +66,9 @@ If you wish to be a metanode operator for Swingby network, please check the foll
 
 1. Click the "relock" button on the existing timelock transaction. 
 
-**Note:** **DO NOT**  click "Add New Timelock" if you want to add an amount for the current running metanode.
+{% hint style="warning" %}
+**DO NOT**  click "Add New Timelock" if you want to add an amount or extends the lock period.
+{% endhint %}
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
@@ -83,4 +87,20 @@ If you wish to be a metanode operator for Swingby network, please check the foll
 1. You can click "unlock" to release your funds once the locked transaction is overdue. The amount will return to your wallet address.
 
 ![](../.gitbook/assets/image%20%2812%29.png)
+
+### 4. Check your timelock transaction details
+
+1. Click your address or search your address on [https://explorer.binance.org/](https://explorer.binance.org/address/bnb1m7drwmj58hjlkatruep0m59yhppa6lwkrrdry8)
+
+![](../.gitbook/assets/image%20%2822%29.png)
+
+2. Click the 'Transactions' tab.
+
+![](../.gitbook/assets/image%20%2824%29.png)
+
+3. Now you can find your timelock transaction details!
+
+![](../.gitbook/assets/image%20%2821%29.png)
+
+![](../.gitbook/assets/image%20%2823%29.png)
 
