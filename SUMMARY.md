@@ -28,7 +28,7 @@
   * [Remove liquidity](technical-details/becoming-a-liquidity-provider/remove-liquidity.md)
 * [Network fees](technical-details/network-fees.md)
 * [Understanding a swap lifecycle](technical-details/swap-lifecycle.md)
-* [Smart contract addresses](technical-details/smart-contract.md)
+* [Smart contract and token addresses](technical-details/smart-contract.md)
 
 ## Read more <a id="other-resources"></a>
 
