@@ -30,7 +30,7 @@ The staking of SWINGBY tokens itself is done on the Binance Chain where the SWIN
 
 Each node’s eligibility is signaled by broadcasting a signed message over the Swingby Network that includes a transaction hash from Binance Chain \(also known as the **“Ping” message**\). 
 
-The transaction hash comes from a transaction on Binance Chain that stakes **at least the minimum amount of SWINGBY** \(150,000+ SWINGBY\) for at least the minimum amount of time \(72 hours\).  
+The transaction hash comes from a transaction on Binance Chain that stakes **at least the minimum amount of SWINGBY** \(50,000+ SWINGBY\) for at least the minimum amount of time \(72 hours\).  
 
 In addition, the broadcasted message should include **a signature of the staking address** on Binance Chain as proof that the Swingby node operator also controls the staking address on Binance Chain.
 

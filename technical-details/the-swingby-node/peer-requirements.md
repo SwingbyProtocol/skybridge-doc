@@ -14,7 +14,7 @@ The following minimum requirements \(hardware and wallets\) are required to run 
 The suggested setup is an instance with at least **4 CPU cores, 16 GB RAM, 1.5 TB SSD storage  and 500Mbps+ uplink.**
 {% endhint %}
 
-    4. SWINGBY tokens \(held in a cold wallet\) staked for a **minimum of 1 month** with a total quantity that  must be **above 150,000 SWINGBY tokens.**
+    4. SWINGBY tokens \(held in a cold wallet\) staked for a **minimum of 1 month** with a total quantity that  must be **above 50,000 SWINGBY tokens.**
 
     5. A valid Ethereum address to interact with the LP contract to collect transaction fees.
 

@@ -46,7 +46,7 @@ The locked tokens will be rewarded with 1% interest distributed on a weekly basi
 If you wish to be a metanode operator for Swingby network, please check the following tips.
 {% endhint %}
 
-**Lock amount:** 150K SWINGBY is the minimum requirement to be metanode .
+**Lock amount:** 50K SWINGBY is the minimum requirement to be metanode .
 
 **Description:** Please paste the **"description"** from the telegram bot. Otherwise, your timelock **WON'T** even acknowledge the registering of the metanode operator.
 
