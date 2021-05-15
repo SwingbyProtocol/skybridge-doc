@@ -44,6 +44,12 @@ description: >-
 
     **- BscScan:** [https://www.bscscan.com/token/0x71de20e0c4616e7fcbfdd3f875d568492cbe4739](https://www.bscscan.com/token/0x71de20e0c4616e7fcbfdd3f875d568492cbe4739)
 
+#### ERC20 Token, decimals: 18 \(Ethereum\)
+
+    **- Address:** 0x8287c7b963b405b7b8d467db9d79eec40625b13a
+
+    **- Etherscan:** [https://etherscan.io/token/0x8287c7b963b405b7b8d467db9d79eec40625b13a](https://etherscan.io/token/0x8287c7b963b405b7b8d467db9d79eec40625b13a)
+
 #### BEP2 Token
 
     **- Asset Name:** SWINGBY-888
