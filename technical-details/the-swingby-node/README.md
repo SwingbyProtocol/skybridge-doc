@@ -6,17 +6,3 @@ description: >-
 
 # Run a Metanode
 
-
-
-{% page-ref page="swingby-node-installation-guide.md" %}
-
-{% page-ref page="peer-requirements.md" %}
-
-{% page-ref page="leaderless-consensus.md" %}
-
-{% page-ref page="peer-communication.md" %}
-
-{% page-ref page="../../getting-start/how-to-timelock-swingby-tokens.md" %}
-
-
-
