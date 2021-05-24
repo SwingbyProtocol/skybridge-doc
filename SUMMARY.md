@@ -20,8 +20,7 @@
 
 * [Run a Metanode](technical-details/the-swingby-node/README.md)
   * [Swingby node installation guide](technical-details/the-swingby-node/swingby-node-installation-guide.md)
-  * [Deploying Node on Hetzner server.](technical-details/the-swingby-node/node-setup-101-on-hetzner-cloud..md)
-  * [Node requirements](technical-details/the-swingby-node/peer-requirements.md)
+  * [Node on Hetzner server.](technical-details/the-swingby-node/node-setup-101-on-hetzner-cloud..md)
   * [Leaderless consensus](technical-details/the-swingby-node/leaderless-consensus.md)
   * [Peer communication](technical-details/the-swingby-node/peer-communication.md)
 * [Become a liquidity provider](technical-details/becoming-a-liquidity-provider/README.md)

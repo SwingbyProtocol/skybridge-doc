@@ -67,7 +67,12 @@ Due to the resource-heavy dependencies needed by the Swingby node, we recommend 
 * 500Mbps+ Uplink
 * **A static IP address that is binding on your Server NIC**
 
-### 3. Disk mount structure
+### 3. Staking SWINGBY on timelock transaction
+
+* SWINGBY-BEP2 tokens \(held in a cold wallet\) staked for a **minimum of 1 month** with a total quantity that must be **above 50,000 SWINGBY tokens.**
+* time lock transaction can be controlled in the timelock portal [https://timelock.swingby.network/](https://timelock.swingby.network/)
+
+### 4. Disk mount structure
 
 The Swingby node requires to use high I/O rate disk and enough spaces. all mounting path is under `/var/swingby`
 
@@ -80,7 +85,7 @@ The Swingby node requires to use high I/O rate disk and enough spaces. all mount
 
 After completing the bot setup procedure, the bot will automatically build some directories under **/var/swingby** and start downloading the required snapshots. 
 
-### 4. DNS subdomain configuration. 
+### 5. DNS subdomain configuration. 
 
 The Swingby node has an Nginx container which is for support to use HTTPS for your node endpoint. to enable a DNS subdomain with an alias to your server, basically, you have to add an 'A' record to your DNS record. 
 

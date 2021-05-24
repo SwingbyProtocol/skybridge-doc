@@ -2,7 +2,7 @@
 description: A TIPS for installing your Swingby node on Hetzner dedicated servers.
 ---
 
-# Deploying Node on Hetzner server.
+# Node on Hetzner server.
 
 ## Getting Started guide to deploy Swingby Nodes in the Hetzner server
 
@@ -114,4 +114,6 @@ $ chmod +x scripts/install.sh && scripts/install.sh
 {% hint style="success" %}
 Finally, you are ready to install on the Swingby node!!
 {% endhint %}
+
+![](../../.gitbook/assets/image%20%2835%29.png)
 
