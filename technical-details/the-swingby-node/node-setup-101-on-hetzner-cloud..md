@@ -49,7 +49,7 @@ $ chmod 600 ./data/ssh_key
 ![](../../.gitbook/assets/image%20%2825%29.png)
 
 {% hint style="info" %}
- AX-61 NVMe has a 1.92TB disk \(RAID1\), The Swingby node requires 1.3TB for the **BTC-ETH bridge**, 1.4TB for the **BTC-BSC** __**bridge** __ \(full installation with your _**local\_infura**_ \)  
+ AX-61 NVMe has a 1.92TB disk \(RAID1\), The Swingby node requires 1.3TB for the **BTC-ETH bridge**, 1.4TB for the **BTC-BSC** __**bridge** __ \(full installation using with your _**local\_infura**_ \)  
   
 **local\_infura** means your node will be connected to self-hosting Geth \(BSC\) and 2 blockbooks containers, therefore, your server has to total 6 containers running. \(bitcoind, geth/bsc, blockbook-btc, blockbook-eth/bsc, swingby node\)
 {% endhint %}
