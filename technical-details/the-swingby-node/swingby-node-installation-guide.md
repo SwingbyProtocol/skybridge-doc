@@ -10,7 +10,7 @@ The Skybridge Metanode can be deployed on any reliable cloud service provider. W
 
 Once your Metanode has been fully deployed, some secrets will be generated 
 
-* Ed25519 node keypair to joyning the S/Kademia P2P network established by the other existing nodes.
+* Ed25519 node keypair to joining the S/Kademia P2P network established by the other existing nodes.
 * 2 safe primes and Paillier secret for joining the TSS protocol and ZKPs 
 
 {% hint style="info" %}
