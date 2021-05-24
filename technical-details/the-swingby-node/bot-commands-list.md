@@ -20,7 +20,11 @@ description: This page describe that bot commands are how it works
 \[Setup Node\]
 
 * **/setup\_node**
-  * This command sets all node configurations and gets the "description" set for the timelock transaction.
+  * This command sets all node configurations and gets the "description" set for the timelock transaction.  For more details about "staking", let's see here 👇
+
+{% page-ref page="../../getting-start/how-to-timelock-swingby-tokens.md" %}
+
+
 
 \[Deploy Node\] 
 
