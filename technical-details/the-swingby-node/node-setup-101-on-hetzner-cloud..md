@@ -2,7 +2,7 @@
 description: A guide for installing your Swingby node on Hetzner dedicated servers.
 ---
 
-# Node on Hetzner server.
+# Node on Hetzner server
 
 ## Getting Started guide to deploy Swingby Nodes in the Hetzner server
 
