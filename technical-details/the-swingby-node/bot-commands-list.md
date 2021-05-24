@@ -4,9 +4,7 @@ description: This page describe that bot commands are how it works
 
 # BOT Commands list
 
-### 
-
-![](../../.gitbook/assets/image%20%2835%29.png)
+![Bot commdand list](../../.gitbook/assets/image%20%2835%29.png)
 
 ### Command list \[only local machine\]
 
