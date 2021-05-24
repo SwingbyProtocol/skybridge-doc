@@ -80,7 +80,7 @@ Due to the resource-heavy dependencies needed by the Swingby node, we recommend 
 * time lock transaction can be controlled in the timelock portal. [https://timelock.swingby.network/](https://timelock.swingby.network/)
 
 {% hint style="warning" %}
-The timelock transaction must have an "Ed25519 pub key\(node ID\)+ETH address" description tag to verify that your node is staking and validated on the current network.  
+The timelock transaction must have an "ed25519 pub key\(called Node ID\)+ETH address" description tag to verify that your node is staking and validated on the current network.  
   
 Example:  
 **fdb87518cfcf762f4a43596c0fd9d28858f68e73e30cf7414fb2a3d9e8fb346c,0x02Cf19BC659a0f89a36fbEd88c5F22f4421Df117**
