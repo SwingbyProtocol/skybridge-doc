@@ -67,10 +67,17 @@ Due to the resource-heavy dependencies needed by the Swingby node, we recommend 
 * 500Mbps+ Uplink
 * **A static IP address that is binding on your Server NIC**
 
-### 3. Staking SWINGBY on timelock transaction
+### 3. Staking SWINGBYs on timelock transaction
 
-* SWINGBY-BEP2 tokens \(held in a cold wallet\) staked for a **minimum of 1 month** with a total quantity that must be **above 50,000 SWINGBY tokens.**
-* time lock transaction can be controlled in the timelock portal [https://timelock.swingby.network/](https://timelock.swingby.network/)
+* SWINGBY-BEP2 tokens \(held in a cold wallet\) staked for a **minimum of 30 days** with a total quantity that must be **above 50,000 SWINGBY tokens.**
+* time lock transaction can be controlled in the timelock portal. [https://timelock.swingby.network/](https://timelock.swingby.network/)
+
+{% hint style="warning" %}
+The timelock transaction must have a "P2P pubkey+ETH address" description tag to verify that your node is staking and validated on the current network.  
+  
+Example:  
+**fdb87518cfcf762f4a43596c0fd9d28858f68e73e30cf7414fb2a3d9e8fb346c,0x02Cf19BC659a0f89a36fbEd88c5F22f4421Df117**
+{% endhint %}
 
 ### 4. Disk mount structure
 
