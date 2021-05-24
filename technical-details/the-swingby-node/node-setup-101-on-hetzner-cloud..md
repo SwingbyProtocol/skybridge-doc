@@ -6,7 +6,7 @@ description: A TIPS for installing your Swingby node on Hetzner dedicated server
 
 ## Getting Started guide to deploy Swingby Nodes in the Hetzner server
 
-1. Create your Hetzner account and Order an AX-61-NVMe server 
+1. Create your Hetzner account and Order an [AX-61-NVMe](https://www.hetzner.com/dedicated-rootserver/ax61-nvme/configurator) server 
 2. Setup your telegram bot with following this readme: =&gt; [https://github.com/SwingbyProtocol/node-installer](https://github.com/SwingbyProtocol/node-installer)
 3.  Install your Bot to your AX-61-NVMe server.
 4. Bonding your Swingby Tokens \(on Binance chain\) on Staking portal: =&gt; [https://timelock.swingby.network](https://timelock.swingby.network/)
@@ -82,7 +82,7 @@ $ export BOT_TOKEN=1716737416:ACEoPHFFlCAGiD2xGQl3Zk_wCoOD9P3Igk0
 
 Install `Docker` from [https://docker.io](https://docker.io/) to your local machine. 
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![Example of Docker for MAC OSX ](../../.gitbook/assets/image%20%2831%29.png)
 
 ### Step 7. Run your BOT on your \[on local machine\]
 
