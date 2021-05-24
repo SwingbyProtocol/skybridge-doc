@@ -1,12 +1,12 @@
 ---
-description: How to setup your own Swingby Metanode using our telegram deployment bot
+description: How to setup your own Swingby node using our telegram deployment bot
 ---
 
 # Swingby node installation guide
 
 ### 1. Skybridge Node 101
 
-The Skybridge Metanode can be deployed on any reliable cloud service provider. We recommend Amazon AWS, Scaleway, Digital Ocean, Vultr, Hetzner, or GCP.
+The Skybridge Metanode can be deployed on any reliable cloud service provider. We recommend Amazon AWS, Scaleway, Digital Ocean, Hetzner, or GCP.
 
 Once your Metanode has been fully deployed, it will begin using the S/Kademia P2P messaging protocol to join the network established by the other existing nodes.
 
@@ -14,83 +14,80 @@ Once your Metanode has been fully deployed, it will begin using the S/Kademia P2
 
 The Skybridge node can be installed in the following ways:
 
-* Download & mannually build from github repository.
-* [node-installer](https://github.com/SwingbyProtocol/node-installer) \(telegram bot\) -- **Available now**
-* Third party node hosting provider \(coming soon\)
+* Download & manually build from the Github repository.
+* [node-installer](https://github.com/SwingbyProtocol/node-installer) \(telegram bot\) 
 
 #### 1.2 Node dependencies
 
-The Metanode relies on the Ethereum, Bitcoin, and Binance-chain states to form a consensus and perform swaps. For this reason, **your instance has to have multiple blockchain specific processes running in parallel on the same instance**. \(Total 4 docker containers\):
+Swingby node relies on the Ethereum, Bitcoin, and Binance-chain states to form a consensus and perform swaps. For this reason, **your instance has to have multiple blockchain-specific processes running in parallel on the same instance**. \(Total 4 docker containers\):
 
-* Geth\(v1.9.25-stable\) 
+* Geth\(v1.10.1\)  or Binance Smart Chain node \(v1.1.0-beta\)
   * A Ethereum full node 
 * [_Blockbook_](https://github.com/trezor/blockbook) for Geth\(v0.3.4\) 
   * A Blockbook indexer for Geth
 * Bitcoind\(v/Satoshi:0.20.1\) 
   * A Bitcoind full node
 * [_Blockbook_](https://github.com/trezor/blockbook) for Bitcoind\(v0.3.4\) 
+
   * A Blockbook indexer for Bitcoind
 
-### 2. Required resouces \[CPU/Memory/Storage/Network\]
+  \*\*\*\*
 
-Due to the resource-heavy dependencies needed by the Metanode, we recommend that you use an instance with **equal or greater** specs than below. If your node does not have enough resources available then it will not be able to stay in sync with the rest of the Metanodes in the network and will be dropped.
+**1.3  The node-installer-bot**
 
-**\[Local Machine\]** \(Required to setup your **node-installer telegram bot**\)
+The Swingby installer bot is an assistant bot for installing Swingby nodes. The node setup process and checking the status of a node can all be done through its bot command.
 
-* MacbookPro or Linux\(amd64\) 
+The node-installer bot accesses the server via ssh key. You need to prepare a **local** __**machine** __based on Linux or MAC OS X as an initial installation. \(See below\)
+
+After installing the bot on the server, the bot will be moved to the server itself and will continue to connect ssh and the bot chat group
+
+```perl
+Local machine (MAC OSX or Linux), 
+
+         TG_BOT ----------------- SSH ----------> Server 
+                                      |---------- TG_BOT (in Server)
+                                  SSH |
+                                      |---------> Server
+```
+
+### 2. Required hardware specs \[CPU/Memory/Storage/Network\]
+
+Due to the resource-heavy dependencies needed by the Swingby node, we recommend that you use an instance with **equal or greater** specs than below. If your node does not have enough resources available then it will not be able to stay in sync with the rest of the Swingby node in the network and will be dropped.
+
+**\[Local Machine\]** \(Required to install your **node-installer telegram bot**\)
+
+* MacbookPro or Linux \(Ubuntu 20.04 LTS is recommended\) 
 * Docker 
 
 **\[Server\]**
 
 * 4 CPUs \(Dedicated\)
 * 16G RAM
-* 1.5TB Storage \(SSD\)
+* 1.5TB Storage \(SSD\) for **BTC-ETH** bridge, 1.6 TB storage \(SSD\) for **BTC-BSC** bridge
 * 500Mbps+ Uplink
+* **A static IP address that is binding on your Server NIC**
 
-### 3. The node-installer-bot
+### 3. Disk mount structure
 
-This is your personal assistant and will help you to deploy all of the necessary dependencies onto your server instance.
+The Swingby node requires to use high I/O rate disk and enough spaces. all mounting path is under `/var/swingby`
 
-\(_Prerequisite: you have to create a Telegram bot via the_ [_@Botfather_](https://t.me/botfather) and obtain a BOT\_TOKEN. [Here's a tutorial](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)\)
+| Target | Path |
+| :--- | :--- |
+| Main path | /var/swingby |
+| Infrastructure directory path | /var/swingby/mainnet |
+| BOT configure & Node configure path | /var/swingby/node |
+| Nginx configure & TLS certificate data path  | /var/swingby/nginx\_data |
 
-#### 3.1 Setup
+After completing the bot setup procedure, the bot will automatically build some directories under **/var/swingby** and start downloading the required snapshots. 
 
-The following steps are for getting the installer-bot running.
+### 4. DNS subdomain configuration. 
 
-1. Install Docker from [https://docker.io](https://docker.io) to your machine. \(MacOS recommended\)
-2. Provision a new server instance that at least meets the Metanode hardware requirements above.
-3. Ensure that your node has a static IP address \(otherwise known as a floating IP or elastic IP\).
-4. Take a note of your server's IP address and SSH private key.
-5. Run `echo "YOUR_SSH_KEY" >> ./data/ssh_key` to store your new instances SSH private key into a file that the installer bot can access. **\(This is important\)**  Run `$ export BOT_TOKEN={YOUR_BOT_TOKEN}` to store your new Telegram token in an environment variable that the installer bot can access.
-6. Run `$ chmod +x scripts/install.sh && scripts/install.sh` for Mac User \(**Windows is not supported yet.** \)
+The Swingby node has an Nginx container which is for support to use HTTPS for your node endpoint. to enable a DNS subdomain with an alias to your server, basically, you have to add an 'A' record to your DNS record. 
 
-{% hint style="warning" %}
-_**SSH\_KEY \(./data/ssh\_key\) file must be an empty password for Bot running**_
-{% endhint %}
+Example::   test1.swingby.network   A   42.24.147.214 60
 
-#### 3.2 Configure your Metanode
+* /setup\_domain \(This command is for setup your domain on your BOT chat\)
+* /enable\_domain \(This command is for deploying Nginx with your DNS configure on your BOT chat\)
 
-Once you have completed the above setup steps, message your bot `/start` on telegram to see a list of commands that are available.
-
-Also note, that the bot process running on your local machine has been killed. This is because the node-installer process has been uploaded to your server instance and is now running there.
-
-Next, follow these steps:
-
-* Step 1:
-
-    Send your bot the `/setup_node` command. This command will start the process of generating your initial config and help you to time locking your Swingby tokens for bonding.
-
-* Step 2:
-
-    Send your bot the `/deploy_infura` command. This command will instruct your bot to deploy the necessary blockchain nodes and Blockbook indexers. You can check the syncing status using the `/check_status` command.
-
-* Step 3:
-
-    Send your bot the `/deploy_node` command. This command will instruct your bot to pull and build the latest source code from the master branch at the [SwingbyProtocol/swingby-node](https://github.com/SwingbyProtocol/skybridge-node) repo.
-
-Provided that your infura dependencies have finished syncing and your Swingby token bond was accepted then your Metanode should be up and running!!
-
-In the future when new Metanode updates are released, simply re-use the `/deploy_node` command and the node-installer bot will re-build your Metanode with the latest available source code. Don't worry, no state will be lost.
-
-With node-installer updates, use the `/upgrade_your_bot` command.
+In the last command process, An SSL certification will be generated through the [Let's Encrypt](https://letsencrypt.org/) automatically
 
