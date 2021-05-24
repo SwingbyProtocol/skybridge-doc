@@ -19,7 +19,7 @@ description: A TIPS for installing your Swingby node on Hetzner dedicated server
 {% hint style="info" %}
 Why we choose the Hetzner server?  
   
-The Hetzner Cloud is one of the most cost-effective servers for running swingby nodes in your local infrastructure package. I have a root user who has RSA key authentication as a bootstrap. Disk mounts are basically mounted at / \(root\). Basically, Telegram BOT uses root to connect to the server, so this choice is much easier than other cloud services.
+The Hetzner Cloud is one of the most cost-effective servers for running swingby nodes in your local infrastructure package. I have a root user who has RSA key authentication as a bootstrap. Disk mounts are basically mounted at / \(root\). Basically, telegram BOT uses root to connect to the server, so this choice is much easier than other cloud services.
 {% endhint %}
 
 ### Step 1. Generate your SSH private key \[on local machine\]
@@ -74,9 +74,9 @@ $ chmod 600 ./data/ssh_key
 $ ssh -i ./data/ssh_key root@<YOUR_SERVER_IP> "mkdir /var/swingby" 
 ```
 
-### Step 5. Setup your Telegram BOT  \[on local machine\]
+### Step 5. Setup your telegram BOT  \[on local machine\]
 
-* \(_Prerequisite: you have to create a Telegram BOT via the_ [_@Botfather_](https://t.me/botfather) and obtain a BOT\_TOKEN. [Here's a tutorial](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)\) 
+* \(_Prerequisite: you have to create a telegram BOT via the_ [_@Botfather_](https://t.me/botfather) and obtain a BOT\_TOKEN. [Here's a tutorial](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)\) 
 * COPY and PASTE to your command line like this
 
 ```bash
@@ -89,7 +89,7 @@ Install `Docker` from [https://docker.io](https://docker.io/) to your local mach
 
 ![Example of Docker for MAC OSX ](../../.gitbook/assets/image%20%2831%29.png)
 
-### Step 7. Run your Telegram BOT on your \[on local machine\]
+### Step 7. Run your telegram BOT on your \[on local machine\]
 
 ```text
 $ chmod +x scripts/install.sh && scripts/install.sh
@@ -97,7 +97,7 @@ $ chmod +x scripts/install.sh && scripts/install.sh
 
 ![](../../.gitbook/assets/image%20%2830%29.png)
 
-### Step 8. Talk to your Telegram BOT with /start
+### Step 8. Talk to your telegram BOT with /start
 
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
@@ -107,7 +107,7 @@ $ chmod +x scripts/install.sh && scripts/install.sh
 
 * Hetzner cloud always uses **root** to log in via SSH session. then, your can going forward with type 'none' 
 
-### Step 10. Install your Telegram BOT to your server
+### Step 10. Install your telegram BOT to your server
 
 ![](../../.gitbook/assets/image%20%2828%29.png)
 
