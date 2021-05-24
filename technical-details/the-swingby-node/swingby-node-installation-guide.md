@@ -8,7 +8,14 @@ description: How to setup your own Swingby node using our telegram deployment bo
 
 The Skybridge Metanode can be deployed on any reliable cloud service provider. We recommend Amazon AWS, Scaleway, Digital Ocean, Hetzner, or GCP.
 
-Once your Metanode has been fully deployed, it will begin using the S/Kademia P2P messaging protocol to join the network established by the other existing nodes.
+Once your Metanode has been fully deployed, some secrets will be generated 
+
+* Ed25519 node keypair to joyning the S/Kademia P2P network established by the other existing nodes.
+* 2 safe primes and Paillier secret for joining the TSS protocol and ZKPs 
+
+{% hint style="info" %}
+Ed25519 key pair will be used for identification between peer communication and validating the process of each "Staking" amount on the right timelock staking transactions on the Binance chain.
+{% endhint %}
 
 #### 1.1 How to install a Skybridge node
 
@@ -73,7 +80,7 @@ Due to the resource-heavy dependencies needed by the Swingby node, we recommend 
 * time lock transaction can be controlled in the timelock portal. [https://timelock.swingby.network/](https://timelock.swingby.network/)
 
 {% hint style="warning" %}
-The timelock transaction must have a "P2P pubkey+ETH address" description tag to verify that your node is staking and validated on the current network.  
+The timelock transaction must have an "Ed25519 pub key\(node ID\)+ETH address" description tag to verify that your node is staking and validated on the current network.  
   
 Example:  
 **fdb87518cfcf762f4a43596c0fd9d28858f68e73e30cf7414fb2a3d9e8fb346c,0x02Cf19BC659a0f89a36fbEd88c5F22f4421Df117**
