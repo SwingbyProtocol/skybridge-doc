@@ -1,5 +1,5 @@
 ---
-description: A TIPS for installing your Swingby node on Hetzner dedicated servers.
+description: A guide for installing your Swingby node on Hetzner dedicated servers.
 ---
 
 # Node on Hetzner server.
