@@ -1,5 +1,5 @@
 ---
-description: How to setup your own Swingby node using our telegram deployment bot
+description: How to setup your own Swingby node using our telegram BOT
 ---
 
 # Swingby node installation guide
@@ -10,7 +10,7 @@ The Skybridge Metanode can be deployed on any reliable cloud service provider. W
 
 Once your Metanode has been fully deployed, some secrets will be generated 
 
-* Ed25519 node keypair to joining the S/Kademia P2P network established by the other existing nodes.
+* An ed25519 node keypair to joining the S/Kademia P2P network established by the other existing nodes.
 * 2 safe primes and Paillier secret for joining the TSS protocol and ZKPs 
 
 {% hint style="info" %}
@@ -22,7 +22,7 @@ Ed25519 key pair will be used for identification between peer communication and 
 The Skybridge node can be installed in the following ways:
 
 * Download & manually build from the Github repository.
-* [node-installer](https://github.com/SwingbyProtocol/node-installer) \(telegram bot\) 
+* [node-installer](https://github.com/SwingbyProtocol/node-installer) \(telegram BOT\) 
 
 #### 1.2 Node dependencies
 
@@ -61,7 +61,7 @@ Local machine (MAC OSX or Linux),
 
 Due to the resource-heavy dependencies needed by the Swingby node, we recommend that you use an instance with **equal or greater** specs than below. If your node does not have enough resources available then it will not be able to stay in sync with the rest of the Swingby node in the network and will be dropped.
 
-**\[Local Machine\]** \(Required to install your **node-installer telegram bot**\)
+**\[Local Machine\]** \(Required to install your **node-installer telegram BOT**\)
 
 * MacbookPro or Linux \(Ubuntu 20.04 LTS is recommended\) 
 * Docker 
