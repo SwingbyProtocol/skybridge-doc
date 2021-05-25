@@ -41,7 +41,7 @@ description: This page describe that bot commands are how it works
 
 * **/setup\_infura** 
   * This command will remove all your blockchain data on **/var/swingby/mainnet** 
-  * **Downloading all of new Snapshot for your Node** 
+  * **Downloading all of the new Snapshot for your Node** 
     * BTC-ETH network =&gt;  _bitcoind, bb\_btc, geth, bb\_eth_
     * BTC-BSC network =&gt;  _bitcoind, bb\_btc, bsc, bb\_bsc_
 * **/resync\_infura** 
