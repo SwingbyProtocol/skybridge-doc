@@ -38,5 +38,6 @@
 * [Website](https://swingby.network)
 * [Twitter](https://twitter.com/SwingbyProtocol)
 * [GitHub](https://github.com/SwingbyProtocol)
+* [White Paper](https://docs.swingby.network/SwingbySkybridge_WhitePaper_v1.0.1_1401222020.pdf)
 * [Proposals & Specifications \(SWIPs\)](https://github.com/SwingbyProtocol/swips)
 
