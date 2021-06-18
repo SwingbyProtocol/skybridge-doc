@@ -4,15 +4,15 @@ description: 'Find how to stake SWINGBY, the native token that powers the Swingb
 
 # How to pre-stake SWINGBY tokens \(obsolete\)
 
-The pre-staked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
+The pre-staked tokens will be rewarded with 0.58% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
 
 | Milestone | Reward per week |
 | :--- | :--- |
 | Until BTC mainnet launch | 1% |
 | Until second swap pair | 0.75% |
-| Until third swap pair | 0.5% |
+| Until third swap pair | 0.58% \(Current\) |
 | Until fourth swap pair | 0.25% |
-| After fourth swap pair | No reward5 |
+| After fourth swap pair | No rewards |
 
 {% embed url="https://www.youtube.com/watch?v=zI-iAgtcKXo" %}
 
