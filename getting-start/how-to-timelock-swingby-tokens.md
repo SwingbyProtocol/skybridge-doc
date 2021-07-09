@@ -20,8 +20,6 @@ The locked tokens will be rewarded with 1% interest distributed on a weekly basi
 | Until fourth swap pair | 0.25% |
 | After fourth swap pair | No reward |
 
-**NOTE:** If your metanode is in the top 50 most bonded nodes, then you will earn above interest. \(APY: 52%\) Otherwise, you will receive the standard 30% APY.
-
 ### Tutorial
 
 {% embed url="https://youtu.be/gfJsDkzTGfI?t=720" %}
