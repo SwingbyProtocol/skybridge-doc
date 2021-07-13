@@ -2,23 +2,25 @@
 description: Find how to timelock SWINGBY. Locking SWINGBY allow user to become metanode
 ---
 
-# How to stake Swingby tokens for the Chaos-MainNet
-
-
+# How to stake Swingby tokens for the Chaos-MainNet Metanode
 
 {% hint style="info" %}
 We strongly recommend you to [learn more about the SWINGBY use cases in the dedicated section of this documentation.](../token-mechanism.md)
 {% endhint %}
 
-The locked tokens will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
+## Compensation
+
+The top 50 most bonded nodes will be rewarded with 1% interest distributed on a weekly basis, and these rewards will reduced with each development milestone achieved:
 
 | Milestone | Reward per week |
 | :--- | :--- |
 | Until BTC mainnet launch | 1% |
-| Until second swap pair | 0.75% |
-| Until third swap pair | 0.5% |
-| Until fourth swap pair | 0.25% |
+| Until second swap pair | 1 % |
+| Until third swap pair | 0.75% |
+| Until fourth swap pair | 0.5% |
 | After fourth swap pair | No reward |
+
+ **NOTE:** Metanode operator is required to maintain the highest quality reliability and security of the network. Rewards haven't been distributed while the node is offline.
 
 ### Tutorial
 
@@ -40,11 +42,7 @@ The locked tokens will be rewarded with 1% interest distributed on a weekly basi
 
 4. Input Lock amount, Description, Lock period. 
 
-{% hint style="warning" %}
-If you wish to be a metanode operator for Swingby network, please check the following tips.
-{% endhint %}
-
-**Lock amount:** 50K SWINGBY is the minimum requirement to be metanode .
+**Lock amount:** 50K SWINGBY is the minimum requirement to be a metanode. Rewards will be distributed to the top 50 most bonded nodes only.
 
 **Description:** Please paste the **"description"** from the telegram bot. Otherwise, your timelock **WON'T** even acknowledge the registering of the metanode operator.
 

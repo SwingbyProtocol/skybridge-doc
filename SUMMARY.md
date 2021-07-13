@@ -14,7 +14,7 @@
   * [BTC to WBTC \(on Ethereum\)](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
   * [WBTC \(on Ethereum\) to BTC swap](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
 * [How to pre-stake SWINGBY tokens \(obsolete\)](getting-start/how-to-stake.md)
-* [How to stake Swingby tokens for the Chaos-MainNet](getting-start/how-to-timelock-swingby-tokens.md)
+* [How to stake Swingby tokens for the Chaos-MainNet Metanode](getting-start/how-to-timelock-swingby-tokens.md)
 
 ## Technical Details
 
