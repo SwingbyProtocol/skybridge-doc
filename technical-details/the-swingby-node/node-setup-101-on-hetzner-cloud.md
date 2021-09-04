@@ -29,7 +29,7 @@ $ git clone https://github.com/SwingbyProtocol/node-installer && cd node-install
 ```
 
 ```bash
-$ ssh-keygen -t rsa -b 4096 -f ssh_key   
+$ ssh-keygen -t rsa -b 4096 -f ./data/ssh_key   
 ```
 
 ```bash
