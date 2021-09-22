@@ -6,7 +6,7 @@ description: "Learn how Swingby Skybridge plans to change the DeFi ecosystem. \U
 
 ## Overview
 
-Swingby Skybridge is a staking powered decentralized bridging protocol for the cross-chain movement of crypto assets. It enables fast trustless bridges between the Bitcoin blockchain, Ethereum, and other distributed ledgers.
+Swingby Skybridge is a staking-powered decentralized bridging protocol for the cross-chain movement of crypto assets. It enables fast trustless bridges between the Bitcoin blockchain, Ethereum, and other distributed ledgers.
 
 Swingby Skybridge uses advanced cryptography that builds on modern multi-party threshold signature schemes, allowing support for efficient, dealer-less key generation, and distributed computation of ECDSA and EdDSA digital signatures.
 
