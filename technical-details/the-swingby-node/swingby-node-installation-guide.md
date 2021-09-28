@@ -86,7 +86,7 @@ Example:
 **fdb87518cfcf762f4a43596c0fd9d28858f68e73e30cf7414fb2a3d9e8fb346c,0x02Cf19BC659a0f89a36fbEd88c5F22f4421Df117**
 {% endhint %}
 
-{% page-ref page="../../getting-start/how-to-timelock-swingby-tokens.md" %}
+{% page-ref page="../../getting-start/how-to-timelock-swingby-tokens/" %}
 
 
 

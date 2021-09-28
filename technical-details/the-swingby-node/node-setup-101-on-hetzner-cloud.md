@@ -14,7 +14,7 @@ description: A guide for installing your Swingby node on Hetzner dedicated serve
 
    For more details about "staking", let's see here 👇
 
-{% page-ref page="../../getting-start/how-to-timelock-swingby-tokens.md" %}
+{% page-ref page="../../getting-start/how-to-timelock-swingby-tokens/" %}
 
 {% hint style="info" %}
 Why we choose the Hetzner server?  

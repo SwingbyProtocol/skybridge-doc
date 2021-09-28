@@ -14,7 +14,11 @@
   * [BTC to WBTC \(on Ethereum\)](getting-start/how-to-swap-tokens/btc-move-to-btc-token.md)
   * [WBTC \(on Ethereum\) to BTC swap](getting-start/how-to-swap-tokens/btc-token-move-to-btc.md)
 * [How to pre-stake SWINGBY tokens \(obsolete\)](getting-start/how-to-stake.md)
-* [How to stake Swingby tokens for the Chaos-MainNet Metanode](getting-start/how-to-timelock-swingby-tokens.md)
+* [How to stake Swingby tokens for the Chaos-MainNet Metanode](getting-start/how-to-timelock-swingby-tokens/README.md)
+  * [Add new timelock](getting-start/how-to-timelock-swingby-tokens/add-new-timelock.md)
+  * [Add amount or extends lock period into an existing locked transaction](getting-start/how-to-timelock-swingby-tokens/add-amount-or-extends-lock-period-into-an-existing-locked-transaction.md)
+  * [Unlock locked transaction](getting-start/how-to-timelock-swingby-tokens/unlock-locked-transaction.md)
+  * [Check your timelock transaction details](getting-start/how-to-timelock-swingby-tokens/check-your-timelock-transaction-details.md)
 
 ## Technical Details
 
